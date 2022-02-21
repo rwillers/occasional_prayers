@@ -1,5 +1,5 @@
 ---
-title: Occasional Prayers Test 4
+title: Occasional Prayers Test
 layout: home
 tagline:
     Collects and other prayers from the Book of Common Prayer
