@@ -1,0 +1,22 @@
+{% extends "_base.html" %}
+
+{% block home %} 
+{% endblock %}
+
+{% block body %}
+
+<h1>{{this.title}}</h1>
+<h2>{{this.tagline}}</h2>
+
+<ul>
+	{% for item in this.content %}
+	<li>
+		<a href="{{item.url}}">{{item.title}}</a>
+		{% if item.teaser %}
+		<small>{{item.teaser}}</small>
+		{% endif %}
+	</li>
+	{% endfor %}
+</ul>
+
+{% endblock %}

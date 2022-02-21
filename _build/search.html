@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/prayers/css/style.css" rel="stylesheet" media="screen">
+
+<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+ 
+  </head>
+
+  <body>
+
+    <a href="/prayers/">Occasional Prayers</a>
+
+
+    <form action="/prayers/search.html" role="search">
+      <input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Search"> 
+    </form>
+
+
+  <div class="page-header">
+    <h1>Search</h1>
+  </div>
+
+  <ol class="breadcrumb">
+    <li><a href="/prayers/">Home</a></li>
+      <li class="active">Search</li>
+  </ol>
+
+  <main>
+    <div id="tipue_search_content"></div>
+  </main>
+
+
+    <div class="footer">
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="tipuesearch/tipuesearch_content.js"></script>
+<script src="tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch/tipuesearch.min.js"></script>
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+          'mode': 'json',
+          'contentLocation': 'tipuesearch/tipuesearch_content.json' 
+     });
+});
+</script>
+
+ 
+
+  </body>
+</html>

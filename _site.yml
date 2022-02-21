@@ -1,0 +1,10 @@
+brand: Occasional Prayers
+baseurl: prayers
+
+reflinks:
+    markdown:
+        url: http://daringfireball.net/projects/markdown/
+        title: Markdown
+    jinja2:
+        url: http://jinja.pocoo.org
+        title: Jinja2

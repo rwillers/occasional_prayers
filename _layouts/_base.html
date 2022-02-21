@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{this.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% set url_prefix = '' %}
+    {% if site.baseurl %}
+    {%   set url_prefix = '/' + site.baseurl %}
+    {% endif %}
+    <link href="{{url_prefix + '/css/style.css'}}" rel="stylesheet" media="screen">
+
+    {% block head_addon %}
+    {% endblock %} 
+  </head>
+
+  <body>
+
+    <a href="{{url_prefix + '/'}}">{{site.brand}}</a>
+
+    {% block home %}
+    {% endblock %}
+
+    <form action="{{url_prefix + '/search.html'}}" role="search">
+      <input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Search"> 
+    </form>
+
+    {% block body %}
+    {% endblock %}
+
+    {% block body_addon %}
+    {% endblock %} 
+
+  </body>
+</html>
+
