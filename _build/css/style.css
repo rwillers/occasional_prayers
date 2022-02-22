@@ -31,12 +31,12 @@ small {
 	padding: 20px;
 }
 .navbar .inner {
-	max-width: 960px;
+	max-width: 760px;
 	margin: 0 auto;
 }
 .navbar h1 {
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: 600;
 	margin: 0;
 	padding: 0;
 	display: inline;
@@ -52,7 +52,7 @@ small {
 }
 
 div#content {
-	max-width: 960px;
+	max-width: 760px;
 	margin: 0 auto;
 	padding: 20px;
 }
