@@ -35,13 +35,13 @@ content {
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #000;
-		color: #fff;
+		color: #ccc;
  	}
 	a {
-		color: #f88;
+		color: #dbafaf;
 	}
 	a:visited {
-		color: #f55;
+		color: #fcc;
 	}
 }
 
