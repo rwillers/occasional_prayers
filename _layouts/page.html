@@ -2,12 +2,6 @@
 
 {% block body %}
 
-  <div class="page-header">
-    {% block title %}
-    <h2>{{this.title}}</h2>
-    {% endblock %}
-  </div>
-
   {% block breadcrumbs %}
   {% if this.breadcrumbs %}
   <ol class="breadcrumb">
@@ -15,10 +9,16 @@
       {% for bc in this.breadcrumbs[:-1] %}
       <li><a href="{{bc.url}}">{{bc.title}}</a></li>
       {% endfor %}
-      <li class="active">{{this.breadcrumbs[-1].title}}</li>
+      <!--<li class="active">{{this.breadcrumbs[-1].title}}</li>-->
   </ol>
   {% endif %}
   {% endblock %}
+
+  <div class="page-header">
+    {% block title %}
+    <h2>{{this.title}}</h2>
+    {% endblock %}
+  </div>
 
   {% block content %}
   <main>
@@ -28,12 +28,12 @@
 
   {% block tags %}
   {% if this.tags %}
-  <small>
+  <div class="tags">
   Topics:
   {% for tag in this.tags %}
     <a href="{{url_prefix + '/tag/' + tag}}">{{tag}}</a> 
   {% endfor %}
-  </small>
+  </div>
   {% endif %}
   {% endblock %}
 

@@ -112,4 +112,8 @@ ol.breadcrumb li {
 ol.breadcrumb li+li:before {
 	content: '\003e\00a0';
 }
+.tags {
+	margin: 20px 0 0 0;
+	font-size: 0.9em;
+}	
 
