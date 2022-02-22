@@ -45,6 +45,9 @@ small {
 .navbar a {
 	text-decoration: none;
 }
+.navbar a:visited {
+	color: #76323f
+}
 .navbar form {
 	margin: 0;
 	padding: 0;
