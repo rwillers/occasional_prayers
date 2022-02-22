@@ -33,6 +33,7 @@ a:visited {
 	margin: 0;
 	padding: 0;
 	display: inline;
+	text-transform: uppercase;
 }
 .navbar form {
 	margin: 0;
@@ -40,8 +41,8 @@ a:visited {
 	float: right;
 }
 
-content {
-	max-width: 800px;
+main {
+	max-width: 960px;
 	margin: 20px auto;
 }
 
@@ -60,10 +61,15 @@ content {
 	.navbar {
 		background-color: #222;
 		color: #ddd;
-	}
+	}	
 	.navbar a, .navbar a:visited {
 		color: #ddd;
 		text-decoration: none;
+	}
+	.navbar form input {
+		background-color: #111;
+		border-color: #000;
+		color: #eee;
 	}
 }
 

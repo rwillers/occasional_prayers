@@ -5,7 +5,7 @@ html {
 body {
 	background-color: #fff;
 	color: #565656;
-	font-size: 14pt;
+	font-size: 16pt;
 	margin: 0;
 	padding: 0;
 	font-family: 'New York', Georgia, serif;
@@ -27,21 +27,49 @@ a:visited {
 	margin: 0;
 	padding: 20px;
 }
-content {
-	margin: 20px;
+.navbar h1 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	text-transform: uppercase;
+}
+.navbar form {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+main {
+	max-width: 960px;
+	margin: 20px auto;
 }
 
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #000;
-		color: #fff;
+		background-color: #333;
+		color: #ccc;
  	}
 	a {
-		color: #f88;
+		color: #ccc;
 	}
 	a:visited {
-		color: #f55;
+		color: #aaa;
+	}
+	.navbar {
+		background-color: #222;
+		color: #ddd;
+	}	
+	.navbar a, .navbar a:visited {
+		color: #ddd;
+		text-decoration: none;
+	}
+	.navbar form input {
+		background-color: #111;
+		border-color: #000;
+		color: #eee;
 	}
 }
 

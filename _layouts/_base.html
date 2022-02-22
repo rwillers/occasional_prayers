@@ -17,6 +17,8 @@
 
   <body>
 
+	<div class="navbar">
+
     <a href="{{url_prefix + '/'}}">{{site.brand}}</a>
 
     {% block home %}
@@ -26,11 +28,17 @@
       <input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Search"> 
     </form>
 
+	</div>
+	
+	<main>
+
     {% block body %}
     {% endblock %}
 
     {% block body_addon %}
     {% endblock %} 
+
+	</main>
 
   </body>
 </html>
