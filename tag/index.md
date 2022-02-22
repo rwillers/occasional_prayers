@@ -1,6 +1,6 @@
 ---
 title: Topics
-layout: home
+layout: index
 order: source_order
 ---
 

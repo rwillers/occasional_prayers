@@ -1,6 +1,6 @@
 ---
 title: ACNA 2019
-layout: home
+layout: index
 tagline:
     Anglican Church in North America Book of Common Prayer (2019)
 teaser:
