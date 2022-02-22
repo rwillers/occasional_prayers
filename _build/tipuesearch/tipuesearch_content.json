@@ -2,853 +2,853 @@
     "pages": [
         {
             "tags": "",
-            "text": "Search Home Search $(document).ready(function() {\n     $('#tipue_search_input').tipuesearch({\n          'mode': 'json',\n          'contentLocation': 'tipuesearch/tipuesearch_content.json' \n     });\n});",
+            "text": "",
             "title": "Search",
             "url": "/prayers/search.html"
         },
         {
             "tags": "",
-            "text": "Occasional Prayers Test Collects and other prayers from the Book of Common Prayer ACNA 2019 Anglican Church in North America Book of Common Prayer (2019) Tag index",
+            "text": "",
             "title": "Occasional Prayers Test",
             "url": "/prayers/index.html"
         },
         {
             "tags": "The Nation",
-            "text": "For the Peace of the World Home ACNA 2019 For the Peace of the World Almighty God, from whom all thoughts of truth and peace proceed: Kindle, we pray, in the hearts of all people the true love of peace, and guide with your pure and peaceable wisdom those who take counsel for the nations of the earth; that in tranquility your kingdom may go forward, till the earth is filled with the knowledge of your love; through Jesus Christ our Lord. Amen. Tags: The Nation",
+            "text": "Almighty God, from whom all thoughts of truth and peace proceed: Kindle, we pray, in the hearts of all people the true love of peace, and guide with your pure and peaceable wisdom those who take counsel for the nations of the earth; that in tranquility your kingdom may go forward, till the earth is filled with the knowledge of your love; through Jesus Christ our Lord. Amen.",
             "title": "For the Peace of the World",
             "url": "/prayers/acna2019/28.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Mercy Home ACNA 2019 For Mercy Almighty God, you have not dealt with us according to our sins, nor rewarded us according to our iniquities; grant that we, who for our evil deeds deserve to be punished, by the might of your grace may mercifully be relieved; through our Lord and Savior Jesus Christ, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen. Tags: Family and Personal Life",
+            "text": "Almighty God, you have not dealt with us according to our sins, nor rewarded us according to our iniquities; grant that we, who for our evil deeds deserve to be punished, by the might of your grace may mercifully be relieved; through our Lord and Savior Jesus Christ, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen.",
             "title": "For Mercy",
             "url": "/prayers/acna2019/79.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Restoration of Health Home ACNA 2019 For the Restoration of Health Almighty God and heavenly Father, we bless and praise your Name on behalf of your servant N., and we give you humble thanks that you have been pleased to deliver him from sickness. Grant, O gracious Father, that by your help he may live in this world according to your will, and be made a partaker of everlasting glory in the life to come; through Jesus Christ our Lord. Amen. Tags: Thanksgivings",
+            "text": "Almighty God and heavenly Father, we bless and praise your Name on behalf of your servant N., and we give you humble thanks that you have been pleased to deliver him from sickness. Grant, O gracious Father, that by your help he may live in this world according to your will, and be made a partaker of everlasting glory in the life to come; through Jesus Christ our Lord. Amen.",
             "title": "For the Restoration of Health",
             "url": "/prayers/acna2019/124.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "For Joy at the End of Life Miles Coverdale Home ACNA 2019 For Joy at the End of Life Miles Coverdale Lord Jesus, be mindful of your promise. Think of us, your servants, and when we shall depart, speak to our spirits these loving words: “Today you shall be with me in joy.” O Lord Jesus Christ, remember us, your servants who trust in you, when our tongues cannot speak, when the sight of our eyes fails, and when our ears are stopped. Let our spirits always rejoice in you and be joyful about our salvation, which you, through your death, have purchased for us. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "Lord Jesus, be mindful of your promise. Think of us, your servants, and when we shall depart, speak to our spirits these loving words: “Today you shall be with me in joy.” O Lord Jesus Christ, remember us, your servants who trust in you, when our tongues cannot speak, when the sight of our eyes fails, and when our ears are stopped. Let our spirits always rejoice in you and be joyful about our salvation, which you, through your death, have purchased for us. Amen.",
             "title": "For Joy at the End of Life Miles Coverdale",
             "url": "/prayers/acna2019/110.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "For the Answering of Prayer Home ACNA 2019 For the Answering of Prayer Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son: Mercifully incline your ear to us as we make our prayers and supplications to you; and grant that what we ask faithfully, according to your will, we may obtain effectually, for the relief of our necessities and the setting forth of your glory; through Jesus Christ our Lord. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son: Mercifully incline your ear to us as we make our prayers and supplications to you; and grant that what we ask faithfully, according to your will, we may obtain effectually, for the relief of our necessities and the setting forth of your glory; through Jesus Christ our Lord. Amen.",
             "title": "For the Answering of Prayer",
             "url": "/prayers/acna2019/100.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Spirit of Prayer Home ACNA 2019 For the Spirit of Prayer O Almighty God, you pour out on all who desire it the spirit of grace and of supplication: Deliver us, when we draw near to you, from coldness of heart and wanderings of mind, that with steadfast thoughts and kindled affections we may worship you in spirit and in truth; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O Almighty God, you pour out on all who desire it the spirit of grace and of supplication: Deliver us, when we draw near to you, from coldness of heart and wanderings of mind, that with steadfast thoughts and kindled affections we may worship you in spirit and in truth; through Jesus Christ our Lord. Amen.",
             "title": "For the Spirit of Prayer",
             "url": "/prayers/acna2019/5.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For a Marriage or Anniversary Home ACNA 2019 For a Marriage or Anniversary O God, you have so consecrated the covenant of marriage that in it is represented the spiritual unity between Christ and his Church: Send your blessing upon these your servants [as they begin another year], that they may so love, honor, and cherish each other in faithfulness and patience, in wisdom and true godliness, that their home may be a haven of blessing and peace; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen. Tags: Family and Personal Life",
+            "text": "O God, you have so consecrated the covenant of marriage that in it is represented the spiritual unity between Christ and his Church: Send your blessing upon these your servants [as they begin another year], that they may so love, honor, and cherish each other in faithfulness and patience, in wisdom and true godliness, that their home may be a haven of blessing and peace; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen.",
             "title": "For a Marriage or Anniversary",
             "url": "/prayers/acna2019/69.html"
         },
         {
             "tags": "The Nation (Specific to the United States or Mexico)",
-            "text": "For Congress or a State Legislature Home ACNA 2019 For Congress or a State Legislature O God, the fountain of wisdom, whose will is good and gracious, and whose law is truth: So guide and bless our Senators and Representatives assembled in Congress [or the Legislature of this State, Commonwealth, etc.], that they may enact laws pleasing in your sight, to the glory of your Name and the welfare of this people; through Jesus Christ our Lord. Amen. Tags: The Nation (Specific to the United States or Mexico)",
+            "text": "O God, the fountain of wisdom, whose will is good and gracious, and whose law is truth: So guide and bless our Senators and Representatives assembled in Congress [or the Legislature of this State, Commonwealth, etc.], that they may enact laws pleasing in your sight, to the glory of your Name and the welfare of this people; through Jesus Christ our Lord. Amen.",
             "title": "For Congress or a State Legislature",
             "url": "/prayers/acna2019/38.html"
         },
         {
             "tags": "The Church",
-            "text": "For Missionary Societies Home ACNA 2019 For Missionary Societies Lord Jesus, you commanded us to make disciples of all nations: Bless all those who work together for the spread of the Gospel [especially _ ___]; make them faithful and true witnesses to proclaim your glorious Name. Send down the grace of the Holy Spirit upon all your people, that we may give cheerfully of our substance for the evangelization of the world, and that the light of your truth may shine brightly in every place. Hear us, O merciful Savior, who with the Father and the Holy Spirit live and reign, one God, world without end. Amen. Tags: The Church",
+            "text": "Lord Jesus, you commanded us to make disciples of all nations: Bless all those who work together for the spread of the Gospel [especially _ ___]; make them faithful and true witnesses to proclaim your glorious Name. Send down the grace of the Holy Spirit upon all your people, that we may give cheerfully of our substance for the evangelization of the world, and that the light of your truth may shine brightly in every place. Hear us, O merciful Savior, who with the Father and the Holy Spirit live and reign, one God, world without end. Amen.",
             "title": "For Missionary Societies",
             "url": "/prayers/acna2019/18.html"
         },
         {
             "tags": "Society",
-            "text": "For Schools, Colleges, and Universities Home ACNA 2019 For Schools, Colleges, and Universities Almighty God, by your gift alone we come to wisdom and true understanding: Look with favor, we pray, on our universities, colleges, and schools, [especially _ _,] that knowledge may be increased among us, and wholesome learning flourish and abound. Bless those who teach and those who learn; and grant that in humility of heart they may ever look to you, the fountain of all wisdom; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Almighty God, by your gift alone we come to wisdom and true understanding: Look with favor, we pray, on our universities, colleges, and schools, [especially _ _,] that knowledge may be increased among us, and wholesome learning flourish and abound. Bless those who teach and those who learn; and grant that in humility of heart they may ever look to you, the fountain of all wisdom; through Jesus Christ our Lord. Amen.",
             "title": "For Schools, Colleges, and Universities",
             "url": "/prayers/acna2019/49.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "For All Faithful Departed Home ACNA 2019 For All Faithful Departed Almighty God, with whom the souls of the faithful who have departed this life are in joy and felicity: We praise and magnify your holy Name for all your servants who have finished their course in your faith and fear; and we most humbly pray that, at the day of resurrection, we and all who are members of the mystical body of your Son may be set on his right hand, and hear his most joyful voice: “Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.” Grant this, O merciful Father, for the sake of Jesus Christ, our only Mediator and Advocate. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "Almighty God, with whom the souls of the faithful who have departed this life are in joy and felicity: We praise and magnify your holy Name for all your servants who have finished their course in your faith and fear; and we most humbly pray that, at the day of resurrection, we and all who are members of the mystical body of your Son may be set on his right hand, and hear his most joyful voice: “Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.” Grant this, O merciful Father, for the sake of Jesus Christ, our only Mediator and Advocate. Amen.",
             "title": "For All Faithful Departed",
             "url": "/prayers/acna2019/114.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Beauty of the Earth Home ACNA 2019 For the Beauty of the Earth We give you thanks, most gracious God, for the beauty of earth and sky and sea; for the richness of mountains, plains, and rivers; for the wonder of your creatures, large and small; and for all the loveliness that surrounds us. We praise you for these good gifts, and pray that we may safeguard them for our posterity. Grant that we may continue to grow in our grateful enjoyment of your abundant creation, to the honor and glory of your Name, now and for ever. Amen. Tags: Thanksgivings",
+            "text": "We give you thanks, most gracious God, for the beauty of earth and sky and sea; for the richness of mountains, plains, and rivers; for the wonder of your creatures, large and small; and for all the loveliness that surrounds us. We praise you for these good gifts, and pray that we may safeguard them for our posterity. Grant that we may continue to grow in our grateful enjoyment of your abundant creation, to the honor and glory of your Name, now and for ever. Amen.",
             "title": "For the Beauty of the Earth",
             "url": "/prayers/acna2019/120.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "Before Receiving Communion Home ACNA 2019 Before Receiving Communion Be present, be present, O Jesus, our great High Priest, as you were present with your disciples, and be known to us in the breaking of bread; who live and reign with the Father and the Holy Spirit, now and for ever. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Be present, be present, O Jesus, our great High Priest, as you were present with your disciples, and be known to us in the breaking of bread; who live and reign with the Father and the Holy Spirit, now and for ever. Amen.",
             "title": "Before Receiving Communion",
             "url": "/prayers/acna2019/104.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For the Discouraged and Downcast Home ACNA 2019 For the Discouraged and Downcast O God, almighty and merciful, you heal the broken-hearted, and turn the sadness of the sorrowful to joy, Let your fatherly goodness be upon all whom you have made. Remember in pity all those who are this day destitute, homeless, elderly, infirm, or forgotten. Bless the multitude of your poor. Lift up those who are cast down. Mightily befriend innocent sufferers, and sanctify to them the endurance of their wrongs. Cheer with hope all who are discouraged and downcast, and by your heavenly grace preserve from falling those whose poverty tempts them to sin. Though they be troubled on every side, suffer them not to be distressed; though they are perplexed, save them from despair. Grant this, O Lord, for the love of him who for our sakes became poor, your Son our Savior Jesus Christ. Amen. Tags: Those in Need",
+            "text": "O God, almighty and merciful, you heal the broken-hearted, and turn the sadness of the sorrowful to joy, Let your fatherly goodness be upon all whom you have made. Remember in pity all those who are this day destitute, homeless, elderly, infirm, or forgotten. Bless the multitude of your poor. Lift up those who are cast down. Mightily befriend innocent sufferers, and sanctify to them the endurance of their wrongs. Cheer with hope all who are discouraged and downcast, and by your heavenly grace preserve from falling those whose poverty tempts them to sin. Though they be troubled on every side, suffer them not to be distressed; though they are perplexed, save them from despair. Grant this, O Lord, for the love of him who for our sakes became poor, your Son our Savior Jesus Christ. Amen.",
             "title": "For the Discouraged and Downcast",
             "url": "/prayers/acna2019/59.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Universal Church Home ACNA 2019 For the Universal Church O God of unchangeable power and eternal light: Look favorably on your whole Church, that wonderful and sacred mystery; by the effectual working of your providence, carry out in tranquility the plan of salvation; let the whole world see and know that things which were cast down are being raised up, and things which had grown old are being made new, and that all things are being brought to their perfection by him through whom all things were made, your Son Jesus Christ our Lord; who lives and reigns with you, in the unity of the Holy Spirit, one God, for ever and ever. Amen. Tags: The Church",
+            "text": "O God of unchangeable power and eternal light: Look favorably on your whole Church, that wonderful and sacred mystery; by the effectual working of your providence, carry out in tranquility the plan of salvation; let the whole world see and know that things which were cast down are being raised up, and things which had grown old are being made new, and that all things are being brought to their perfection by him through whom all things were made, your Son Jesus Christ our Lord; who lives and reigns with you, in the unity of the Holy Spirit, one God, for ever and ever. Amen.",
             "title": "For the Universal Church",
             "url": "/prayers/acna2019/1.html"
         },
         {
             "tags": "The Church",
-            "text": "For All Missionaries Home ACNA 2019 For All Missionaries O God, you desire that all people be saved and come to knowledge of the truth: Prosper all those who live, preach, and teach the Gospel at home and in distant lands [especially _ ___]; protect them in all perils, support them in their loneliness, sustain them in the hour of trial; give them your abundant grace to bear faithful witness; and endue them with burning zeal and love, that they may turn many to righteousness; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O God, you desire that all people be saved and come to knowledge of the truth: Prosper all those who live, preach, and teach the Gospel at home and in distant lands [especially _ ___]; protect them in all perils, support them in their loneliness, sustain them in the hour of trial; give them your abundant grace to bear faithful witness; and endue them with burning zeal and love, that they may turn many to righteousness; through Jesus Christ our Lord. Amen.",
             "title": "For All Missionaries",
             "url": "/prayers/acna2019/19.html"
         },
         {
             "tags": "Society",
-            "text": "For Agriculture and Farming Home ACNA 2019 For Agriculture and Farming Almighty God, we thank you for making the earth fruitful, so that it may produce what is needed to sustain our life: Bless those who work in the fields; give us seasonable weather; and grant that we may all share the fruits of the earth, rejoicing in your goodness; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Almighty God, we thank you for making the earth fruitful, so that it may produce what is needed to sustain our life: Bless those who work in the fields; give us seasonable weather; and grant that we may all share the fruits of the earth, rejoicing in your goodness; through Jesus Christ our Lord. Amen.",
             "title": "For Agriculture and Farming",
             "url": "/prayers/acna2019/48.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "For the Coming of God’s Kingdom Home ACNA 2019 For the Coming of God’s Kingdom Hasten, O Father, the coming of your kingdom; and grant that we your servants, who now live by faith, may with joy behold your Son at his coming in glorious majesty; even Jesus Christ, our only Mediator and Advocate. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "Hasten, O Father, the coming of your kingdom; and grant that we your servants, who now live by faith, may with joy behold your Son at his coming in glorious majesty; even Jesus Christ, our only Mediator and Advocate. Amen.",
             "title": "For the Coming of God’s Kingdom",
             "url": "/prayers/acna2019/115.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Diversity of Races and Cultures Home ACNA 2019 For the Diversity of Races and Cultures O God, who created all peoples in your image: We thank you for the diversity of races and cultures in this world. Show us your presence in those who differ from us, and enrich our lives with their fellowship, until our knowledge of your love is made perfect in our love for all your children; through Jesus Christ our Lord. Amen. Tags: Thanksgivings",
+            "text": "O God, who created all peoples in your image: We thank you for the diversity of races and cultures in this world. Show us your presence in those who differ from us, and enrich our lives with their fellowship, until our knowledge of your love is made perfect in our love for all your children; through Jesus Christ our Lord. Amen.",
             "title": "For the Diversity of Races and Cultures",
             "url": "/prayers/acna2019/121.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "After Receiving Communion Home ACNA 2019 After Receiving Communion O Lord Jesus Christ, in this wonderful Sacrament you have given us a memorial of your passion: Grant us, we pray, so to venerate the sacred mysteries of your Body and Blood, that we may ever perceive within ourselves the fruit of your redemption; who live and reign with the Father and the Holy Spirit, one God, for ever and ever. Amen. Tags: At Times of Prayer and Worship",
+            "text": "O Lord Jesus Christ, in this wonderful Sacrament you have given us a memorial of your passion: Grant us, we pray, so to venerate the sacred mysteries of your Body and Blood, that we may ever perceive within ourselves the fruit of your redemption; who live and reign with the Father and the Holy Spirit, one God, for ever and ever. Amen.",
             "title": "After Receiving Communion",
             "url": "/prayers/acna2019/105.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For a Person in Trouble or Bereavement Home ACNA 2019 For a Person in Trouble or Bereavement O merciful Father, you have taught us in your holy Word that you do not willingly afflict or grieve the children of men: Look with pity on the sorrows of your servant N. Remember him, O Lord, in mercy; nourish his soul with patience; comfort him with a sense of your goodness; lift up your countenance upon him; and give him peace; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "O merciful Father, you have taught us in your holy Word that you do not willingly afflict or grieve the children of men: Look with pity on the sorrows of your servant N. Remember him, O Lord, in mercy; nourish his soul with patience; comfort him with a sense of your goodness; lift up your countenance upon him; and give him peace; through Jesus Christ our Lord. Amen.",
             "title": "For a Person in Trouble or Bereavement",
             "url": "/prayers/acna2019/58.html"
         },
         {
             "tags": "The Nation",
-            "text": "For Courts of Justice Home ACNA 2019 For Courts of Justice Almighty God, you sit on your throne giving righteous judgment: We humbly ask you to bless all courts of justice and all magistrates in this land; give them a spirit of wisdom and understanding, that fearing no power but yours alone, they may discern the truth and impartially administer the law; through him who shall come to be our Judge, your Son our Savior Jesus Christ. Amen. Tags: The Nation",
+            "text": "Almighty God, you sit on your throne giving righteous judgment: We humbly ask you to bless all courts of justice and all magistrates in this land; give them a spirit of wisdom and understanding, that fearing no power but yours alone, they may discern the truth and impartially administer the law; through him who shall come to be our Judge, your Son our Savior Jesus Christ. Amen.",
             "title": "For Courts of Justice",
             "url": "/prayers/acna2019/29.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "To Please God Rather Than Men Thomas À Kempis Home ACNA 2019 To Please God Rather Than Men Thomas À Kempis Our God, in whom we trust: Strengthen us not to regard overmuch who is for us or who is against us, but to see to it that we be with you in everything we do. Amen. Tags: Family and Personal Life",
+            "text": "Our God, in whom we trust: Strengthen us not to regard overmuch who is for us or who is against us, but to see to it that we be with you in everything we do. Amen.",
             "title": "To Please God Rather Than Men Thomas À Kempis",
             "url": "/prayers/acna2019/78.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Saints and Faithful Departed Home ACNA 2019 For the Saints and Faithful Departed We give thanks to you, O Lord our God, for all your servants and witnesses of time past: for Abraham, the father of believers, and Sarah his wife; for Moses, the lawgiver, and Aaron, the priest; for Miriam and Joshua, Deborah and Gideon, and Samuel with Hannah his mother; for David, King over Israel; for Isaiah and all the prophets; for Mary, the mother of our Lord; for Peter and Paul and all the apostles; for Mary and Martha, and Mary Magdalene; for Stephen, the first martyr, and all the martyrs and saints in every age and in every land. In your mercy, O Lord our God, give us, as you gave to them, the hope of salvation and the promise of eternal life; through Jesus Christ our Lord, the first born of many from the dead. Amen. Tags: Thanksgivings",
+            "text": "We give thanks to you, O Lord our God, for all your servants and witnesses of time past: for Abraham, the father of believers, and Sarah his wife; for Moses, the lawgiver, and Aaron, the priest; for Miriam and Joshua, Deborah and Gideon, and Samuel with Hannah his mother; for David, King over Israel; for Isaiah and all the prophets; for Mary, the mother of our Lord; for Peter and Paul and all the apostles; for Mary and Martha, and Mary Magdalene; for Stephen, the first martyr, and all the martyrs and saints in every age and in every land. In your mercy, O Lord our God, give us, as you gave to them, the hope of salvation and the promise of eternal life; through Jesus Christ our Lord, the first born of many from the dead. Amen.",
             "title": "For the Saints and Faithful Departed",
             "url": "/prayers/acna2019/125.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "For an Anniversary of One Departed Home ACNA 2019 For an Anniversary of One Departed Almighty God, we remember this day before you your faithful servant N., and we pray that, having opened to him the gates of larger life, you will receive him more and more into your joyful service, that he may win, with you and your servants everywhere, the eternal victory; through Jesus Christ our Lord. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "Almighty God, we remember this day before you your faithful servant N., and we pray that, having opened to him the gates of larger life, you will receive him more and more into your joyful service, that he may win, with you and your servants everywhere, the eternal victory; through Jesus Christ our Lord. Amen.",
             "title": "For an Anniversary of One Departed",
             "url": "/prayers/acna2019/111.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "Before the Reading of Scripture Home ACNA 2019 Before the Reading of Scripture Blessed Lord, who caused all Holy Scriptures to be written for our learning: Grant us so to hear them, read, mark, learn, and inwardly digest them, that by patience and the comfort of your Holy Word we may embrace and ever hold fast the blessed hope of everlasting life, which you have given us in our Savior Jesus Christ; who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Blessed Lord, who caused all Holy Scriptures to be written for our learning: Grant us so to hear them, read, mark, learn, and inwardly digest them, that by patience and the comfort of your Holy Word we may embrace and ever hold fast the blessed hope of everlasting life, which you have given us in our Savior Jesus Christ; who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen.",
             "title": "Before the Reading of Scripture",
             "url": "/prayers/acna2019/101.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Unity of All Christian People Home ACNA 2019 For the Unity of All Christian People O God the Father of our Lord Jesus Christ, our only Savior, the Prince of Peace: Give us grace to take to heart the grave dangers we are in through our many divisions. Deliver your Church from all enmity and prejudice, and everything that hinders us from godly union. As there is one Body and one Spirit, one hope of our calling, one Lord, one Faith, one Baptism, one God and Father of us all, so make us all to be of one heart and of one mind, united in one holy bond of truth and peace, of faith and love, that with one voice we may give you praise; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God in everlasting glory. Amen. Tags: The Church",
+            "text": "O God the Father of our Lord Jesus Christ, our only Savior, the Prince of Peace: Give us grace to take to heart the grave dangers we are in through our many divisions. Deliver your Church from all enmity and prejudice, and everything that hinders us from godly union. As there is one Body and one Spirit, one hope of our calling, one Lord, one Faith, one Baptism, one God and Father of us all, so make us all to be of one heart and of one mind, united in one holy bond of truth and peace, of faith and love, that with one voice we may give you praise; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God in everlasting glory. Amen.",
             "title": "For the Unity of All Christian People",
             "url": "/prayers/acna2019/4.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For a Child, or for a Birthday Home ACNA 2019 For a Child, or for a Birthday Watch over your child N., O Lord, as his days increase; bless him and guide him, and keep him unspotted from the world. Strengthen him when he stands; comfort him when discouraged or sorrowful; raise him up if he falls; and in his heart may your peace which passes understanding abide all the days of his life; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "Watch over your child N., O Lord, as his days increase; bless him and guide him, and keep him unspotted from the world. Strengthen him when he stands; comfort him when discouraged or sorrowful; raise him up if he falls; and in his heart may your peace which passes understanding abide all the days of his life; through Jesus Christ our Lord. Amen.",
             "title": "For a Child, or for a Birthday",
             "url": "/prayers/acna2019/68.html"
         },
         {
             "tags": "The Nation (Specific to the United States or Mexico)",
-            "text": "For Our Nation Home ACNA 2019 For Our Nation Almighty God, who hast given us this good land for our heritage: We humbly beseech thee that we may always prove ourselves a people mindful of thy favor and glad to do thy will. Bless our land with honorable industry, sound learning, and pure conduct. Save us from violence, discord, and confusion; from pride and arrogance, and from every evil way. Defend our liberties, and fashion into one united people the multitudes brought hither out of many kindreds and tongues. Endue with the spirit of wisdom those to whom, in thy Name, we entrust the authority of government, that there may be justice and peace at home, and that, through obedience to thy law, we may show forth thy praise among the nations of the earth. In the time of prosperity, fill our hearts with thankfulness, and in the day of trouble, suffer not our trust in thee to fail; all of which we ask through Jesus Christ our Lord. Amen. Tags: The Nation (Specific to the United States or Mexico)",
+            "text": "Almighty God, who hast given us this good land for our heritage: We humbly beseech thee that we may always prove ourselves a people mindful of thy favor and glad to do thy will. Bless our land with honorable industry, sound learning, and pure conduct. Save us from violence, discord, and confusion; from pride and arrogance, and from every evil way. Defend our liberties, and fashion into one united people the multitudes brought hither out of many kindreds and tongues. Endue with the spirit of wisdom those to whom, in thy Name, we entrust the authority of government, that there may be justice and peace at home, and that, through obedience to thy law, we may show forth thy praise among the nations of the earth. In the time of prosperity, fill our hearts with thankfulness, and in the day of trouble, suffer not our trust in thee to fail; all of which we ask through Jesus Christ our Lord. Amen.",
             "title": "For Our Nation",
             "url": "/prayers/acna2019/39.html"
         },
         {
             "tags": "Society",
-            "text": "For the Unemployed Home ACNA 2019 For the Unemployed Heavenly Father, we remember before you those who suffer want and anxiety from lack of work. Guide the people of this land so to use our public and private wealth that all may find suitable and fulfilling employment, and receive a just reward for their labor; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Heavenly Father, we remember before you those who suffer want and anxiety from lack of work. Guide the people of this land so to use our public and private wealth that all may find suitable and fulfilling employment, and receive a just reward for their labor; through Jesus Christ our Lord. Amen.",
             "title": "For the Unemployed",
             "url": "/prayers/acna2019/47.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Mission of the Church Home ACNA 2019 For the Mission of the Church O God, you have made of one blood all the peoples of the earth, and sent your blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after you and find you; bring the nations into your fold; pour out your Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O God, you have made of one blood all the peoples of the earth, and sent your blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after you and find you; bring the nations into your fold; pour out your Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord. Amen.",
             "title": "For the Mission of the Church",
             "url": "/prayers/acna2019/16.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Trustfulness in Times of Worry and Anxiety Home ACNA 2019 For Trustfulness in Times of Worry and Anxiety Most loving Father, you will us to give thanks for all things, to dread nothing but the loss of you, and to cast all our care on the One who cares for us. Preserve us from faithless fears and worldly anxieties, and grant that no clouds of this mortal life may hide from us the light of that love which is immortal, and which you have manifested unto us in your Son, Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "Most loving Father, you will us to give thanks for all things, to dread nothing but the loss of you, and to cast all our care on the One who cares for us. Preserve us from faithless fears and worldly anxieties, and grant that no clouds of this mortal life may hide from us the light of that love which is immortal, and which you have manifested unto us in your Son, Jesus Christ our Lord. Amen.",
             "title": "For Trustfulness in Times of Worry and Anxiety",
             "url": "/prayers/acna2019/80.html"
         },
         {
             "tags": "Creation",
-            "text": "For Stewardship of Creation Home ACNA 2019 For Stewardship of Creation O merciful Creator, your loving hand is open wide to satisfy the needs of every living creature: Make us always thankful for your loving providence, and give us grace to honor you with all that you have entrusted to us; that we, remembering the account we must one day give, may be faithful stewards of your good gifts; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, for ever and ever. Amen. Tags: Creation",
+            "text": "O merciful Creator, your loving hand is open wide to satisfy the needs of every living creature: Make us always thankful for your loving providence, and give us grace to honor you with all that you have entrusted to us; that we, remembering the account we must one day give, may be faithful stewards of your good gifts; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, for ever and ever. Amen.",
             "title": "For Stewardship of Creation",
             "url": "/prayers/acna2019/22.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "A Prayer of Self-Dedication William Temple Home ACNA 2019 A Prayer of Self-Dedication William Temple Almighty and eternal God, so draw our hearts to you, so guide our minds, so fill our imaginations, so control our wills, that we may be wholly yours, utterly dedicated to you; and then use us, we pray, as you will, and always to your glory and the welfare of your people; through our Lord and Savior Jesus Christ. Amen. Tags: Family and Personal Life",
+            "text": "Almighty and eternal God, so draw our hearts to you, so guide our minds, so fill our imaginations, so control our wills, that we may be wholly yours, utterly dedicated to you; and then use us, we pray, as you will, and always to your glory and the welfare of your people; through our Lord and Savior Jesus Christ. Amen.",
             "title": "A Prayer of Self-Dedication William Temple",
             "url": "/prayers/acna2019/73.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those in Bondage to Addiction Home ACNA 2019 For Those in Bondage to Addiction O blessed Lord, you ministered to all who came to you: Look with compassion upon those who through addiction have lost their health and freedom. Restore to them the assurance of your unfailing mercy; remove from them the fears that beset them; strengthen them in the work of their recovery; and to those who minister to them, give patient understanding and persevering love; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "O blessed Lord, you ministered to all who came to you: Look with compassion upon those who through addiction have lost their health and freedom. Restore to them the assurance of your unfailing mercy; remove from them the fears that beset them; strengthen them in the work of their recovery; and to those who minister to them, give patient understanding and persevering love; through Jesus Christ our Lord. Amen.",
             "title": "For Those in Bondage to Addiction",
             "url": "/prayers/acna2019/63.html"
         },
         {
             "tags": "The Nation",
-            "text": "For Those in the Armed Forces Home ACNA 2019 For Those in the Armed Forces Almighty God, we commend to your gracious care and keeping all the men and women of our armed forces at home and abroad. Defend them day by day with your heavenly grace; strengthen them in their trials and temptations; give them courage to face the perils which beset them; and grant them a sense of your abiding presence wherever they may be; through Jesus Christ our Lord. Amen. Tags: The Nation",
+            "text": "Almighty God, we commend to your gracious care and keeping all the men and women of our armed forces at home and abroad. Defend them day by day with your heavenly grace; strengthen them in their trials and temptations; give them courage to face the perils which beset them; and grant them a sense of your abiding presence wherever they may be; through Jesus Christ our Lord. Amen.",
             "title": "For Those in the Armed Forces",
             "url": "/prayers/acna2019/32.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Grace to Seek God in Every Way Benedict of Nursia Home ACNA 2019 For Grace to Seek God in Every Way Benedict of Nursia Gracious and holy Father, please give me intellect to understand you, reason to discern you, diligence to seek you, wisdom to find you, a spirit to know you, a heart to meditate upon you, ears to hear you, eyes to see you, a tongue to proclaim you, a way of life pleasing to you, patience to wait for you, and perseverance to look for you. Grant me a perfect end, your holy presence, a blessed resurrection, and life everlasting. Amen. Tags: Personal Devotion",
+            "text": "Gracious and holy Father, please give me intellect to understand you, reason to discern you, diligence to seek you, wisdom to find you, a spirit to know you, a heart to meditate upon you, ears to hear you, eyes to see you, a tongue to proclaim you, a way of life pleasing to you, patience to wait for you, and perseverance to look for you. Grant me a perfect end, your holy presence, a blessed resurrection, and life everlasting. Amen.",
             "title": "For Grace to Seek God in Every Way Benedict of Nursia",
             "url": "/prayers/acna2019/90.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those With Chronic Disease Home ACNA 2019 For Those With Chronic Disease Heavenly Father, sustainer of our life and source of our hope: Comfort and relieve all who endure long-term illness or persistent handicap [especially ______]. Give your grace to all who minister to their needs, that they may be strengthened in their weakness and have confidence in your loving care; through him who knows our weakness and has shared our sorrows, Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Heavenly Father, sustainer of our life and source of our hope: Comfort and relieve all who endure long-term illness or persistent handicap [especially ______]. Give your grace to all who minister to their needs, that they may be strengthened in their weakness and have confidence in your loving care; through him who knows our weakness and has shared our sorrows, Jesus Christ our Lord. Amen.",
             "title": "For Those With Chronic Disease",
             "url": "/prayers/acna2019/57.html"
         },
         {
             "tags": "Family and Personal Life (Throughout the Day)",
-            "text": "Grace at Meals Home ACNA 2019 Grace at Meals Blessed are you, O Lord God, King of the Universe, for you give us food to sustain our lives and make our hearts glad; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life (Throughout the Day)",
+            "text": "Blessed are you, O Lord God, King of the Universe, for you give us food to sustain our lives and make our hearts glad; through Jesus Christ our Lord. Amen.",
             "title": "Grace at Meals",
             "url": "/prayers/acna2019/84.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Guidance Home ACNA 2019 For Guidance O God, by whom the meek are guided in judgment, and light rises up in darkness for the godly: Grant us, in all our doubts and uncertainties, the grace to ask what you would have us do, that the Spirit of wisdom may save us from all false choices; that in your light we may see light, and in your straight path we may not stumble; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "O God, by whom the meek are guided in judgment, and light rises up in darkness for the godly: Grant us, in all our doubts and uncertainties, the grace to ask what you would have us do, that the Spirit of wisdom may save us from all false choices; that in your light we may see light, and in your straight path we may not stumble; through Jesus Christ our Lord. Amen.",
             "title": "For Guidance",
             "url": "/prayers/acna2019/77.html"
         },
         {
             "tags": "Creation",
-            "text": "In Times of Natural Disaster Home ACNA 2019 In Times of Natural Disaster Almighty God, by your Word you laid the foundations of the earth, set the bounds of the sea, and still the wind and waves. Surround us with your grace and peace, and preserve us through this storm [or _ _]. By your Spirit, lift up those who have fallen, strengthen those who work to rescue or rebuild, and fill us with the hope of your new creation; through Jesus Christ our Lord. Amen. Tags: Creation",
+            "text": "Almighty God, by your Word you laid the foundations of the earth, set the bounds of the sea, and still the wind and waves. Surround us with your grace and peace, and preserve us through this storm [or _ _]. By your Spirit, lift up those who have fallen, strengthen those who work to rescue or rebuild, and fill us with the hope of your new creation; through Jesus Christ our Lord. Amen.",
             "title": "In Times of Natural Disaster",
             "url": "/prayers/acna2019/26.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Local Congregation Home ACNA 2019 For the Local Congregation Almighty and everlasting God, you govern all things in heaven and on earth: Mercifully hear our prayers, and grant that in this Congregation the pure Word of God may be preached and the Sacraments duly administered. Strengthen and confirm the faithful; protect and guide the children; visit and relieve the sick; turn and soften the wicked; arouse the careless; recover the fallen; restore the penitent; remove all hindrances to the advancement of your truth; and bring us all to be of one heart and mind within your holy Church, to the honor and glory of your Name; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "Almighty and everlasting God, you govern all things in heaven and on earth: Mercifully hear our prayers, and grant that in this Congregation the pure Word of God may be preached and the Sacraments duly administered. Strengthen and confirm the faithful; protect and guide the children; visit and relieve the sick; turn and soften the wicked; arouse the careless; recover the fallen; restore the penitent; remove all hindrances to the advancement of your truth; and bring us all to be of one heart and mind within your holy Church, to the honor and glory of your Name; through Jesus Christ our Lord. Amen.",
             "title": "For the Local Congregation",
             "url": "/prayers/acna2019/12.html"
         },
         {
             "tags": "Society",
-            "text": "For Social Justice Home ACNA 2019 For Social Justice Almighty God, you created us in your own image: Grant us grace to contend fearlessly against evil and to make no peace with oppression; and help us to use our freedom rightly in the establishment of justice in our communities and among the nations, to the glory of your holy Name; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen. Tags: Society",
+            "text": "Almighty God, you created us in your own image: Grant us grace to contend fearlessly against evil and to make no peace with oppression; and help us to use our freedom rightly in the establishment of justice in our communities and among the nations, to the glory of your holy Name; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen.",
             "title": "For Social Justice",
             "url": "/prayers/acna2019/43.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those Who Travel Home ACNA 2019 For Those Who Travel O God, our heavenly Father, whose glory fills the whole creation, and whose presence we find wherever we go: Preserve those who travel [especially _____]; surround them with your loving care; protect them from every danger; and bring them in safety to their journey’s end; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "O God, our heavenly Father, whose glory fills the whole creation, and whose presence we find wherever we go: Preserve those who travel [especially _____]; surround them with your loving care; protect them from every danger; and bring them in safety to their journey’s end; through Jesus Christ our Lord. Amen.",
             "title": "For Those Who Travel",
             "url": "/prayers/acna2019/53.html"
         },
         {
             "tags": "The Nation (Specific to Canada)",
-            "text": "For the Prime Minister of Canada, Lieutenant Governors and the Premiers of the Provinces Home ACNA 2019 For the Prime Minister of Canada, Lieutenant Governors and the Premiers of the Provinces Lord of all power and mercy, we ask you to assist with your favour the Governor General and Prime Minister, and the Lieutenant Governors and Premiers of the Provinces. Cause them to walk before you in truth and righteousness, and to fulfill their office to your glory and the public good; through Jesus Christ our Lord. Amen. Tags: The Nation (Specific to Canada)",
+            "text": "Lord of all power and mercy, we ask you to assist with your favour the Governor General and Prime Minister, and the Lieutenant Governors and Premiers of the Provinces. Cause them to walk before you in truth and righteousness, and to fulfill their office to your glory and the public good; through Jesus Christ our Lord. Amen.",
             "title": "For the Prime Minister of Canada, Lieutenant Governors and the Premiers of the Provinces",
             "url": "/prayers/acna2019/36.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For a Birthday Home ACNA 2019 For a Birthday O God, our times are in your hand: Look with favor, we pray, on your servant N. as he begins another year. Grant that he may grow in wisdom and grace, and strengthen his trust in your goodness all the days of his life; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "O God, our times are in your hand: Look with favor, we pray, on your servant N. as he begins another year. Grant that he may grow in wisdom and grace, and strengthen his trust in your goodness all the days of his life; through Jesus Christ our Lord. Amen.",
             "title": "For a Birthday",
             "url": "/prayers/acna2019/67.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For a Virtuous Heart Thomas Aquinas Home ACNA 2019 For a Virtuous Heart Thomas Aquinas Give me, O Lord, a steadfast heart, which no unworthy thought can drag down; an unconquered heart, which no tribulation can wear out; an upright heart, which no unworthy purpose can tempt aside. Bestow upon me understanding to know you, diligence to seek you, wisdom to find you, and faithfulness that finally may embrace you. Amen. Tags: Personal Devotion",
+            "text": "Give me, O Lord, a steadfast heart, which no unworthy thought can drag down; an unconquered heart, which no tribulation can wear out; an upright heart, which no unworthy purpose can tempt aside. Bestow upon me understanding to know you, diligence to seek you, wisdom to find you, and faithfulness that finally may embrace you. Amen.",
             "title": "For a Virtuous Heart Thomas Aquinas",
             "url": "/prayers/acna2019/94.html"
         },
         {
             "tags": "Family and Personal Life (Throughout the Day)",
-            "text": "In the Evening John Henry Newman Home ACNA 2019 In the Evening John Henry Newman O Lord, support us all the day long through this trouble-filled life, until the shadows lengthen, and the evening comes, and the busy world is hushed, and the fever of life is over, and our work is done. Then in your mercy grant us a safe lodging, and a holy rest, and peace at the last. Amen. Tags: Family and Personal Life (Throughout the Day)",
+            "text": "O Lord, support us all the day long through this trouble-filled life, until the shadows lengthen, and the evening comes, and the busy world is hushed, and the fever of life is over, and our work is done. Then in your mercy grant us a safe lodging, and a holy rest, and peace at the last. Amen.",
             "title": "In the Evening John Henry Newman",
             "url": "/prayers/acna2019/85.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Guidance Home ACNA 2019 For Guidance Go before us, O Lord, in all our doings with your most gracious favor, and further us with your continual help; that in all our works begun, continued, and ended in you, we may glorify your holy Name, and finally, through your mercy, obtain everlasting life; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "Go before us, O Lord, in all our doings with your most gracious favor, and further us with your continual help; that in all our works begun, continued, and ended in you, we may glorify your holy Name, and finally, through your mercy, obtain everlasting life; through Jesus Christ our Lord. Amen.",
             "title": "For Guidance",
             "url": "/prayers/acna2019/76.html"
         },
         {
             "tags": "The Nation",
-            "text": "For the Peace of the World Home ACNA 2019 For the Peace of the World Eternal God, in whose perfect kingdom no sword is drawn but the sword of righteousness, no strength known but the strength of love: So mightily spread abroad your Spirit, that all peoples may be gathered under the banner of the Prince of Peace; to whom be dominion and glory, now and for ever. Amen. Tags: The Nation",
+            "text": "Eternal God, in whose perfect kingdom no sword is drawn but the sword of righteousness, no strength known but the strength of love: So mightily spread abroad your Spirit, that all peoples may be gathered under the banner of the Prince of Peace; to whom be dominion and glory, now and for ever. Amen.",
             "title": "For the Peace of the World",
             "url": "/prayers/acna2019/27.html"
         },
         {
             "tags": "The Church",
-            "text": "For Vocations to Ordained Ministry Home ACNA 2019 For Vocations to Ordained Ministry Lord Jesus, you are the Good Shepherd who cares for his flock: We ask you to bestow upon your Church the gifts of the Holy Spirit in abundance, and to raise up from among us faithful and able persons called to the ministries of Deacon, Priest, and Bishop. Inspire them to spend and be spent for the sake of the Gospel, and make them holy and loving servants and shepherds of the flock for whom you shed your most precious blood. Grant this for the sake of your love. Amen. Tags: The Church",
+            "text": "Lord Jesus, you are the Good Shepherd who cares for his flock: We ask you to bestow upon your Church the gifts of the Holy Spirit in abundance, and to raise up from among us faithful and able persons called to the ministries of Deacon, Priest, and Bishop. Inspire them to spend and be spent for the sake of the Gospel, and make them holy and loving servants and shepherds of the flock for whom you shed your most precious blood. Grant this for the sake of your love. Amen.",
             "title": "For Vocations to Ordained Ministry",
             "url": "/prayers/acna2019/13.html"
         },
         {
             "tags": "Society",
-            "text": "For the Human Family Home ACNA 2019 For the Human Family O God, you made us in your own image, and you have redeemed us through your Son Jesus Christ: Look with compassion on the whole human family; take away the arrogance and hatred which infect our hearts; break down the walls that separate us; unite us in bonds of love; and work through our struggle and confusion to accomplish your purposes on earth; that, in your good time, all nations and races may serve you in harmony around your heavenly throne; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "O God, you made us in your own image, and you have redeemed us through your Son Jesus Christ: Look with compassion on the whole human family; take away the arrogance and hatred which infect our hearts; break down the walls that separate us; unite us in bonds of love; and work through our struggle and confusion to accomplish your purposes on earth; that, in your good time, all nations and races may serve you in harmony around your heavenly throne; through Jesus Christ our Lord. Amen.",
             "title": "For the Human Family",
             "url": "/prayers/acna2019/42.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those We Love Home ACNA 2019 For Those We Love Almighty God, we entrust all who are dear to us [especially _____] to your never failing care and love, for this life and the life to come, knowing that you are doing for them better things than we can desire or pray for; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Almighty God, we entrust all who are dear to us [especially _____] to your never failing care and love, for this life and the life to come, knowing that you are doing for them better things than we can desire or pray for; through Jesus Christ our Lord. Amen.",
             "title": "For Those We Love",
             "url": "/prayers/acna2019/52.html"
         },
         {
             "tags": "The Nation (Specific to the United States or Mexico)",
-            "text": "For the President and All in Civil Authority Home ACNA 2019 For the President and All in Civil Authority O Lord our Governor, whose glory fills all the world: We commend this Nation to your merciful care, that we may be guided by your providence, and dwell secure in your peace. Grant to the President of this Nation, the Governor of this State [or Commonwealth], and to all in authority, wisdom and strength to know and to do your will. Fill them with the love of truth and righteousness, and make them continually mindful of their calling to serve this people in reverent obedience to you; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, world without end. Amen. Tags: The Nation (Specific to the United States or Mexico)",
+            "text": "O Lord our Governor, whose glory fills all the world: We commend this Nation to your merciful care, that we may be guided by your providence, and dwell secure in your peace. Grant to the President of this Nation, the Governor of this State [or Commonwealth], and to all in authority, wisdom and strength to know and to do your will. Fill them with the love of truth and righteousness, and make them continually mindful of their calling to serve this people in reverent obedience to you; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, world without end. Amen.",
             "title": "For the President and All in Civil Authority",
             "url": "/prayers/acna2019/37.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For the Care of Children Home ACNA 2019 For the Care of Children Almighty God, heavenly Father, you have blessed us with the joy and care of children: Give us calm strength and patient wisdom so to train them, that they may love all that is true, and pure, and lovely, and of good report, following the example of their Savior Jesus Christ. Amen. Tags: Family and Personal Life",
+            "text": "Almighty God, heavenly Father, you have blessed us with the joy and care of children: Give us calm strength and patient wisdom so to train them, that they may love all that is true, and pure, and lovely, and of good report, following the example of their Savior Jesus Christ. Amen.",
             "title": "For the Care of Children",
             "url": "/prayers/acna2019/66.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "In Times of Suffering or Weakness Home ACNA 2019 In Times of Suffering or Weakness Dear Lord and Savior Jesus Christ: I hold up all my weakness to your strength, my failure to your faithfulness, my sinfulness to your perfection, my loneliness to your compassion, my little pains to your great agony on the Cross. I pray that you will cleanse me, strengthen me, guide me, so that in all ways my life may be lived as you would have it lived, without cowardice and for you alone. Show me how to live in true humility, true contrition, and true love. Amen. Tags: Personal Devotion",
+            "text": "Dear Lord and Savior Jesus Christ: I hold up all my weakness to your strength, my failure to your faithfulness, my sinfulness to your perfection, my loneliness to your compassion, my little pains to your great agony on the Cross. I pray that you will cleanse me, strengthen me, guide me, so that in all ways my life may be lived as you would have it lived, without cowardice and for you alone. Show me how to live in true humility, true contrition, and true love. Amen.",
             "title": "In Times of Suffering or Weakness",
             "url": "/prayers/acna2019/95.html"
         },
         {
             "tags": "Society",
-            "text": "For Commerce and Industry Home ACNA 2019 For Commerce and Industry O Lord Jesus Christ, in your earthly life you shared our toil and hallowed our labor: Guide those who maintain the commerce and industries of this land, and give to all who labor pride in their work, a just reward, and joy both in supplying need and in serving you; who with the Father and the Holy Spirit live and reign, one God, world without end. Amen. Tags: Society",
+            "text": "O Lord Jesus Christ, in your earthly life you shared our toil and hallowed our labor: Guide those who maintain the commerce and industries of this land, and give to all who labor pride in their work, a just reward, and joy both in supplying need and in serving you; who with the Father and the Holy Spirit live and reign, one God, world without end. Amen.",
             "title": "For Commerce and Industry",
             "url": "/prayers/acna2019/46.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Mission of the Church Home ACNA 2019 For the Mission of the Church O God, our heavenly Father, you manifested your love by sending your only-begotten Son into the world, that all might live through him: Pour out your Spirit on your Church, that we may fulfill his command to preach the Gospel to all people. Send forth laborers into your harvest; defend them in all dangers and temptations; and hasten the time when the fullness of the Gentiles shall be gathered in, and faithful Israel shall be saved; through your Son Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O God, our heavenly Father, you manifested your love by sending your only-begotten Son into the world, that all might live through him: Pour out your Spirit on your Church, that we may fulfill his command to preach the Gospel to all people. Send forth laborers into your harvest; defend them in all dangers and temptations; and hasten the time when the fullness of the Gentiles shall be gathered in, and faithful Israel shall be saved; through your Son Jesus Christ our Lord. Amen.",
             "title": "For the Mission of the Church",
             "url": "/prayers/acna2019/17.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Help to Bear Bereavement Home ACNA 2019 For Help to Bear Bereavement Heavenly Father, help us to entrust our loved ones to your care. Though sorrow darkens our lives, help us to look up to you, remembering the cloud of witnesses by which we are surrounded. And grant that we on earth, rejoicing ever in your presence, may share with them the rest and peace which your presence gives; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "Heavenly Father, help us to entrust our loved ones to your care. Though sorrow darkens our lives, help us to look up to you, remembering the cloud of witnesses by which we are surrounded. And grant that we on earth, rejoicing ever in your presence, may share with them the rest and peace which your presence gives; through Jesus Christ our Lord. Amen.",
             "title": "For Help to Bear Bereavement",
             "url": "/prayers/acna2019/81.html"
         },
         {
             "tags": "Creation",
-            "text": "For the Harvest of Lands and Waters Home ACNA 2019 For the Harvest of Lands and Waters O gracious Father, you open your hand and fill all living things with plenteousness: Bless the lands and waters, and multiply the harvests of the world; send forth your breath, and renew the face of the earth; show your loving-kindness, that our land may yield its increase; and save us from selfish use of what you provide, that the poor and needy may give thanks to your Name; through Jesus Christ our Lord. Amen. Tags: Creation",
+            "text": "O gracious Father, you open your hand and fill all living things with plenteousness: Bless the lands and waters, and multiply the harvests of the world; send forth your breath, and renew the face of the earth; show your loving-kindness, that our land may yield its increase; and save us from selfish use of what you provide, that the poor and needy may give thanks to your Name; through Jesus Christ our Lord. Amen.",
             "title": "For the Harvest of Lands and Waters",
             "url": "/prayers/acna2019/23.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Knowing and Loving God Home ACNA 2019 For Knowing and Loving God O God, the light of the minds that know you, the life of the souls that love you, and the strength of the wills that serve you: Help us so to know you that we may truly love you, and so to love you that we may fully serve you, whom to serve is perfect freedom; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "O God, the light of the minds that know you, the life of the souls that love you, and the strength of the wills that serve you: Help us so to know you that we may truly love you, and so to love you that we may fully serve you, whom to serve is perfect freedom; through Jesus Christ our Lord. Amen.",
             "title": "For Knowing and Loving God",
             "url": "/prayers/acna2019/72.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those Afflicted With Mental Suffering Home ACNA 2019 For Those Afflicted With Mental Suffering Almighty God, whose Son took upon himself the afflictions of your people: Regard with your tender compassion those suffering from anxiety, depression, or mental illness [especially _ ]; bear their sorrows and their cares; supply all their needs; help them to put their whole trust and confidence in you; and restore them to strength of mind and cheerfulness of spirit; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Almighty God, whose Son took upon himself the afflictions of your people: Regard with your tender compassion those suffering from anxiety, depression, or mental illness [especially _ ]; bear their sorrows and their cares; supply all their needs; help them to put their whole trust and confidence in you; and restore them to strength of mind and cheerfulness of spirit; through Jesus Christ our Lord. Amen.",
             "title": "For Those Afflicted With Mental Suffering",
             "url": "/prayers/acna2019/62.html"
         },
         {
             "tags": "The Nation",
-            "text": "For Our Enemies Home ACNA 2019 For Our Enemies O God, the Creator of all, whose Son commanded us to love our enemies: Lead them and us from prejudice to truth; deliver them and us from hatred, cruelty, and revenge; and in your good time enable us all to stand reconciled before you in Jesus Christ; in whose Name we pray. Amen. Tags: The Nation",
+            "text": "O God, the Creator of all, whose Son commanded us to love our enemies: Lead them and us from prejudice to truth; deliver them and us from hatred, cruelty, and revenge; and in your good time enable us all to stand reconciled before you in Jesus Christ; in whose Name we pray. Amen.",
             "title": "For Our Enemies",
             "url": "/prayers/acna2019/33.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Submission to God’s Will Joseph Mercier Home ACNA 2019 For Submission to God’s Will Joseph Mercier O Holy Spirit, beloved of my soul, I adore you. Enlighten me, guide me, strengthen me, console me. Tell me what I should do; give me your orders. I promise to submit myself to all that you desire of me and to accept all that you permit to happen to me. Let me only know your will. Amen. Tags: Personal Devotion",
+            "text": "O Holy Spirit, beloved of my soul, I adore you. Enlighten me, guide me, strengthen me, console me. Tell me what I should do; give me your orders. I promise to submit myself to all that you desire of me and to accept all that you permit to happen to me. Let me only know your will. Amen.",
             "title": "For Submission to God’s Will Joseph Mercier",
             "url": "/prayers/acna2019/91.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For the Elderly Home ACNA 2019 For the Elderly Look with mercy, O God our Father, on all whose increasing years bring them weakness, distress, or isolation [especially ______]. Provide for them homes of dignity and peace; give them understanding helpers, and the willingness to accept help; and as their strength diminishes, increase their faith and their assurance of your love; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Look with mercy, O God our Father, on all whose increasing years bring them weakness, distress, or isolation [especially ______]. Provide for them homes of dignity and peace; give them understanding helpers, and the willingness to accept help; and as their strength diminishes, increase their faith and their assurance of your love; through Jesus Christ our Lord. Amen.",
             "title": "For the Elderly",
             "url": "/prayers/acna2019/56.html"
         },
         {
             "tags": "Creation",
-            "text": "For Rain Home ACNA 2019 For Rain O God, our heavenly Father, by your Son Jesus Christ you have promised to those who seek your kingdom and its righteousness all things necessary to sustain their life: Send us, we pray, in this time of need, such moderate rain and showers, that we may receive the fruits of the earth, to our comfort and to your honor; through Jesus Christ our Lord. Amen. Tags: Creation",
+            "text": "O God, our heavenly Father, by your Son Jesus Christ you have promised to those who seek your kingdom and its righteousness all things necessary to sustain their life: Send us, we pray, in this time of need, such moderate rain and showers, that we may receive the fruits of the earth, to our comfort and to your honor; through Jesus Christ our Lord. Amen.",
             "title": "For Rain",
             "url": "/prayers/acna2019/24.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Holy Thought Home ACNA 2019 For Holy Thought O God, without whose beauty and goodness our souls are unfed, without whose truth our reason withers: Consecrate our lives to your will, giving us such purity of heart, such depth of faith, and such steadfastness of purpose, that in time we may come to think your own thoughts after you; through Jesus Christ our Savior. Amen. Tags: Family and Personal Life",
+            "text": "O God, without whose beauty and goodness our souls are unfed, without whose truth our reason withers: Consecrate our lives to your will, giving us such purity of heart, such depth of faith, and such steadfastness of purpose, that in time we may come to think your own thoughts after you; through Jesus Christ our Savior. Amen.",
             "title": "For Holy Thought",
             "url": "/prayers/acna2019/75.html"
         },
         {
             "tags": "Family and Personal Life (Throughout the Day)",
-            "text": "For Sleep Home ACNA 2019 For Sleep Father, in your mercy dispel the darkness of this night, and let your servant sleep in peace, that at the dawn of a new day I may wake with joy in your Name; through Christ our Lord. Amen. Tags: Family and Personal Life (Throughout the Day)",
+            "text": "Father, in your mercy dispel the darkness of this night, and let your servant sleep in peace, that at the dawn of a new day I may wake with joy in your Name; through Christ our Lord. Amen.",
             "title": "For Sleep",
             "url": "/prayers/acna2019/86.html"
         },
         {
             "tags": "Society",
-            "text": "For Cities, Towns, and Other Communities Home ACNA 2019 For Cities, Towns, and Other Communities Heavenly Father, you sent your Son among us to proclaim the kingdom of God in cities, towns, villages, and lonely places. Behold and visit, we pray, the community of _ _. Renew the bonds of charity that uphold our civic life. Send us honest and able leaders. Deliver us from poverty, prejudice, and oppression, that peace may prevail with righteousness, and justice with mercy. And at the last, bring us to your Holy City, the new Jerusalem, where we shall know perfect unity and peace; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Heavenly Father, you sent your Son among us to proclaim the kingdom of God in cities, towns, villages, and lonely places. Behold and visit, we pray, the community of _ _. Renew the bonds of charity that uphold our civic life. Send us honest and able leaders. Deliver us from poverty, prejudice, and oppression, that peace may prevail with righteousness, and justice with mercy. And at the last, bring us to your Holy City, the new Jerusalem, where we shall know perfect unity and peace; through Jesus Christ our Lord. Amen.",
             "title": "For Cities, Towns, and Other Communities",
             "url": "/prayers/acna2019/41.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Selection of a Bishop or Other Minister Home ACNA 2019 For the Selection of a Bishop or Other Minister Almighty God, giver of every good gift: Look graciously on your Church, and so guide the minds of those who shall choose a Bishop for this Diocese that we may receive a faithful pastor who will preach the Gospel, care for your people, equip us for ministry, and lead us forth in fulfillment of the Great Commission; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "Almighty God, giver of every good gift: Look graciously on your Church, and so guide the minds of those who shall choose a Bishop for this Diocese that we may receive a faithful pastor who will preach the Gospel, care for your people, equip us for ministry, and lead us forth in fulfillment of the Great Commission; through Jesus Christ our Lord. Amen.",
             "title": "For the Selection of a Bishop or Other Minister",
             "url": "/prayers/acna2019/10.html"
         },
         {
             "tags": "Society",
-            "text": "For Those Who Inform Public Opinion Home ACNA 2019 For Those Who Inform Public Opinion Almighty God, your truth endures from age to age: Direct in our time, we pray, those who speak where many listen and write what many read; that they may speak your truth to make the heart of this people wise, its mind discerning, and its will righteous; to the honor of Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Almighty God, your truth endures from age to age: Direct in our time, we pray, those who speak where many listen and write what many read; that they may speak your truth to make the heart of this people wise, its mind discerning, and its will righteous; to the honor of Jesus Christ our Lord. Amen.",
             "title": "For Those Who Inform Public Opinion",
             "url": "/prayers/acna2019/51.html"
         },
         {
             "tags": "The Church",
-            "text": "For Vestry and Church Meetings Home ACNA 2019 For Vestry and Church Meetings Almighty and everliving God, source of all wisdom and understanding, be present with those who take counsel [in ______] for the renewal and mission of your Church. Teach us in all things to seek first your honor and glory. Guide us to perceive what is right, and grant us both the courage to pursue it and the grace to accomplish it; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "Almighty and everliving God, source of all wisdom and understanding, be present with those who take counsel [in ______] for the renewal and mission of your Church. Teach us in all things to seek first your honor and glory. Guide us to perceive what is right, and grant us both the courage to pursue it and the grace to accomplish it; through Jesus Christ our Lord. Amen.",
             "title": "For Vestry and Church Meetings",
             "url": "/prayers/acna2019/9.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Union With Christ Anima Christi Home ACNA 2019 For Union With Christ Anima Christi Soul of Christ, sanctify me. Body of Christ, save me. Blood of Christ, inebriate me. Water from the side of Christ, wash me. Passion of Christ, strengthen me. O good Jesus, hear me. Within thy wounds hide me. Permit me not to be separated from thee. From the wicked foe defend me. In the hour of my death call me, and bid me come to thee, that with thy saints I may praise thee for ever and ever. Amen. Tags: Personal Devotion",
+            "text": "Soul of Christ, sanctify me. Body of Christ, save me. Blood of Christ, inebriate me. Water from the side of Christ, wash me. Passion of Christ, strengthen me. O good Jesus, hear me. Within thy wounds hide me. Permit me not to be separated from thee. From the wicked foe defend me. In the hour of my death call me, and bid me come to thee, that with thy saints I may praise thee for ever and ever. Amen.",
             "title": "For Union With Christ Anima Christi",
             "url": "/prayers/acna2019/96.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Families Home ACNA 2019 For Families Almighty God, our heavenly Father, you set the solitary in families: We commend to your continual care the homes in which your people dwell. Put far from them every root of bitterness, the desire of vainglory, and the pride of life. Fill them with faith, virtue, knowledge, temperance, patience, and true godliness. Knit together in constant affection those who, in holy matrimony, have been made one flesh; turn the hearts of parents to their children, and the hearts of children to their parents; and so enkindle fervent charity among us all, that we may evermore be joined to one another with bonds of loving-kindness; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "Almighty God, our heavenly Father, you set the solitary in families: We commend to your continual care the homes in which your people dwell. Put far from them every root of bitterness, the desire of vainglory, and the pride of life. Fill them with faith, virtue, knowledge, temperance, patience, and true godliness. Knit together in constant affection those who, in holy matrimony, have been made one flesh; turn the hearts of parents to their children, and the hearts of children to their parents; and so enkindle fervent charity among us all, that we may evermore be joined to one another with bonds of loving-kindness; through Jesus Christ our Lord. Amen.",
             "title": "For Families",
             "url": "/prayers/acna2019/65.html"
         },
         {
             "tags": "The Nation (Specific to Canada)",
-            "text": "For the Sovereign Home ACNA 2019 For the Sovereign Almighty and everlasting God, we are taught by your holy Word that the hearts of kings are in your rule, and that you direct them according to your wisdom: We humbly ask you so to govern the heart of N. your servant, our Queen and Governor, that in all her thoughts, words, and deeds, she may ever seek your honour and glory, and act to preserve your people committed to her charge in prosperity, peace, and godliness; Grant this, O merciful Father, for the sake of your dear Son Jesus Christ our Lord. Amen. Tags: The Nation (Specific to Canada)",
+            "text": "Almighty and everlasting God, we are taught by your holy Word that the hearts of kings are in your rule, and that you direct them according to your wisdom: We humbly ask you so to govern the heart of N. your servant, our Queen and Governor, that in all her thoughts, words, and deeds, she may ever seek your honour and glory, and act to preserve your people committed to her charge in prosperity, peace, and godliness; Grant this, O merciful Father, for the sake of your dear Son Jesus Christ our Lord. Amen.",
             "title": "For the Sovereign",
             "url": "/prayers/acna2019/34.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Mission of the Church Home ACNA 2019 For the Mission of the Church Almighty God, you sent your Son Jesus Christ to reconcile the world to yourself: We praise and bless you for those whom you have sent in the power of the Spirit to preach the Gospel to all nations. We thank you that in all parts of the earth a community of love has been gathered together by their prayers and labors, and that in every place your servants call upon your Name; for the kingdom and the power and the glory are yours, for ever and ever. Amen. Tags: Thanksgivings",
+            "text": "Almighty God, you sent your Son Jesus Christ to reconcile the world to yourself: We praise and bless you for those whom you have sent in the power of the Spirit to preach the Gospel to all nations. We thank you that in all parts of the earth a community of love has been gathered together by their prayers and labors, and that in every place your servants call upon your Name; for the kingdom and the power and the glory are yours, for ever and ever. Amen.",
             "title": "For the Mission of the Church",
             "url": "/prayers/acna2019/118.html"
         },
         {
             "tags": "The Church",
-            "text": "For Church Musicians and Artists Home ACNA 2019 For Church Musicians and Artists O God, whom saints and angels delight to worship in heaven: Be ever present with your servants on earth who seek through art and music to perfect the praises of your people. Grant them even now true glimpses of your beauty, and make them worthy at length to behold it unveiled for evermore; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O God, whom saints and angels delight to worship in heaven: Be ever present with your servants on earth who seek through art and music to perfect the praises of your people. Grant them even now true glimpses of your beauty, and make them worthy at length to behold it unveiled for evermore; through Jesus Christ our Lord. Amen.",
             "title": "For Church Musicians and Artists",
             "url": "/prayers/acna2019/14.html"
         },
         {
             "tags": "Society",
-            "text": "For Those Who Serve Others Home ACNA 2019 For Those Who Serve Others O Lord our heavenly Father, whose blessed Son came not to be served, but to serve: We ask you to bless all who, following in his steps, give themselves to the service of others [especially _ __]; endue them with wisdom, patience, and courage, that they may strengthen the weak and raise up those who fall, and, being inspired by your love, may worthily minister to the suffering, the friendless, and the needy; for the sake of him who laid down his life for us, your Son our Savior Jesus Christ. Amen. Tags: Society",
+            "text": "O Lord our heavenly Father, whose blessed Son came not to be served, but to serve: We ask you to bless all who, following in his steps, give themselves to the service of others [especially _ __]; endue them with wisdom, patience, and courage, that they may strengthen the weak and raise up those who fall, and, being inspired by your love, may worthily minister to the suffering, the friendless, and the needy; for the sake of him who laid down his life for us, your Son our Savior Jesus Christ. Amen.",
             "title": "For Those Who Serve Others",
             "url": "/prayers/acna2019/45.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Christ to Be Formed in Us Home ACNA 2019 For Christ to Be Formed in Us Lord Jesus, Master Carpenter of Nazareth, on the Cross through wood and nails you wrought our full salvation: Wield well your tools in this, your workshop, that we who come to you rough-hewn may be fashioned into a truer beauty by your hand; who with the Father and the Holy Spirit live and reign, one God, world without end. Amen. Tags: Family and Personal Life",
+            "text": "Lord Jesus, Master Carpenter of Nazareth, on the Cross through wood and nails you wrought our full salvation: Wield well your tools in this, your workshop, that we who come to you rough-hewn may be fashioned into a truer beauty by your hand; who with the Father and the Holy Spirit live and reign, one God, world without end. Amen.",
             "title": "For Christ to Be Formed in Us",
             "url": "/prayers/acna2019/71.html"
         },
         {
             "tags": "The Church",
-            "text": "For a Spirit of Evangelism Home ACNA 2019 For a Spirit of Evangelism Almighty God our Savior, you desire that none should perish, and you have taught us through your Son that there is great joy in heaven over every sinner who repents: Grant that our hearts may ache for a lost and broken world. May your Holy Spirit work through our words, deeds, and prayers, that the lost may be found and the dead made alive, and that all your redeemed may rejoice around your throne; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "Almighty God our Savior, you desire that none should perish, and you have taught us through your Son that there is great joy in heaven over every sinner who repents: Grant that our hearts may ache for a lost and broken world. May your Holy Spirit work through our words, deeds, and prayers, that the lost may be found and the dead made alive, and that all your redeemed may rejoice around your throne; through Jesus Christ our Lord. Amen.",
             "title": "For a Spirit of Evangelism",
             "url": "/prayers/acna2019/20.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Quiet Confidence Home ACNA 2019 For Quiet Confidence O God of peace, who hast taught us that in returning and rest we shall be saved, in quietness and in confidence shall be our strength: By the might of thy Spirit lift us, we pray thee, to thy presence, where we may be still and know that thou art God; through Jesus Christ our Lord. Amen. Tags: Family and Personal Life",
+            "text": "O God of peace, who hast taught us that in returning and rest we shall be saved, in quietness and in confidence shall be our strength: By the might of thy Spirit lift us, we pray thee, to thy presence, where we may be still and know that thou art God; through Jesus Christ our Lord. Amen.",
             "title": "For Quiet Confidence",
             "url": "/prayers/acna2019/82.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Satisfaction in Christ Julian of Norwich Home ACNA 2019 For Satisfaction in Christ Julian of Norwich O God, of your goodness, give me yourself, for you are enough for me. I can ask for nothing less that is completely to your honor, and if I do ask anything less, I shall always be in want. Only in you I have all. Amen. Tags: Personal Devotion",
+            "text": "O God, of your goodness, give me yourself, for you are enough for me. I can ask for nothing less that is completely to your honor, and if I do ask anything less, I shall always be in want. Only in you I have all. Amen.",
             "title": "For Satisfaction in Christ Julian of Norwich",
             "url": "/prayers/acna2019/92.html"
         },
         {
             "tags": "The Nation",
-            "text": "For Civil Authorities Home ACNA 2019 For Civil Authorities Almighty God, our heavenly Father, send down on those who hold public office [especially _ __] the spirit of wisdom, charity, and justice; that with steadfast purpose they may faithfully serve in their offices to promote the well being of all people; through Jesus Christ our Lord. Amen. Tags: The Nation",
+            "text": "Almighty God, our heavenly Father, send down on those who hold public office [especially _ __] the spirit of wisdom, charity, and justice; that with steadfast purpose they may faithfully serve in their offices to promote the well being of all people; through Jesus Christ our Lord. Amen.",
             "title": "For Civil Authorities",
             "url": "/prayers/acna2019/30.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For the Recovery of a Sick Person Home ACNA 2019 For the Recovery of a Sick Person Almighty and immortal God, giver of life and health: We implore your mercy for your servant N., that by your blessing upon him and upon those who minister to him with your healing gifts, he may be restored to health of body and mind, according to your gracious will, and may give thanks to you in your holy Church; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Almighty and immortal God, giver of life and health: We implore your mercy for your servant N., that by your blessing upon him and upon those who minister to him with your healing gifts, he may be restored to health of body and mind, according to your gracious will, and may give thanks to you in your holy Church; through Jesus Christ our Lord. Amen.",
             "title": "For the Recovery of a Sick Person",
             "url": "/prayers/acna2019/61.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Those Who Live Alone Home ACNA 2019 For Those Who Live Alone Almighty God, whose Son had nowhere to lay his head: Grant that all those who live alone [especially ______] may not be lonely in their solitude, but that, following in his steps, they may find fulfillment in loving you and their neighbors; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "Almighty God, whose Son had nowhere to lay his head: Grant that all those who live alone [especially ______] may not be lonely in their solitude, but that, following in his steps, they may find fulfillment in loving you and their neighbors; through Jesus Christ our Lord. Amen.",
             "title": "For Those Who Live Alone",
             "url": "/prayers/acna2019/55.html"
         },
         {
             "tags": "",
-            "text": "ACNA 2019 Anglican Church in North America Book of Common Prayer (2019) For the Universal Church For the Universal Church William Laud For the Unity of the Church For the Unity of All Christian People For the Spirit of Prayer For a Province or Diocese For a Provincial or Diocesan Convention or Synod For a Provincial or Diocesan Convention or Synod For Vestry and Church Meetings For the Selection of a Bishop or Other Minister For the Local Congregation For the Local Congregation For Vocations to Ordained Ministry For Church Musicians and Artists For Monastic Orders and Vocations For the Mission of the Church For the Mission of the Church For Missionary Societies For All Missionaries For a Spirit of Evangelism For Joy in God’s Creation For Stewardship of Creation For the Harvest of Lands and Waters For Rain In Time of Scarcity and Famine In Times of Natural Disaster For the Peace of the World For the Peace of the World For Courts of Justice For Civil Authorities For an Election For Those in the Armed Forces For Our Enemies For the Sovereign For the Royal Family For the Prime Minister of Canada, Lieutenant Governors and the Premiers of the Provinces For the President and All in Civil Authority For Congress or a State Legislature For Our Nation For All Sorts and Conditions of Men For Cities, Towns, and Other Communities For the Human Family For Social Justice In Times of Social Conflict or Distress For Those Who Serve Others For Commerce and Industry For the Unemployed For Agriculture and Farming For Schools, Colleges, and Universities For the Medical Professions For Those Who Inform Public Opinion For Those We Love For Those Who Travel For the Absent For Those Who Live Alone For the Elderly For Those With Chronic Disease For a Person in Trouble or Bereavement For the Discouraged and Downcast For Prisoners For the Recovery of a Sick Person For Those Afflicted With Mental Suffering For Those in Bondage to Addiction For the Unrepentant For Families For the Care of Children For a Birthday For a Child, or for a Birthday For a Marriage or Anniversary For Inner Renewal Through the Word For Christ to Be Formed in Us For Knowing and Loving God A Prayer of Self-Dedication William Temple For Desiring God Francis Xavier For Holy Thought For Guidance For Guidance To Please God Rather Than Men Thomas À Kempis For Mercy For Trustfulness in Times of Worry and Anxiety For Help to Bear Bereavement For Quiet Confidence In the Morning Grace at Meals In the Evening John Henry Newman For Sleep For Participation in the Peace of God in the Tradition of Francis of Assisi For Daily Growth Richard of Chichester For Seeking God Anselm of Canterbury For Grace to Seek God in Every Way Benedict of Nursia For Submission to God’s Will Joseph Mercier For Satisfaction in Christ Julian of Norwich A Covenant Prayer John Wesley For a Virtuous Heart Thomas Aquinas In Times of Suffering or Weakness For Union With Christ Anima Christi Preparation for Personal Prayer For the Acceptance of Prayer For the Acceptance of Prayer For the Answering of Prayer Before the Reading of Scripture On Sundays Preparation for Public Worship Before Receiving Communion After Receiving Communion For Spiritual Communion After Communion Liturgy of St. Basil After Public Worship For Watchfulness Lancelot Andrewes For Joy at the End of Life Miles Coverdale For an Anniversary of One Departed The Communion of Saints The Communion of Saints For All Faithful Departed For the Coming of God’s Kingdom A Litany of Thanksgiving A Thanksgiving Prayer For the Mission of the Church For the Harvest For the Beauty of the Earth For the Diversity of Races and Cultures For Military Veterans For Deliverance From Peril For the Restoration of Health For the Saints and Faithful Departed",
+            "text": "",
             "title": "ACNA 2019",
             "url": "/prayers/acna2019/index.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "After Public Worship Home ACNA 2019 After Public Worship Grant, Almighty God, that the words we have heard this day with our ears may by your grace be grafted in our hearts, that they may bring forth in us the fruit of a righteous life, to the honor and praise of your Name; through Jesus Christ our Lord. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Grant, Almighty God, that the words we have heard this day with our ears may by your grace be grafted in our hearts, that they may bring forth in us the fruit of a righteous life, to the honor and praise of your Name; through Jesus Christ our Lord. Amen.",
             "title": "After Public Worship",
             "url": "/prayers/acna2019/108.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For the Harvest Home ACNA 2019 For the Harvest Most gracious God, by whose knowledge the depths are broken up and the clouds drop down the dew: We yield you hearty thanks and praise for the return of seed-time and harvest, for the increase of the ground and the gathering in of its fruits, and for all the other blessings your merciful providence has bestowed upon this nation and people. And, we pray, give us a just sense of these great mercies, that we may walk before you in humility, holiness, and obedience all our days; through Jesus Christ our Lord, to whom, with you and the Holy Spirit, be all glory and honor, world without end. Amen. Tags: Thanksgivings",
+            "text": "Most gracious God, by whose knowledge the depths are broken up and the clouds drop down the dew: We yield you hearty thanks and praise for the return of seed-time and harvest, for the increase of the ground and the gathering in of its fruits, and for all the other blessings your merciful providence has bestowed upon this nation and people. And, we pray, give us a just sense of these great mercies, that we may walk before you in humility, holiness, and obedience all our days; through Jesus Christ our Lord, to whom, with you and the Holy Spirit, be all glory and honor, world without end. Amen.",
             "title": "For the Harvest",
             "url": "/prayers/acna2019/119.html"
         },
         {
             "tags": "The Church",
-            "text": "For Monastic Orders and Vocations Home ACNA 2019 For Monastic Orders and Vocations O Lord Jesus Christ, you became poor for our sake that we might be made rich through your poverty: Guide and sanctify, we pray, those whom you call to follow you in poverty, chastity, and obedience; that by their prayer and service they may enrich your Church, and by their life and worship may glorify your Name; for you live and reign with the Father and the Holy Spirit, one God, now and for ever. Amen. Tags: The Church",
+            "text": "O Lord Jesus Christ, you became poor for our sake that we might be made rich through your poverty: Guide and sanctify, we pray, those whom you call to follow you in poverty, chastity, and obedience; that by their prayer and service they may enrich your Church, and by their life and worship may glorify your Name; for you live and reign with the Father and the Holy Spirit, one God, now and for ever. Amen.",
             "title": "For Monastic Orders and Vocations",
             "url": "/prayers/acna2019/15.html"
         },
         {
             "tags": "Society",
-            "text": "In Times of Social Conflict or Distress Home ACNA 2019 In Times of Social Conflict or Distress Increase, O God, the spirit of neighborliness among us, that in peril we may uphold one another, in suffering tend to one another, and in homelessness, loneliness, or exile befriend one another. Grant us brave and enduring hearts that we may strengthen one another, until the disciplines and testing of these days are ended, and you again give peace in our time; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Increase, O God, the spirit of neighborliness among us, that in peril we may uphold one another, in suffering tend to one another, and in homelessness, loneliness, or exile befriend one another. Grant us brave and enduring hearts that we may strengthen one another, until the disciplines and testing of these days are ended, and you again give peace in our time; through Jesus Christ our Lord. Amen.",
             "title": "In Times of Social Conflict or Distress",
             "url": "/prayers/acna2019/44.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Inner Renewal Through the Word Home ACNA 2019 For Inner Renewal Through the Word Gracious God and most merciful Father, you have granted us the rich and precious jewel of your holy Word: Assist us with your Spirit, that the same Word may be written in our hearts to our everlasting comfort, to reform us, to renew us according to your own image, to build us up and edify us into the perfect dwelling place of your Christ, sanctifying and increasing in us all heavenly virtues; grant this, O heavenly Father, for Jesus Christ’s sake. Amen. Tags: Family and Personal Life",
+            "text": "Gracious God and most merciful Father, you have granted us the rich and precious jewel of your holy Word: Assist us with your Spirit, that the same Word may be written in our hearts to our everlasting comfort, to reform us, to renew us according to your own image, to build us up and edify us into the perfect dwelling place of your Christ, sanctifying and increasing in us all heavenly virtues; grant this, O heavenly Father, for Jesus Christ’s sake. Amen.",
             "title": "For Inner Renewal Through the Word",
             "url": "/prayers/acna2019/70.html"
         },
         {
             "tags": "Creation",
-            "text": "For Joy in God’s Creation Home ACNA 2019 For Joy in God’s Creation O heavenly Father, you have filled the world with beauty: Open our eyes to behold your gracious hand in all your works; that, rejoicing in your whole creation, we may learn to serve you with gladness; for the sake of him through whom all things were made, your Son Jesus Christ our Lord. Amen. Tags: Creation",
+            "text": "O heavenly Father, you have filled the world with beauty: Open our eyes to behold your gracious hand in all your works; that, rejoicing in your whole creation, we may learn to serve you with gladness; for the sake of him through whom all things were made, your Son Jesus Christ our Lord. Amen.",
             "title": "For Joy in God’s Creation",
             "url": "/prayers/acna2019/21.html"
         },
         {
             "tags": "Family and Personal Life (Throughout the Day)",
-            "text": "In the Morning Home ACNA 2019 In the Morning Almighty God, you alone gave us the breath of life, and you alone can keep alive in us the holy desires you impart. We beseech you, for your compassion’s sake, to sanctify all our thoughts and endeavors, that we may neither begin an action without a pure intention nor continue it without your blessing. And grant that, having the eyes of our mind enlightened to behold things invisible and unseen, we may in heart be inspired by your wisdom, in work be upheld by your strength, and in the end be accepted as your faithful servants; through Jesus Christ our Savior. Amen. Tags: Family and Personal Life (Throughout the Day)",
+            "text": "Almighty God, you alone gave us the breath of life, and you alone can keep alive in us the holy desires you impart. We beseech you, for your compassion’s sake, to sanctify all our thoughts and endeavors, that we may neither begin an action without a pure intention nor continue it without your blessing. And grant that, having the eyes of our mind enlightened to behold things invisible and unseen, we may in heart be inspired by your wisdom, in work be upheld by your strength, and in the end be accepted as your faithful servants; through Jesus Christ our Savior. Amen.",
             "title": "In the Morning",
             "url": "/prayers/acna2019/83.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "A Covenant Prayer John Wesley Home ACNA 2019 A Covenant Prayer John Wesley I am no longer my own, but thine. Put me to what thou wilt, rank me with whom thou wilt. Put me to doing, put me to suffering. Let me be employed by thee or laid aside for thee, exalted for thee or brought low for thee. Let me be full, let me be empty. Let me have all things, let me have nothing. I freely and heartily yield all things to thy pleasure and disposal. And now, O glorious and blessed God, Father, Son, and Holy Spirit, thou art mine, and I am thine. So be it. And the covenant which I have made on earth, let it be ratified in heaven. Amen. Tags: Personal Devotion",
+            "text": "I am no longer my own, but thine. Put me to what thou wilt, rank me with whom thou wilt. Put me to doing, put me to suffering. Let me be employed by thee or laid aside for thee, exalted for thee or brought low for thee. Let me be full, let me be empty. Let me have all things, let me have nothing. I freely and heartily yield all things to thy pleasure and disposal. And now, O glorious and blessed God, Father, Son, and Holy Spirit, thou art mine, and I am thine. So be it. And the covenant which I have made on earth, let it be ratified in heaven. Amen.",
             "title": "A Covenant Prayer John Wesley",
             "url": "/prayers/acna2019/93.html"
         },
         {
             "tags": "The Nation",
-            "text": "For an Election Home ACNA 2019 For an Election Almighty God, to whom we must account for all our powers and privileges: Guide and direct, we humbly pray, the minds of all those who are called to elect fit persons to serve [in _ _]. Grant that in the exercise of our choice we may promote your glory, and the welfare of this nation. This we ask for the sake of our Lord and Savior Jesus Christ. Amen. Tags: The Nation",
+            "text": "Almighty God, to whom we must account for all our powers and privileges: Guide and direct, we humbly pray, the minds of all those who are called to elect fit persons to serve [in _ _]. Grant that in the exercise of our choice we may promote your glory, and the welfare of this nation. This we ask for the sake of our Lord and Savior Jesus Christ. Amen.",
             "title": "For an Election",
             "url": "/prayers/acna2019/31.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For Prisoners Home ACNA 2019 For Prisoners O God, you forgive when we deserve punishment, and in your wrath you remember mercy: We humbly ask you, of your goodness, to comfort all prisoners [and especially those who are condemned to die]. Give them a right understanding of themselves, and of your promises, that trusting wholly in your mercy, they may not place their confidence anywhere but in you. Relieve the distressed; deliver the innocent; bring the guilty to repentance; and as you alone bring light out of darkness, and good out of evil, grant that by the power of your Holy Spirit they may be set free from the chains of sin, and brought to newness of life; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "O God, you forgive when we deserve punishment, and in your wrath you remember mercy: We humbly ask you, of your goodness, to comfort all prisoners [and especially those who are condemned to die]. Give them a right understanding of themselves, and of your promises, that trusting wholly in your mercy, they may not place their confidence anywhere but in you. Relieve the distressed; deliver the innocent; bring the guilty to repentance; and as you alone bring light out of darkness, and good out of evil, grant that by the power of your Holy Spirit they may be set free from the chains of sin, and brought to newness of life; through Jesus Christ our Lord. Amen.",
             "title": "For Prisoners",
             "url": "/prayers/acna2019/60.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For the Absent Home ACNA 2019 For the Absent O God, whose fatherly care reaches to the ends of the earth: We ask you graciously to behold and bless those we love who are now absent from us [especially _____]. Defend them from all dangers of soul and body, and grant that both they and we, drawing nearer to you, may be bound together by your love, in the communion of your Holy Spirit and in the fellowship of your saints; through Jesus Christ our Lord. Amen. Tags: Those in Need",
+            "text": "O God, whose fatherly care reaches to the ends of the earth: We ask you graciously to behold and bless those we love who are now absent from us [especially _____]. Defend them from all dangers of soul and body, and grant that both they and we, drawing nearer to you, may be bound together by your love, in the communion of your Holy Spirit and in the fellowship of your saints; through Jesus Christ our Lord. Amen.",
             "title": "For the Absent",
             "url": "/prayers/acna2019/54.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "For Watchfulness Lancelot Andrewes Home ACNA 2019 For Watchfulness Lancelot Andrewes Thou, who with thine own mouth hast told us that at midnight the bridegroom shall come: Grant that the cry, “The bridegroom cometh!” may sound evermore in our ears, that so we be never unprepared to meet him, or forgetful of the souls for whom he died, for whom we watch and pray. And save us, O Lord. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "Thou, who with thine own mouth hast told us that at midnight the bridegroom shall come: Grant that the cry, “The bridegroom cometh!” may sound evermore in our ears, that so we be never unprepared to meet him, or forgetful of the souls for whom he died, for whom we watch and pray. And save us, O Lord. Amen.",
             "title": "For Watchfulness Lancelot Andrewes",
             "url": "/prayers/acna2019/109.html"
         },
         {
             "tags": "Creation",
-            "text": "In Time of Scarcity and Famine Home ACNA 2019 In Time of Scarcity and Famine O God, our heavenly Father, whose blessed Son has taught us to seek our daily bread from you: Behold the affliction of your people, and send us swift aid in our time of need. Increase the fruits of the earth by your heavenly benediction; and grant that we, receiving your gifts with thankful hearts, may use them to your glory, for the relief of those in need, and for our own health; through Jesus Christ our Lord. Amen. Tags: Creation",
+            "text": "O God, our heavenly Father, whose blessed Son has taught us to seek our daily bread from you: Behold the affliction of your people, and send us swift aid in our time of need. Increase the fruits of the earth by your heavenly benediction; and grant that we, receiving your gifts with thankful hearts, may use them to your glory, for the relief of those in need, and for our own health; through Jesus Christ our Lord. Amen.",
             "title": "In Time of Scarcity and Famine",
             "url": "/prayers/acna2019/25.html"
         },
         {
             "tags": "Family and Personal Life",
-            "text": "For Desiring God Francis Xavier Home ACNA 2019 For Desiring God Francis Xavier O God, grant that we may desire you, and desiring you seek you, and seeking you find you, and finding you be satisfied in you for ever. Amen. Tags: Family and Personal Life",
+            "text": "O God, grant that we may desire you, and desiring you seek you, and seeking you find you, and finding you be satisfied in you for ever. Amen.",
             "title": "For Desiring God Francis Xavier",
             "url": "/prayers/acna2019/74.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Participation in the Peace of God in the Tradition of Francis of Assisi Home ACNA 2019 For Participation in the Peace of God in the Tradition of Francis of Assisi Lord, make me an instrument of your peace: where there is hatred, let me sow love; where there is injury, pardon; where there is discord, union; where there is error, truth; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O divine Master, grant that I may seek not so much to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. Amen. Tags: Personal Devotion",
+            "text": "Lord, make me an instrument of your peace: where there is hatred, let me sow love; where there is injury, pardon; where there is discord, union; where there is error, truth; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O divine Master, grant that I may seek not so much to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. Amen.",
             "title": "For Participation in the Peace of God in the Tradition of Francis of Assisi",
             "url": "/prayers/acna2019/87.html"
         },
         {
             "tags": "Society",
-            "text": "For All Sorts and Conditions of Men Home ACNA 2019 For All Sorts and Conditions of Men O God, the creator and preserver of all mankind, we humbly beseech thee for all sorts and conditions of men; that thou wouldest be pleased to make thy ways known unto them, thy saving health unto all nations. More especially we pray for thy holy Church universal, that it may be so guided and governed by thy good Spirit, that all who profess and call themselves Christians may be led into the way of truth, and hold the faith in unity of spirit, in the bond of peace, and in righteousness of life. Finally, we commend to thy fatherly goodness all those who are in any ways afflicted or distressed, in mind, body, or estate, [especially those for whom our prayers are desired]; that it may please thee to comfort and relieve them according to their several necessities, giving them patience under their sufferings, and a happy issue out of all their afflictions. And this we beg for Jesus Christ’s sake. Amen. Tags: Society",
+            "text": "O God, the creator and preserver of all mankind, we humbly beseech thee for all sorts and conditions of men; that thou wouldest be pleased to make thy ways known unto them, thy saving health unto all nations. More especially we pray for thy holy Church universal, that it may be so guided and governed by thy good Spirit, that all who profess and call themselves Christians may be led into the way of truth, and hold the faith in unity of spirit, in the bond of peace, and in righteousness of life. Finally, we commend to thy fatherly goodness all those who are in any ways afflicted or distressed, in mind, body, or estate, [especially those for whom our prayers are desired]; that it may please thee to comfort and relieve them according to their several necessities, giving them patience under their sufferings, and a happy issue out of all their afflictions. And this we beg for Jesus Christ’s sake. Amen.",
             "title": "For All Sorts and Conditions of Men",
             "url": "/prayers/acna2019/40.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Local Congregation Home ACNA 2019 For the Local Congregation O God the Holy Spirit, Sanctifier of the faithful: Sanctify this Congregation by your abiding presence. Bless those who minister in holy things. Enlighten the minds of your people more and more with the light of the everlasting Gospel. Bring erring souls to the knowledge of our Savior Jesus Christ; and those who are walking in the way of life, keep steadfast to the end. Give patience to the sick and afflicted, and renew them in body and soul. Guard those who are strong and prosperous from forgetting you. Increase in us your many gifts of grace, and make us all fruitful in good works. This we ask, O blessed Spirit, whom with the Father and the Son we worship and glorify, one God, world without end. Amen. Tags: The Church",
+            "text": "O God the Holy Spirit, Sanctifier of the faithful: Sanctify this Congregation by your abiding presence. Bless those who minister in holy things. Enlighten the minds of your people more and more with the light of the everlasting Gospel. Bring erring souls to the knowledge of our Savior Jesus Christ; and those who are walking in the way of life, keep steadfast to the end. Give patience to the sick and afflicted, and renew them in body and soul. Guard those who are strong and prosperous from forgetting you. Increase in us your many gifts of grace, and make us all fruitful in good works. This we ask, O blessed Spirit, whom with the Father and the Son we worship and glorify, one God, world without end. Amen.",
             "title": "For the Local Congregation",
             "url": "/prayers/acna2019/11.html"
         },
         {
             "tags": "Society",
-            "text": "For the Medical Professions Home ACNA 2019 For the Medical Professions Almighty God, whose blessed Son Jesus Christ went about doing good, and healing all manner of sickness and disease among the people: Continue in our hospitals his gracious work among us [especially in _ ___]; console and heal the sick; grant to the physicians, nurses, and assisting staff wisdom and skill, diligence and patience; prosper their work, O Lord, and send down your blessing upon all who serve the suffering; through Jesus Christ our Lord. Amen. Tags: Society",
+            "text": "Almighty God, whose blessed Son Jesus Christ went about doing good, and healing all manner of sickness and disease among the people: Continue in our hospitals his gracious work among us [especially in _ ___]; console and heal the sick; grant to the physicians, nurses, and assisting staff wisdom and skill, diligence and patience; prosper their work, O Lord, and send down your blessing upon all who serve the suffering; through Jesus Christ our Lord. Amen.",
             "title": "For the Medical Professions",
             "url": "/prayers/acna2019/50.html"
         },
         {
             "tags": "The Church",
-            "text": "For a Provincial or Diocesan Convention or Synod Home ACNA 2019 For a Provincial or Diocesan Convention or Synod Gracious and everliving Father, you have given the Holy Spirit to abide with us for ever: Bless, we pray, with the Holy Spirit’s grace and presence, the Bishop(s), Priests, Deacons, and all the Laity who assemble in your Name; that your Church, being preserved in true faith and godly discipline, may fulfill the will of him who loved her and gave himself for her, your Son Jesus Christ our Savior; who now lives and reigns with you and the same Spirit, one God, now and for ever. Amen. Tags: The Church",
+            "text": "Gracious and everliving Father, you have given the Holy Spirit to abide with us for ever: Bless, we pray, with the Holy Spirit’s grace and presence, the Bishop(s), Priests, Deacons, and all the Laity who assemble in your Name; that your Church, being preserved in true faith and godly discipline, may fulfill the will of him who loved her and gave himself for her, your Son Jesus Christ our Savior; who now lives and reigns with you and the same Spirit, one God, now and for ever. Amen.",
             "title": "For a Provincial or Diocesan Convention or Synod",
             "url": "/prayers/acna2019/8.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "Preparation for Personal Prayer Home ACNA 2019 Preparation for Personal Prayer Holy Spirit, breath of God and fire of love, I cannot pray without your aid: Kindle in me the fire of your love, and illumine me with your light; that with a steadfast will and holy thoughts I may approach the Father in spirit and in truth; through Jesus Christ my Lord, who reigns with you and the Father in eternal union. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Holy Spirit, breath of God and fire of love, I cannot pray without your aid: Kindle in me the fire of your love, and illumine me with your light; that with a steadfast will and holy thoughts I may approach the Father in spirit and in truth; through Jesus Christ my Lord, who reigns with you and the Father in eternal union. Amen.",
             "title": "Preparation for Personal Prayer",
             "url": "/prayers/acna2019/97.html"
         },
         {
             "tags": "Those in Need",
-            "text": "For the Unrepentant Home ACNA 2019 For the Unrepentant Merciful God, you desire not the death of sinners, but rather that they should turn to you and live; and through your only Son you have revealed yourself as the God who pardons iniquity. Have mercy on the unrepentant and those who do not believe [especially _____]. Awaken in them, by your Word and Holy Spirit, a deep sense of their sinfulness and peril. Take from them all ignorance, hardness of heart, and contempt of your Word. Grant them to know and feel that there is no other Name under heaven given among men by which they must be saved, but only the Name of the Lord Jesus Christ. And so bring them home and number them among your children, that they may be yours for ever; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, world without end. Amen. Tags: Those in Need",
+            "text": "Merciful God, you desire not the death of sinners, but rather that they should turn to you and live; and through your only Son you have revealed yourself as the God who pardons iniquity. Have mercy on the unrepentant and those who do not believe [especially _____]. Awaken in them, by your Word and Holy Spirit, a deep sense of their sinfulness and peril. Take from them all ignorance, hardness of heart, and contempt of your Word. Grant them to know and feel that there is no other Name under heaven given among men by which they must be saved, but only the Name of the Lord Jesus Christ. And so bring them home and number them among your children, that they may be yours for ever; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, world without end. Amen.",
             "title": "For the Unrepentant",
             "url": "/prayers/acna2019/64.html"
         },
         {
             "tags": "The Nation (Specific to Canada)",
-            "text": "For the Royal Family Home ACNA 2019 For the Royal Family Almighty God, the fountain of all goodness, we humbly ask you to bless our most gracious Sovereign, Queen N., [here may be named other members of the Royal Family] and all the Royal Family: Endue them with your Holy Spirit; enrich them with your heavenly grace; prosper them with all happiness; and bring them to your everlasting kingdom; through Jesus Christ our Lord. Amen. Tags: The Nation (Specific to Canada)",
+            "text": "Almighty God, the fountain of all goodness, we humbly ask you to bless our most gracious Sovereign, Queen N., [here may be named other members of the Royal Family] and all the Royal Family: Endue them with your Holy Spirit; enrich them with your heavenly grace; prosper them with all happiness; and bring them to your everlasting kingdom; through Jesus Christ our Lord. Amen.",
             "title": "For the Royal Family",
             "url": "/prayers/acna2019/35.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "A Litany of Thanksgiving Home ACNA 2019 A Litany of Thanksgiving Let us give thanks to God our Father for all his gifts so freely bestowed upon us: For the beauty and wonder of your creation, in earth and sky and sea, We thank you, Lord. For our daily food and drink, our homes and families, and our friends, We thank you, Lord. For minds to think, and hearts to love, and hands to serve, We thank you, Lord. For health and strength to work, and time to rest and worship, We thank you, Lord. For all who are patient in suffering and faithful in adversity, We thank you, Lord. For all who earnestly seek after truth, and all who labor for justice, We thank you, Lord. For all that is good and gracious in the lives of men and women, revealing the image of Christ, We thank you, Lord. For the communion of saints, in all times and places, We thank you, Lord. Above all, we give you thanks for the great mercies and promises given to us in Christ Jesus our Lord; To him be praise and glory, with you, O Father, and the Holy Spirit, now and for ever.  Amen Tags: Thanksgivings",
+            "text": "Let us give thanks to God our Father for all his gifts so freely bestowed upon us: For the beauty and wonder of your creation, in earth and sky and sea, We thank you, Lord. For our daily food and drink, our homes and families, and our friends, We thank you, Lord. For minds to think, and hearts to love, and hands to serve, We thank you, Lord. For health and strength to work, and time to rest and worship, We thank you, Lord. For all who are patient in suffering and faithful in adversity, We thank you, Lord. For all who earnestly seek after truth, and all who labor for justice, We thank you, Lord. For all that is good and gracious in the lives of men and women, revealing the image of Christ, We thank you, Lord. For the communion of saints, in all times and places, We thank you, Lord. Above all, we give you thanks for the great mercies and promises given to us in Christ Jesus our Lord; To him be praise and glory, with you, O Father, and the Holy Spirit, now and for ever.  Amen",
             "title": "A Litany of Thanksgiving",
             "url": "/prayers/acna2019/116.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For Military Veterans Home ACNA 2019 For Military Veterans O Judge of the nations, we thank you with grateful hearts for the men and women of our country who in the day of decision ventured much for the liberties we now enjoy. Grant that we may not rest until all the people of this land share the benefits of true freedom and gladly accept its disciplines. This we ask in the Name of Jesus Christ our Lord. Amen. Tags: Thanksgivings",
+            "text": "O Judge of the nations, we thank you with grateful hearts for the men and women of our country who in the day of decision ventured much for the liberties we now enjoy. Grant that we may not rest until all the people of this land share the benefits of true freedom and gladly accept its disciplines. This we ask in the Name of Jesus Christ our Lord. Amen.",
             "title": "For Military Veterans",
             "url": "/prayers/acna2019/122.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "For Spiritual Communion Home ACNA 2019 For Spiritual Communion Dear Jesus, I believe that you are truly present in the Holy Sacrament. I love you above all things, and I desire to possess you within my soul. And since I cannot now receive you sacramentally, I beseech you to come spiritually into my heart. I unite myself to you, together with all your faithful people [gathered around every altar of your Church], and I embrace you with all the affections of my soul. Never permit me to be separated from you. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Dear Jesus, I believe that you are truly present in the Holy Sacrament. I love you above all things, and I desire to possess you within my soul. And since I cannot now receive you sacramentally, I beseech you to come spiritually into my heart. I unite myself to you, together with all your faithful people [gathered around every altar of your Church], and I embrace you with all the affections of my soul. Never permit me to be separated from you. Amen.",
             "title": "For Spiritual Communion",
             "url": "/prayers/acna2019/106.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Unity of the Church Home ACNA 2019 For the Unity of the Church Lord Jesus Christ, you said to your apostles, “Peace I give to you; my own peace I leave with you”: Regard not our sins, but the faith of your Church, and give to us the peace and unity of that heavenly city, where with the Father and the Holy Spirit you live and reign, now and for ever. Amen. Tags: The Church",
+            "text": "Lord Jesus Christ, you said to your apostles, “Peace I give to you; my own peace I leave with you”: Regard not our sins, but the faith of your Church, and give to us the peace and unity of that heavenly city, where with the Father and the Holy Spirit you live and reign, now and for ever. Amen.",
             "title": "For the Unity of the Church",
             "url": "/prayers/acna2019/3.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Daily Growth Richard of Chichester Home ACNA 2019 For Daily Growth Richard of Chichester Thanks be to thee, my Lord Jesus Christ, for all the pains and insults thou hast borne for me, and all the benefits thou hast given me. O most merciful Redeemer, Friend, and Brother: Grant that I may see thee more clearly, love thee more dearly, and follow thee more nearly, day by day. Amen. Tags: Personal Devotion",
+            "text": "Thanks be to thee, my Lord Jesus Christ, for all the pains and insults thou hast borne for me, and all the benefits thou hast given me. O most merciful Redeemer, Friend, and Brother: Grant that I may see thee more clearly, love thee more dearly, and follow thee more nearly, day by day. Amen.",
             "title": "For Daily Growth Richard of Chichester",
             "url": "/prayers/acna2019/88.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "The Communion of Saints Home ACNA 2019 The Communion of Saints O God of the spirits of all flesh, we praise and magnify thy holy Name for all thy servants who have finished their course in thy faith and fear [especially thy servant N.]; and we beseech thee that, encouraged by their examples and strengthened by their fellowship, we also may be found meet to be partakers of the inheritance of the saints in light; through the merits of thy Son Jesus Christ our Lord. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "O God of the spirits of all flesh, we praise and magnify thy holy Name for all thy servants who have finished their course in thy faith and fear [especially thy servant N.]; and we beseech thee that, encouraged by their examples and strengthened by their fellowship, we also may be found meet to be partakers of the inheritance of the saints in light; through the merits of thy Son Jesus Christ our Lord. Amen.",
             "title": "The Communion of Saints",
             "url": "/prayers/acna2019/112.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "On Sundays Home ACNA 2019 On Sundays O God, you make us glad with the weekly remembrance of the glorious resurrection of your Son our Lord: Give us this day such blessing through our worship of you, that the week to come may be spent in your favor; through Jesus Christ our Lord. Amen. Tags: At Times of Prayer and Worship",
+            "text": "O God, you make us glad with the weekly remembrance of the glorious resurrection of your Son our Lord: Give us this day such blessing through our worship of you, that the week to come may be spent in your favor; through Jesus Christ our Lord. Amen.",
             "title": "On Sundays",
             "url": "/prayers/acna2019/102.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "For the Acceptance of Prayer Home ACNA 2019 For the Acceptance of Prayer Heavenly Father, you have promised to hear what we ask in the Name of your Son: Accept and fulfill our petitions, we pray, not as we ask in our ignorance, nor as we deserve in our sinfulness, but as you know and love us in your Son Jesus Christ our Lord. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Heavenly Father, you have promised to hear what we ask in the Name of your Son: Accept and fulfill our petitions, we pray, not as we ask in our ignorance, nor as we deserve in our sinfulness, but as you know and love us in your Son Jesus Christ our Lord. Amen.",
             "title": "For the Acceptance of Prayer",
             "url": "/prayers/acna2019/98.html"
         },
         {
             "tags": "The Church",
-            "text": "For a Provincial or Diocesan Convention or Synod Home ACNA 2019 For a Provincial or Diocesan Convention or Synod Almighty and everlasting God, by your Holy Spirit you presided in the council of the blessed Apostles, and you promised, through your Son Jesus Christ, to be with your Church to the end of the world: Be with the council of your Church assembled [here] in your Name and presence. Save us from all error, ignorance, prejudice, and pride; and of your great mercy direct, sanctify, and govern us in our work, by the mighty power of the Holy Spirit; that the order and discipline of your Church may be maintained, and that the Gospel of Christ may be truly preached, truly received, and truly followed in all places, breaking down the kingdom of sin, Satan, and death; till all your scattered sheep, being gathered into one fold, become partakers of everlasting life; through the merits and death of Jesus Christ our Savior. Amen. Tags: The Church",
+            "text": "Almighty and everlasting God, by your Holy Spirit you presided in the council of the blessed Apostles, and you promised, through your Son Jesus Christ, to be with your Church to the end of the world: Be with the council of your Church assembled [here] in your Name and presence. Save us from all error, ignorance, prejudice, and pride; and of your great mercy direct, sanctify, and govern us in our work, by the mighty power of the Holy Spirit; that the order and discipline of your Church may be maintained, and that the Gospel of Christ may be truly preached, truly received, and truly followed in all places, breaking down the kingdom of sin, Satan, and death; till all your scattered sheep, being gathered into one fold, become partakers of everlasting life; through the merits and death of Jesus Christ our Savior. Amen.",
             "title": "For a Provincial or Diocesan Convention or Synod",
             "url": "/prayers/acna2019/7.html"
         },
         {
             "tags": "Personal Devotion",
-            "text": "For Seeking God Anselm of Canterbury Home ACNA 2019 For Seeking God Anselm of Canterbury Teach me to seek you, and as I seek you, show yourself to me; for I cannot seek you unless you show me how, and I will never find you unless you show yourself to me. Let me seek you by desiring you, and desire you by seeking you; let me find you by loving you, and love you in finding you. Amen. Tags: Personal Devotion",
+            "text": "Teach me to seek you, and as I seek you, show yourself to me; for I cannot seek you unless you show me how, and I will never find you unless you show yourself to me. Let me seek you by desiring you, and desire you by seeking you; let me find you by loving you, and love you in finding you. Amen.",
             "title": "For Seeking God Anselm of Canterbury",
             "url": "/prayers/acna2019/89.html"
         },
         {
             "tags": "Death, the Departed, and the Communion of Saints",
-            "text": "The Communion of Saints Home ACNA 2019 The Communion of Saints O eternal Lord God, you hold all souls in life: Shed forth upon your whole Church in Paradise and on earth the bright beams of your light and heavenly comfort; and grant that we, following the good example of those who have loved and served you here and are now at rest, may enter with them into the fullness of your unending joy; through Jesus Christ our Lord. Amen. Tags: Death, the Departed, and the Communion of Saints",
+            "text": "O eternal Lord God, you hold all souls in life: Shed forth upon your whole Church in Paradise and on earth the bright beams of your light and heavenly comfort; and grant that we, following the good example of those who have loved and served you here and are now at rest, may enter with them into the fullness of your unending joy; through Jesus Christ our Lord. Amen.",
             "title": "The Communion of Saints",
             "url": "/prayers/acna2019/113.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "Preparation for Public Worship Home ACNA 2019 Preparation for Public Worship Guide and direct us, O Lord, always and everywhere with your holy light, that we may discern with clear vision your presence among us, and partake with worthy intention of your divine mysteries. We ask this for Jesus Christ’s sake. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Guide and direct us, O Lord, always and everywhere with your holy light, that we may discern with clear vision your presence among us, and partake with worthy intention of your divine mysteries. We ask this for Jesus Christ’s sake. Amen.",
             "title": "Preparation for Public Worship",
             "url": "/prayers/acna2019/103.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "For the Acceptance of Prayer Home ACNA 2019 For the Acceptance of Prayer O Lord our God, accept the fervent prayers of your people; in the multitude of your mercies, look with compassion upon us and all who turn to you for help; for you are gracious, O lover of souls, and to you we give glory, Father, Son, and Holy Spirit, now and for ever. Amen. Tags: At Times of Prayer and Worship",
+            "text": "O Lord our God, accept the fervent prayers of your people; in the multitude of your mercies, look with compassion upon us and all who turn to you for help; for you are gracious, O lover of souls, and to you we give glory, Father, Son, and Holy Spirit, now and for ever. Amen.",
             "title": "For the Acceptance of Prayer",
             "url": "/prayers/acna2019/99.html"
         },
         {
             "tags": "The Church",
-            "text": "For a Province or Diocese Home ACNA 2019 For a Province or Diocese O God, by your grace you have called us in this Diocese to be a good and godly fellowship of faith. Bless our Bishop(s) N., and other clergy, and all our people. Grant that your Word may be truly preached and truly heard, your Sacraments faithfully administered and faithfully received. By your Spirit, fashion our lives according to the example of your Son, and grant that we may show the power of your love to all among whom we live; through Jesus Christ our Lord. Amen. Tags: The Church",
+            "text": "O God, by your grace you have called us in this Diocese to be a good and godly fellowship of faith. Bless our Bishop(s) N., and other clergy, and all our people. Grant that your Word may be truly preached and truly heard, your Sacraments faithfully administered and faithfully received. By your Spirit, fashion our lives according to the example of your Son, and grant that we may show the power of your love to all among whom we live; through Jesus Christ our Lord. Amen.",
             "title": "For a Province or Diocese",
             "url": "/prayers/acna2019/6.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "A Thanksgiving Prayer Home ACNA 2019 A Thanksgiving Prayer Accept, O Lord, our thanks and praise for all that you have done for us. We thank you for the splendor of the whole creation, for the beauty of this world, for the wonder of life, and for the mystery of love. We thank you for the blessing of family and friends, and for the loving care which surrounds us on every side. We thank you for setting us at tasks that demand our best efforts, and for leading us to accomplishments that satisfy and delight us. We thank you also for those disappointments and failures that lead us to acknowledge our dependence on you alone. Above all, we thank you for your Son Jesus Christ; for the truth of his Word and the example of his life; for his steadfast obedience, by which he overcame temptation; for his dying, through which he conquered death; and for his rising to life again, in which we are raised to the life of your kingdom. Grant us the gift of your Spirit, that we may know Christ and make him known; and through him, at all times and in all places, may give thanks to you in all things. Amen. Tags: Thanksgivings",
+            "text": "Accept, O Lord, our thanks and praise for all that you have done for us. We thank you for the splendor of the whole creation, for the beauty of this world, for the wonder of life, and for the mystery of love. We thank you for the blessing of family and friends, and for the loving care which surrounds us on every side. We thank you for setting us at tasks that demand our best efforts, and for leading us to accomplishments that satisfy and delight us. We thank you also for those disappointments and failures that lead us to acknowledge our dependence on you alone. Above all, we thank you for your Son Jesus Christ; for the truth of his Word and the example of his life; for his steadfast obedience, by which he overcame temptation; for his dying, through which he conquered death; and for his rising to life again, in which we are raised to the life of your kingdom. Grant us the gift of your Spirit, that we may know Christ and make him known; and through him, at all times and in all places, may give thanks to you in all things. Amen.",
             "title": "A Thanksgiving Prayer",
             "url": "/prayers/acna2019/117.html"
         },
         {
             "tags": "Thanksgivings",
-            "text": "For Deliverance From Peril Home ACNA 2019 For Deliverance From Peril Almighty God, our strong tower of defense in time of trouble: We offer you praise and heartfelt thanks for our deliverance from the dangers which lately surrounded us [and for your gracious gift of peace]. We confess that your goodness alone has preserved us; and we ask you still to continue your mercies toward us, that we may always know and acknowledge you as our Savior and mighty Deliverer; through Jesus Christ our Lord. Amen. Tags: Thanksgivings",
+            "text": "Almighty God, our strong tower of defense in time of trouble: We offer you praise and heartfelt thanks for our deliverance from the dangers which lately surrounded us [and for your gracious gift of peace]. We confess that your goodness alone has preserved us; and we ask you still to continue your mercies toward us, that we may always know and acknowledge you as our Savior and mighty Deliverer; through Jesus Christ our Lord. Amen.",
             "title": "For Deliverance From Peril",
             "url": "/prayers/acna2019/123.html"
         },
         {
             "tags": "At Times of Prayer and Worship",
-            "text": "After Communion Liturgy of St. Basil Home ACNA 2019 After Communion Liturgy of St. Basil Finished and perfected is the mystery of thy dispensation to us, O Christ our God: For we have beheld the likeness of thy death, we have seen thy resurrection in the breaking of the bread, and we have partaken of thine inexhaustible and divine delights, of which do thou make us worthy, both now and in thy kingdom and unto the ages of ages. Amen. Tags: At Times of Prayer and Worship",
+            "text": "Finished and perfected is the mystery of thy dispensation to us, O Christ our God: For we have beheld the likeness of thy death, we have seen thy resurrection in the breaking of the bread, and we have partaken of thine inexhaustible and divine delights, of which do thou make us worthy, both now and in thy kingdom and unto the ages of ages. Amen.",
             "title": "After Communion Liturgy of St. Basil",
             "url": "/prayers/acna2019/107.html"
         },
         {
             "tags": "The Church",
-            "text": "For the Universal Church William Laud Home ACNA 2019 For the Universal Church William Laud Gracious Father, we pray for your holy Catholic Church. Fill it with all truth, in all truth with all peace. Where it is corrupt, purify it; where it is in error, direct it; where in anything it is amiss, reform it. Where it is right, strengthen it; where it is in want, provide for it; where it is divided, reunite it; for the sake of Jesus Christ your Son our Savior. Amen. Tags: The Church",
+            "text": "Gracious Father, we pray for your holy Catholic Church. Fill it with all truth, in all truth with all peace. Where it is corrupt, purify it; where it is in error, direct it; where in anything it is amiss, reform it. Where it is right, strengthen it; where it is in want, provide for it; where it is divided, reunite it; for the sake of Jesus Christ your Son our Savior. Amen.",
             "title": "For the Universal Church William Laud",
             "url": "/prayers/acna2019/2.html"
         },
         {
             "tags": "",
-            "text": "Tag index The Church Family and Personal Life Those in Need At Times of Prayer and Worship Society Personal Devotion Thanksgivings Death, the Departed, and the Communion of Saints The Nation Creation Family and Personal Life (Throughout the Day) The Nation (Specific to Canada) The Nation (Specific to the United States or Mexico)",
+            "text": "",
             "title": "Tag index",
             "url": "/prayers/tag/index.html"
         },
         {
             "tags": "",
-            "text": "The Church For the Spirit of Prayer For Missionary Societies For the Universal Church For All Missionaries For the Unity of All Christian People For the Mission of the Church For the Local Congregation For Vocations to Ordained Ministry For the Mission of the Church For the Selection of a Bishop or Other Minister For Vestry and Church Meetings For Church Musicians and Artists For a Spirit of Evangelism For Monastic Orders and Vocations For the Local Congregation For a Provincial or Diocesan Convention or Synod For the Unity of the Church For a Provincial or Diocesan Convention or Synod For a Province or Diocese For the Universal Church William Laud",
+            "text": "",
             "title": "The Church",
             "url": "/prayers/tag/The Church/"
         },
         {
             "tags": "",
-            "text": "Family and Personal Life For Mercy For a Marriage or Anniversary To Please God Rather Than Men Thomas À Kempis For a Child, or for a Birthday For Trustfulness in Times of Worry and Anxiety A Prayer of Self-Dedication William Temple For Guidance For a Birthday For Guidance For the Care of Children For Help to Bear Bereavement For Knowing and Loving God For Holy Thought For Families For Christ to Be Formed in Us For Quiet Confidence For Inner Renewal Through the Word For Desiring God Francis Xavier",
+            "text": "",
             "title": "Family and Personal Life",
             "url": "/prayers/tag/Family and Personal Life/"
         },
         {
             "tags": "",
-            "text": "Those in Need For the Discouraged and Downcast For a Person in Trouble or Bereavement For Those in Bondage to Addiction For Those With Chronic Disease For Those Who Travel For Those We Love For Those Afflicted With Mental Suffering For the Elderly For the Recovery of a Sick Person For Those Who Live Alone For Prisoners For the Absent For the Unrepentant",
+            "text": "",
             "title": "Those in Need",
             "url": "/prayers/tag/Those in Need/"
         },
         {
             "tags": "",
-            "text": "At Times of Prayer and Worship For the Answering of Prayer Before Receiving Communion After Receiving Communion Before the Reading of Scripture After Public Worship Preparation for Personal Prayer For Spiritual Communion On Sundays For the Acceptance of Prayer Preparation for Public Worship For the Acceptance of Prayer After Communion Liturgy of St. Basil",
+            "text": "",
             "title": "At Times of Prayer and Worship",
             "url": "/prayers/tag/At Times of Prayer and Worship/"
         },
         {
             "tags": "",
-            "text": "Society For Schools, Colleges, and Universities For Agriculture and Farming For the Unemployed For Social Justice For the Human Family For Commerce and Industry For Cities, Towns, and Other Communities For Those Who Inform Public Opinion For Those Who Serve Others In Times of Social Conflict or Distress For All Sorts and Conditions of Men For the Medical Professions",
+            "text": "",
             "title": "Society",
             "url": "/prayers/tag/Society/"
         },
         {
             "tags": "",
-            "text": "Personal Devotion For Grace to Seek God in Every Way Benedict of Nursia For a Virtuous Heart Thomas Aquinas In Times of Suffering or Weakness For Submission to God’s Will Joseph Mercier For Union With Christ Anima Christi For Satisfaction in Christ Julian of Norwich A Covenant Prayer John Wesley For Participation in the Peace of God in the Tradition of Francis of Assisi For Daily Growth Richard of Chichester For Seeking God Anselm of Canterbury",
+            "text": "",
             "title": "Personal Devotion",
             "url": "/prayers/tag/Personal Devotion/"
         },
         {
             "tags": "",
-            "text": "Thanksgivings For the Restoration of Health For the Beauty of the Earth For the Diversity of Races and Cultures For the Saints and Faithful Departed For the Mission of the Church For the Harvest A Litany of Thanksgiving For Military Veterans A Thanksgiving Prayer For Deliverance From Peril",
+            "text": "",
             "title": "Thanksgivings",
             "url": "/prayers/tag/Thanksgivings/"
         },
         {
             "tags": "",
-            "text": "Death, the Departed, and the Communion of Saints For Joy at the End of Life Miles Coverdale For All Faithful Departed For the Coming of God’s Kingdom For an Anniversary of One Departed For Watchfulness Lancelot Andrewes The Communion of Saints The Communion of Saints",
+            "text": "",
             "title": "Death, the Departed, and the Communion of Saints",
             "url": "/prayers/tag/Death, the Departed, and the Communion of Saints/"
         },
         {
             "tags": "",
-            "text": "The Nation For the Peace of the World For Courts of Justice For Those in the Armed Forces For the Peace of the World For Our Enemies For Civil Authorities For an Election",
+            "text": "",
             "title": "The Nation",
             "url": "/prayers/tag/The Nation/"
         },
         {
             "tags": "",
-            "text": "Creation For Stewardship of Creation In Times of Natural Disaster For the Harvest of Lands and Waters For Rain For Joy in God’s Creation In Time of Scarcity and Famine",
+            "text": "",
             "title": "Creation",
             "url": "/prayers/tag/Creation/"
         },
         {
             "tags": "",
-            "text": "Family and Personal Life (Throughout the Day) Grace at Meals In the Evening John Henry Newman For Sleep In the Morning",
+            "text": "",
             "title": "Family and Personal Life (Throughout the Day)",
             "url": "/prayers/tag/Family and Personal Life (Throughout the Day)/"
         },
         {
             "tags": "",
-            "text": "The Nation (Specific to Canada) For the Prime Minister of Canada, Lieutenant Governors and the Premiers of the Provinces For the Sovereign For the Royal Family",
+            "text": "",
             "title": "The Nation (Specific to Canada)",
             "url": "/prayers/tag/The Nation (Specific to Canada)/"
         },
         {
             "tags": "",
-            "text": "The Nation (Specific to the United States or Mexico) For Congress or a State Legislature For Our Nation For the President and All in Civil Authority",
+            "text": "",
             "title": "The Nation (Specific to the United States or Mexico)",
             "url": "/prayers/tag/The Nation (Specific to the United States or Mexico)/"
         }
