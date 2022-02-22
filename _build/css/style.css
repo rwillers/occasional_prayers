@@ -35,6 +35,7 @@ small {
 	margin: 0 auto;
 }
 .navbar h1 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	font-size: 1em;
 	font-weight: 600;
 	margin: 0;
