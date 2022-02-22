@@ -24,6 +24,7 @@ a:visited {
 
 .navbar {
 	background-color: #d7cec7;
+	color: #000;
 	margin: 0;
 	padding: 20px;
 }
@@ -35,14 +36,14 @@ content {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #000;
+		background-color: #333;
 		color: #ccc;
  	}
 	a {
-		color: #dbafaf;
+		color: #ccc;
 	}
 	a:visited {
-		color: #fcc;
+		color: #aaa;
 	}
 }
 
