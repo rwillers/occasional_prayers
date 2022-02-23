@@ -26,7 +26,7 @@ small {
 
 .navbar {
 	background-color: #d7cec7;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 20px;
 }
 .navbar .inner {
@@ -40,7 +40,7 @@ small {
 	gap: 20px;
 }
 .navbar h1 {
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: 600;
 	margin: 0;
@@ -61,7 +61,6 @@ small {
 }
 .navbar form input {
 	background-color: #f4f2f0;
-	border-color: #c0b1a5;
 	color: #333;
 	font-size: 12pt;
 	width: 120px;
@@ -78,7 +77,7 @@ div#content {
 	body {
 		background-color: #222;
 		color: #ccc;
- 	}
+	}
 	a {
 		color: #ccc;
 	}
@@ -93,8 +92,7 @@ div#content {
 		color: #fff;
 	}
 	.navbar form input {
-		background-color: #080808;
-		border-color: #000;
+		background-color: #000;
 		color: #eee;
 	}
 }
@@ -102,7 +100,7 @@ div#content {
 
 ol.breadcrumb {
 	list-style: none;
-	margin: 0;
+	margin: 0 0 40px 0;
 	padding: 0;
 	font-size: 0.9em;
 }
@@ -113,7 +111,63 @@ ol.breadcrumb li+li:before {
 	content: '\003e\00a0';
 }
 .tags {
-	margin: 20px 0 0 0;
+	margin: 40px 0;
 	font-size: 0.9em;
 }	
 
+
+/* Tipue search */
+
+#tipue_search_results_count {
+	font-size: 0.9em;
+}
+.tipue_search_content_title {
+	margin: 1em 0 0.5em 0;
+	font-weight:  bold;
+}
+.tipue_search_content_url {
+	display:  none;
+}
+.tipue_search_content_text {
+	font-size: 0.9em;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+#tipue_search_foot {
+	 margin: 40px 0 20px 0;
+}
+#tipue_search_foot_boxes {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+}
+#tipue_search_foot_boxes li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+#tipue_search_foot_boxes li a {
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 1px solid #d7cec7;
+	border-radius: 1px;
+	color: #565656;
+	margin-right: 7px;
+	text-decoration: none;
+	text-align: center;
+}
+#tipue_search_foot_boxes li.current {
+	padding: 10px 15px;
+	background-color: #f6f6f6;
+	border: 1px solid #d7cec7;
+	border-radius: 1px;
+	color: #565656;
+	margin-right: 7px;
+	text-align: center;
+}
+#tipue_search_foot_boxes li a:hover {
+	background: #f6f6f6;
+}

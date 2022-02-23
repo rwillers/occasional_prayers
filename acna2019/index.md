@@ -1,9 +1,7 @@
 ---
-title: ACNA 2019
+title: ACNA Book of Common Prayer (2019)
 layout: index
 tagline:
-    Anglican Church in North America Book of Common Prayer (2019)
-teaser:
-    Anglican Church in North America Book of Common Prayer (2019)
+    <!--Copyright &copy; Anglican Church in North America-->
 order: source_order
 ---

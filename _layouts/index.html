@@ -13,8 +13,8 @@
   {% for item in this.content %}
   <li>
     <a href="{{item.url}}">{{item.title}}</a>
-    {% if item.teaser %}
-    <small>{{item.teaser}}</small>
+    {% if item.attribution %}
+    <small><em>{{item.attribution}}</em></small>
     {% endif %}
   </li>
   {% endfor %}

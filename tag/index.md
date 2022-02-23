@@ -1,6 +1,6 @@
 ---
-title: Topics
+title: By topic
 layout: index
-order: source_order
+order: name
 ---
 
