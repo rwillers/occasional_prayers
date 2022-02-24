@@ -46,10 +46,6 @@
   </main>
 
 
-    <div class="footer">
-    </div>
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="tipuesearch/tipuesearch_content.js"></script>
@@ -68,5 +64,19 @@ $(document).ready(function() {
 
 	</div>
 
+	<div class="footer">
+	</div>
+
+	<script>
+		var a=document.getElementsByTagName("a");
+		for(var i=0;i<a.length;i++)
+		{
+			a[i].onclick=function()
+			{
+				window.location=this.getAttribute("href");
+				return false
+			}
+		}
+	</script>
   </body>
 </html>
