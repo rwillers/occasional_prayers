@@ -166,7 +166,7 @@ ol.breadcrumb li+li:before {
 	background-color: #f6f6f6;
 	border: 1px solid #d7cec7;
 	border-radius: 3px;
-	color: #565656;
+	color: #555;
 	margin-right: 7px;
 	text-align: center;
 }
