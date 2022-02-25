@@ -12,8 +12,9 @@
     {% if site.baseurl %}
     {%   set url_prefix = '/' + site.baseurl %}
     {% endif %}
+    <link rel="apple-touch-icon" href="{{url_prefix + '/images/touch-icon.png'}}">
     <link href="{{url_prefix + '/css/style.css'}}" rel="stylesheet" media="screen">
-
+    
     {% block head_addon %}
     {% endblock %} 
   </head>
