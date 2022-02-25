@@ -43,7 +43,7 @@
   </div>
 
   <main>
-    <p>Almighty and everlasting God, we are taught by your holy Word that the hearts of kings are in your rule, and that you direct them according to your wisdom: We humbly ask you so to govern the heart of N. your servant, our Queen and Governor, that in all her thoughts, words, and deeds, she may ever seek your honour and glory, and act to preserve your people committed to her charge in prosperity, peace, and godliness; Grant this, O merciful Father, for the sake of your dear Son Jesus Christ our Lord. <strong>Amen.</strong></p>
+    <p>Almighty and everlasting God, we are taught by your holy Word that the hearts of kings are in your rule, and that you direct them according to your wisdom: We humbly ask you so to govern the heart of <em>N.</em> your servant, our Queen and Governor, that in all her thoughts, words, and deeds, she may ever seek your honour and glory, and act to preserve your people committed to her charge in prosperity, peace, and godliness; Grant this, O merciful Father, for the sake of your dear Son Jesus Christ our Lord. <strong>Amen.</strong></p>
   </main>
 
   <div class="tags">
@@ -52,6 +52,28 @@
       <li><a href="/tag/The Nation (Specific to Canada)">The Nation (Specific to Canada)</a></li>
     </ul>
   </div>
+
+
+<!--<button onclick="togglePronouns()">Toggle pronouns</button>-->
+
+<script>
+  pronouns = 'male';
+  function togglePronouns() {
+    p = document.getElementsByTagName('main')[0];
+    if (pronouns == 'male') {
+      temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
+      temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');
+      temp = temp.replace(/<em>he<\/em>/gi, '<em>she</em>');
+      pronouns = 'female';
+    } else {
+      temp = p.innerHTML.replace(/<em data-t="obj">her<\/em>/gi, '<em>him</em>');
+      temp = temp.replace(/<em data-t="pos">her<\/em>/gi, '<em>his</em>');
+      temp = temp.replace(/<em>she<\/em>/gi, '<em>he</em>');
+      pronouns = 'male';
+    }
+    p.innerHTML = temp;
+  }
+</script>
 
 
  
