@@ -12,10 +12,15 @@
     <link href="/css/style.css" rel="stylesheet" media="screen">
     
     <script>
-      $('a').click(function() {
-          window.location.href = this.href;
-          return false;
-      });
+var links = document.getElementsByTagName('a');
+for(var i in links)
+{
+    links[i].onclick = function(e){
+        e.preventDefault();
+        window.location.href = this.href;
+        return false;
+    }
+}
     </script>
 
  
