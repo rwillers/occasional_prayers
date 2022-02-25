@@ -11,18 +11,6 @@
     <link rel="apple-touch-icon" href="/images/touch-icon.png">
     <link href="/css/style.css" rel="stylesheet" media="screen">
     
-    <script>
-var links = document.getElementsByTagName('a');
-for(var i in links)
-{
-    links[i].onclick = function(e){
-        e.preventDefault();
-        window.location.href = this.href;
-        return false;
-    }
-}
-    </script>
-
  
   </head>
 
@@ -65,5 +53,17 @@ for(var i in links)
 
 	<div class="footer">
 	</div>
+
+    <script>
+var links = document.getElementsByTagName('a');
+for(var i in links)
+{
+    links[i].onclick = function(e){
+        e.preventDefault();
+        window.location.href = this.href;
+        return false;
+    }
+}
+    </script>
   </body>
 </html>
