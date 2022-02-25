@@ -7,13 +7,20 @@
     <meta name="apple-mobile-web-app-title" content="Prayers">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon" href="/images/touch-icon.png">
 
     {% set url_prefix = '' %}
     {% if site.baseurl %}
     {%   set url_prefix = '/' + site.baseurl %}
     {% endif %}
+    <link rel="apple-touch-icon" href="{{url_prefix + '/images/touch-icon.png'}}">
     <link href="{{url_prefix + '/css/style.css'}}" rel="stylesheet" media="screen">
+    
+    <script>
+      $('a').click(function() {
+          window.location.href = this.href;
+          return false;
+      });
+    </script>
 
     {% block head_addon %}
     {% endblock %} 

@@ -7,9 +7,16 @@
     <meta name="apple-mobile-web-app-title" content="Prayers">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon" href="/images/touch-icon.png">
 
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
     <link href="/css/style.css" rel="stylesheet" media="screen">
+    
+    <script>
+      $('a').click(function() {
+          window.location.href = this.href;
+          return false;
+      });
+    </script>
 
  
   </head>
@@ -68,17 +75,5 @@
 
 	<div class="footer">
 	</div>
-
-	<script>
-		// var a=document.getElementsByTagName("a");
-		// for(var i=0;i<a.length;i++)
-		// {
-		// 	a[i].onclick=function()
-		// 	{
-		// 		window.location=this.getAttribute("href");
-		// 		return false
-		// 	}
-		// }
-	</script>
   </body>
 </html>
