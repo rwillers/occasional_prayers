@@ -32,7 +32,7 @@
   {% block tags %}
   {% if this.tags %}
   <div class="tags">
-  Topics:
+  Topics &amp; attributions:
   {% for tag in this.tags %}
     <a href="{{url_prefix + '/tag/' + tag}}">{{tag}}</a> 
   {% endfor %}
