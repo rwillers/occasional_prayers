@@ -33,10 +33,12 @@
   {% block tags %}
   {% if this.tags %}
   <div class="tags">
-  Topics:
-  {% for tag in this.tags %}
-    <a href="{{url_prefix + '/tag/' + tag}}">{{tag}}</a> 
-  {% endfor %}
+    Topics &amp; attributions: 
+    <ul>
+    {% for tag in this.tags %}
+      <li><a href="{{url_prefix + '/tag/' + tag}}">{{tag}}</a></li>
+    {% endfor %}
+    </ul>
   </div>
   {% endif %}
   {% endblock %}

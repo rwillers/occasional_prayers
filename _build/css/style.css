@@ -24,12 +24,12 @@ small {
 /* #c09f80 */
 
 
-.navbar {
+div.navbar {
 	background-color: #d7cec7;
 	margin: 0 0 20px 0;
 	padding: 20px;
 }
-.navbar .inner {
+div.navbar div.inner {
 	max-width: 760px;
 	margin: 0 auto;
 	display: flex;
@@ -39,7 +39,7 @@ small {
 	align-content: center;
 	gap: 20px;
 }
-.navbar h1 {
+div.navbar h1 {
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: 600;
@@ -48,18 +48,18 @@ small {
 	display: inline;
 	text-transform: uppercase;
 }
-.navbar a {
+div.navbar a {
 	text-decoration: none;
 }
-.navbar a:visited {
+div.navbar a:visited {
 	color: #76323f
 }
-.navbar form {
+div.navbar form {
 	margin: 0;
 	padding: 0;
 	float: right;
 }
-.navbar form input {
+div.navbar form input {
 	background-color: #f4f2f0;
 	border-color: #c0b1a5;
 	color: #333;
@@ -103,10 +103,26 @@ ol.breadcrumb li {
 ol.breadcrumb li+li:before {
 	content: '\003e\00a0';
 }
-.tags {
+
+div.tags {
 	margin: 40px 0;
 	font-size: 0.9em;
 }	
+div.tags ul {
+	display:  inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div.tags ul li {
+	display: inline;
+}
+div.tags ul li:after {
+	content: ',';
+}
+div.tags ul li:last-child:after {
+	content: '' !important;
+}
 
 /* Tipue search */
 #tipue_search_results_count {
