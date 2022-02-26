@@ -53,8 +53,7 @@
   <main>
     <p>Almighty God, with whom the souls of the faithful who have departed this life are in joy and felicity: We praise and magnify your holy Name for all your servants who have finished their course in your faith and fear; and we most humbly pray that, at the day of resurrection, we and all who are members of the mystical body of your Son may be set on his right hand, and hear his most joyful voice: “Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world.” Grant this, O merciful Father, for the sake of Jesus Christ, our only Mediator and Advocate. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

@@ -53,8 +53,7 @@
   <main>
     <p>Increase, O God, the spirit of neighborliness among us, that in peril we may uphold one another, in suffering tend to one another, and in homelessness, loneliness, or exile befriend one another. Grant us brave and enduring hearts that we may strengthen one another, until the disciplines and testing of these days are ended, and you again give peace in our time; through Jesus Christ our Lord. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

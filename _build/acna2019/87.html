@@ -54,8 +54,7 @@
   <main>
     <p>Lord, make me an instrument of your peace: where there is hatred, let me sow love; where there is injury, pardon; where there is discord, union; where there is error, truth; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O divine Master, grant that I may seek not so much to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -64,9 +63,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

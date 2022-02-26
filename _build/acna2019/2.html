@@ -54,8 +54,7 @@
   <main>
     <p>Gracious Father, we pray for your holy Catholic Church. Fill it with all truth, in all truth with all peace. Where it is corrupt, purify it; where it is in error, direct it; where in anything it is amiss, reform it. Where it is right, strengthen it; where it is in want, provide for it; where it is divided, reunite it; for the sake of Jesus Christ your Son our Savior. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -64,9 +63,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

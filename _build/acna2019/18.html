@@ -53,8 +53,7 @@
   <main>
     <p>Lord Jesus, you commanded us to make disciples of all nations: Bless all those who work together for the spread of the Gospel [especially <strong><em>_</em></strong>___]; make them faithful and true witnesses to proclaim your glorious Name. Send down the grace of the Holy Spirit upon all your people, that we may give cheerfully of our substance for the evangelization of the world, and that the light of your truth may shine brightly in every place. Hear us, O merciful Savior, who with the Father and the Holy Spirit live and reign, one God, world without end. Amen.</p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

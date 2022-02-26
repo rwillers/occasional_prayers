@@ -53,8 +53,7 @@
   <main>
     <p>O God, you forgive when we deserve punishment, and in your wrath you remember mercy: We humbly ask you, of your goodness, to comfort all prisoners [and especially those who are condemned to die]. Give them a right understanding of themselves, and of your promises, that trusting wholly in your mercy, they may not place their confidence anywhere but in you. Relieve the distressed; deliver the innocent; bring the guilty to repentance; and as you alone bring light out of darkness, and good out of evil, grant that by the power of your Holy Spirit they may be set free from the chains of sin, and brought to newness of life; through Jesus Christ our Lord. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

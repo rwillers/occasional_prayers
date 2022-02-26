@@ -53,8 +53,7 @@
   <main>
     <p>Almighty God, you alone gave us the breath of life, and you alone can keep alive in us the holy desires you impart. We beseech you, for your compassion’s sake, to sanctify all our thoughts and endeavors, that we may neither begin an action without a pure intention nor continue it without your blessing. And grant that, having the eyes of our mind enlightened to behold things invisible and unseen, we may in heart be inspired by your wisdom, in work be upheld by your strength, and in the end be accepted as your faithful servants; through Jesus Christ our Savior. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

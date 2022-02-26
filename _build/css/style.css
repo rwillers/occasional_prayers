@@ -82,9 +82,13 @@ button {
 	text-align: center;	
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
+	-webkit-appearance: none;
 }
 button:hover {
 	background-color: #f6f6f6;
+}
+button#pronounToggle {
+	display: none;
 }
 
 ol.breadcrumb {

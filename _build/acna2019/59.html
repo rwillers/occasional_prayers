@@ -53,8 +53,7 @@
   <main>
     <p>O God, almighty and merciful, you heal the broken-hearted, and turn the sadness of the sorrowful to joy, Let your fatherly goodness be upon all whom you have made. Remember in pity all those who are this day destitute, homeless, elderly, infirm, or forgotten. Bless the multitude of your poor. Lift up those who are cast down. Mightily befriend innocent sufferers, and sanctify to them the endurance of their wrongs. Cheer with hope all who are discouraged and downcast, and by your heavenly grace preserve from falling those whose poverty tempts them to sin. Though they be troubled on every side, suffer them not to be distressed; though they are perplexed, save them from despair. Grant this, O Lord, for the love of him who for our sakes became poor, your Son our Savior Jesus Christ. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

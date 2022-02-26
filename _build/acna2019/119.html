@@ -53,8 +53,7 @@
   <main>
     <p>Most gracious God, by whose knowledge the depths are broken up and the clouds drop down the dew: We yield you hearty thanks and praise for the return of seed-time and harvest, for the increase of the ground and the gathering in of its fruits, and for all the other blessings your merciful providence has bestowed upon this nation and people. And, we pray, give us a just sense of these great mercies, that we may walk before you in humility, holiness, and obedience all our days; through Jesus Christ our Lord, to whom, with you and the Holy Spirit, be all glory and honor, world without end. <strong>Amen.</strong></p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -62,9 +61,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');

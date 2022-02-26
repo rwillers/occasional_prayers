@@ -54,8 +54,7 @@
   <main>
     <p>I am no longer my own, but thine. Put me to what thou wilt, rank me with whom thou wilt. Put me to doing, put me to suffering. Let me be employed by thee or laid aside for thee, exalted for thee or brought low for thee. Let me be full, let me be empty. Let me have all things, let me have nothing. I freely and heartily yield all things to thy pleasure and disposal. And now, O glorious and blessed God, Father, Son, and Holy Spirit, thou art mine, and I am thine. So be it. And the covenant which I have made on earth, let it be ratified in heaven. Amen.</p>
   </main>
-
-  <button onclick="togglePronouns()">Toggle pronouns</button>
+  <button onclick="togglePronouns()" id="pronounToggle">Toggle pronouns</button>
 
   <div class="tags">
   Topics:
@@ -64,9 +63,13 @@
   </div>
 
 <script>
+  p = document.getElementsByTagName('main')[0];
+  if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1) {
+    document.getElementById('pronounToggle').style.display = 'block';
+  }
+
   pronouns = 'male';
   function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
     if (pronouns == 'male') {
       temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
       temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');
