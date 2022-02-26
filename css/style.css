@@ -11,7 +11,6 @@ body {
 	font-family: 'New York', Georgia, serif;
 }
 
-
 a {
 	color: #76323f;
 }
@@ -22,7 +21,6 @@ small {
 	font-size: 0.9em;
 }
 /* #c09f80 */
-
 
 div.navbar {
 	background-color: #d7cec7;
@@ -72,8 +70,8 @@ div.navbar form input {
 	flex-grow: 1;
 }
 div.navbar form input:focus {
-  	width: 150px;
-  	flex-grow: 9;
+	width: 150px;
+	flex-grow: 9;
 }
 
 div#content {
@@ -164,7 +162,6 @@ div.tags ul li:last-child:after {
 	word-wrap: break-word;
 	hyphens: auto;
 }
-
 #tipue_search_foot {
 	 margin: 40px 0 20px 0;
 }
@@ -203,8 +200,7 @@ div.tags ul li:last-child:after {
 	background-color: #f6f6f6;
 }
 
-
-
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #222;
@@ -254,4 +250,3 @@ div.tags ul li:last-child:after {
 		background-color: #181818;
 	}
 }
-

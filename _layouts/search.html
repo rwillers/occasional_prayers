@@ -6,36 +6,34 @@
 
 {% block body %}
 
-  <div class="page-header">
-    {% block title %}
-    <h2>{{this.title}}</h2>
-    {% endblock %}
-    {% if this.attribution %}
-    <small><em>{{this.attribution}}</em></small>
-    {% endif %}
-  </div>
+	<div class="page-header">
+		{% block title %}
+		<h2>{{this.title}}</h2>
+		{% endblock %}
+		{% if this.attribution %}
+		<small><em>{{this.attribution}}</em></small>
+		{% endif %}
+	</div>
 
-  {% block content %}
-  <main>
-    {{this.body}}
-  </main>
-  {% endblock %}
+	{% block content %}
+	<main>
+		{{this.body}}
+	</main>
+	{% endblock %}
 
 {% endblock %}
 
 {% block body_addon %}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="tipuesearch/tipuesearch_content.js"></script>
-<script src="tipuesearch/tipuesearch_set.js"></script>
-<script src="tipuesearch/tipuesearch.min.js"></script>
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch({
-          'mode': 'json',
-          'contentLocation': 'tipuesearch/tipuesearch_content.json' 
-     });
-});
-</script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="tipuesearch/tipuesearch_content.js"></script>
+	<script src="tipuesearch/tipuesearch_set.js"></script>
+	<script src="tipuesearch/tipuesearch.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#tipue_search_input').tipuesearch({
+				'mode': 'json',
+				'contentLocation': 'tipuesearch/tipuesearch_content.json' 
+			});
+		});
+	</script>
 {% endblock %}
-
