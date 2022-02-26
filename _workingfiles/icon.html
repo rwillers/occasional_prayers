@@ -1,14 +1,81 @@
+<!DOCTYPE html>
 <html>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>￼</title>
+	</head>
+	<body>
+
 
 <canvas id="icon" width="1024" height="1024"></canvas>
 
-</body>
+<br><br>
+<!--
+Favicon 16:<br>
+<img class="output" width="16" height="16">
+<br><br>
+-->
+Favicon 32:<br>
+<img class="output" width="32" height="32">
+<br><br>
+<!--
+Favicon 96:<br>
+<img class="output" width="96" height="96">
+<br><br>
+-->
+iPhone 2x 120<br>
+<img class="output" width="120" height="120">
+<br><br>
+iPhone 3x 180<br>
+<img class="output" width="180" height="180">
+<br><br>
+iPad Pro 167<br>
+<img class="output" width="167" height="167">
+<br><br>
+iPad 152<br>
+<img class="output" width="152" height="152">
+<br><br>
+App Store 1024<br>
+<img class="output" width="1024" height="1024">
+
 <script>
+
 var c = document.getElementById('icon');
 var ctx = c.getContext('2d');
-ctx.moveTo(0, 0);
-ctx.lineTo(200, 100);
-ctx.stroke();
+
+// Background gradient
+var bg = ctx.createLinearGradient(0, 0, 0, 1024);
+bg.addColorStop(0, '#8f3d4c'); // mid: #76323f
+bg.addColorStop(1, '#592630');
+ctx.fillStyle = bg;
+ctx.fillRect(0, 0, 1024, 1024);
+
+// Cross
+ctx.beginPath();
+ctx.moveTo(344, 198);
+ctx.lineTo(680, 198);
+ctx.bezierCurveTo(812, 198, 560, 198, 560, 464);
+ctx.bezierCurveTo(826, 464, 826, 212, 826, 344);
+ctx.lineTo(826, 680);
+ctx.bezierCurveTo(826, 812, 826, 560, 560, 560);
+ctx.bezierCurveTo(560, 826, 812, 826, 680, 826);
+ctx.lineTo(344, 826);
+ctx.bezierCurveTo(212, 826, 464, 826, 464, 560);
+ctx.bezierCurveTo(198, 560, 198, 812, 198, 680);
+ctx.lineTo(198, 344);
+ctx.bezierCurveTo(198, 212, 198, 464, 464, 464);
+ctx.bezierCurveTo(464, 198, 212, 198, 344, 198);
+ctx.closePath();
+ctx.fillStyle = '#cdb298';
+ctx.fill();
+
+var img = c.toDataURL('image/png');
+var imgs = document.getElementsByClassName('output');
+for (var i = 0; i < imgs.length; i++) {
+	imgs[i].src = img;
+}
+
 </script>
+
+	</body>
 </html>
