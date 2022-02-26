@@ -29,6 +29,8 @@
   </main>
   {% endblock %}
 
+  <button onclick="togglePronouns()">Toggle pronouns</button>
+
   {% block tags %}
   {% if this.tags %}
   <div class="tags">
@@ -39,8 +41,6 @@
   </div>
   {% endif %}
   {% endblock %}
-
-<button onclick="togglePronouns()">Toggle pronouns</button>
 
 <script>
   pronouns = 'male';

@@ -73,32 +73,19 @@ div#content {
 	padding: 20px;
 }
 
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #222;
-		color: #ccc;
-	}
-	a {
-		color: #ccc;
-	}
-	a:visited {
-		color: #aaa;
-	}
-	.navbar {
-		background-color: #111;
-		color: #fff;
-	}	
-	.navbar a, .navbar a:visited {
-		color: #fff;
-	}
-	.navbar form input {
-		background-color: #000;
-		border-color: #000;
-		color: #eee;
-	}
+button {
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 1px solid #d7cec7;
+	border-radius: 5px;
+	color: #565656;
+	text-align: center;	
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
 }
-
+button:hover {
+	background-color: #f6f6f6;
+}
 
 ol.breadcrumb {
 	list-style: none;
@@ -117,9 +104,7 @@ ol.breadcrumb li+li:before {
 	font-size: 0.9em;
 }	
 
-
 /* Tipue search */
-
 #tipue_search_results_count {
 	font-size: 0.9em;
 }
@@ -171,5 +156,46 @@ ol.breadcrumb li+li:before {
 	text-align: center;
 }
 #tipue_search_foot_boxes li a:hover {
-	background: #f6f6f6;
+	background-color: #f6f6f6;
 }
+
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+		color: #ccc;
+	}
+	a {
+		color: #ccc;
+	}
+	a:visited {
+		color: #aaa;
+	}
+	.navbar {
+		background-color: #111;
+		color: #fff;
+	}	
+	.navbar a, .navbar a:visited {
+		color: #fff;
+	}
+	.navbar form input {
+		background-color: #000;
+		border-color: #000;
+		color: #eee;
+	}
+	#tipue_search_foot_boxes li a {
+		background-color: #111;
+		border-color: #000;
+		color: #ddd;
+	}
+	#tipue_search_foot_boxes li.current {
+		background-color: #181818;
+		border-color: #000;
+		color: #eee;
+	}
+	#tipue_search_foot_boxes li a:hover {
+		background-color: #181818;
+	}
+}
+

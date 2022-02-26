@@ -1,7 +1,26 @@
-{% extends "page.html" %}
+{% extends "_base.html" %}
 
 {% block head_addon %}
 <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+
+  <div class="page-header">
+    {% block title %}
+    <h2>{{this.title}}</h2>
+    {% endblock %}
+    {% if this.attribution %}
+    <small><em>{{this.attribution}}</em></small>
+    {% endif %}
+  </div>
+
+  {% block content %}
+  <main>
+    {{this.body}}
+  </main>
+  {% endblock %}
+
 {% endblock %}
 
 {% block body_addon %}
