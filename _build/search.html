@@ -55,6 +55,27 @@
   </main>
 
 
+<button onclick="togglePronouns()">Toggle pronouns</button>
+
+<script>
+  pronouns = 'male';
+  function togglePronouns() {
+    p = document.getElementsByTagName('main')[0];
+    if (pronouns == 'male') {
+      temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
+      temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');
+      temp = temp.replace(/<em>he<\/em>/gi, '<em>she</em>');
+      pronouns = 'female';
+    } else {
+      temp = p.innerHTML.replace(/<em data-t="obj">her<\/em>/gi, '<em>him</em>');
+      temp = temp.replace(/<em data-t="pos">her<\/em>/gi, '<em>his</em>');
+      temp = temp.replace(/<em>she<\/em>/gi, '<em>he</em>');
+      pronouns = 'male';
+    }
+    p.innerHTML = temp;
+  }
+</script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="tipuesearch/tipuesearch_content.js"></script>
