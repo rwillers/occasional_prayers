@@ -192,14 +192,14 @@ div.tags ul li:last-child:after {
 	a:visited {
 		color: #aaa;
 	}
-	.navbar {
+	div.navbar {
 		background-color: #111;
 		color: #fff;
 	}	
-	.navbar a, .navbar a:visited {
+	div.navbar a, div.navbar a:visited {
 		color: #fff;
 	}
-	.navbar form input {
+	div.navbar form input {
 		background-color: #000;
 		border-color: #000;
 		color: #eee;
