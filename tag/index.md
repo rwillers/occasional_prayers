@@ -1,5 +1,5 @@
 ---
-title: By topic or attribution
+title: By category or attribution
 layout: index
 order: name
 ---
