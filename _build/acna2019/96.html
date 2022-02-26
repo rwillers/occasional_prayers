@@ -2,13 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>For Union With Christ (Anima Christi)</title>
+    <title>For Union With Christ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-title" content="Prayers">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+    <link rel="icon" type="image/png" href="/images/favicon-32.png">
+    <link rel="apple-touch-icon" href="/images/touch-icon-1024.png">
+    <!--
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/touch-icon-167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/touch-icon-180.png">
+    -->
+    
     <link href="/css/style.css" rel="stylesheet" media="screen">
     
  
@@ -19,7 +27,7 @@
 	<div class="navbar">
     <div class="inner">
 
-    <h1><a href="/">Occasional Prayers</a></h1>
+    <h1><a href="/">&#5869; Occasional Prayers</a></h1>
 
 
     <form action="/search.html" role="search">
@@ -35,11 +43,12 @@
   <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
       <li><a href="/acna2019/">ACNA Book of Common Prayer (2019)</a></li>
-      <!--<li class="active">For Union With Christ (Anima Christi)</li>-->
+      <!--<li class="active">For Union With Christ</li>-->
   </ol>
 
   <div class="page-header">
-    <h2>For Union With Christ (Anima Christi)</h2>
+    <h2>For Union With Christ</h2>
+    <small><em>Anima Christi</em></small>
   </div>
 
   <main>
@@ -47,33 +56,9 @@
   </main>
 
   <div class="tags">
-    Topics &amp; attributions: 
-    <ul>
-      <li><a href="/tag/Personal Devotion">Personal Devotion</a></li>
-    </ul>
+  Topics:
+    <a href="/tag/Personal Devotion">Personal Devotion</a> 
   </div>
-
-
-<!--<button onclick="togglePronouns()">Toggle pronouns</button>-->
-
-<script>
-  pronouns = 'male';
-  function togglePronouns() {
-    p = document.getElementsByTagName('main')[0];
-    if (pronouns == 'male') {
-      temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">her</em>');
-      temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">her</em>');
-      temp = temp.replace(/<em>he<\/em>/gi, '<em>she</em>');
-      pronouns = 'female';
-    } else {
-      temp = p.innerHTML.replace(/<em data-t="obj">her<\/em>/gi, '<em>him</em>');
-      temp = temp.replace(/<em data-t="pos">her<\/em>/gi, '<em>his</em>');
-      temp = temp.replace(/<em>she<\/em>/gi, '<em>he</em>');
-      pronouns = 'male';
-    }
-    p.innerHTML = temp;
-  }
-</script>
 
 
  

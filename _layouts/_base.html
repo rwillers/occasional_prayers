@@ -12,7 +12,15 @@
     {% if site.baseurl %}
     {%   set url_prefix = '/' + site.baseurl %}
     {% endif %}
-    <link rel="apple-touch-icon" href="{{url_prefix + '/images/touch-icon.png'}}">
+    <link rel="icon" type="image/png" href="{{url_prefix + '/images/favicon-32.png'}}">
+    <link rel="apple-touch-icon" href="{{url_prefix + '/images/touch-icon-1024.png'}}">
+    <!--
+    <link rel="apple-touch-icon" sizes="120x120" href="{{url_prefix + '/images/touch-icon-120.png'}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{url_prefix + '/images/touch-icon-152.png'}}">
+    <link rel="apple-touch-icon" sizes="167x167" href="{{url_prefix + '/images/touch-icon-167.png'}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_prefix + '/images/touch-icon-180.png'}}">
+    -->
+    
     <link href="{{url_prefix + '/css/style.css'}}" rel="stylesheet" media="screen">
     
     {% block head_addon %}
@@ -24,7 +32,7 @@
 	<div class="navbar">
     <div class="inner">
 
-    <h1><a href="{{url_prefix + '/'}}">{{site.brand}}</a></h1>
+    <h1><a href="{{url_prefix + '/'}}">&#5869; {{site.brand}}</a></h1>
 
     {% block home %}
     {% endblock %}
