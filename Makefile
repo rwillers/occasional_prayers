@@ -15,6 +15,4 @@ publish:
 	git push occasional_prayers master
 
 git:
-	git add -A
-	git commit
 	git push origin master
