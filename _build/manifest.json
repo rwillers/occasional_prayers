@@ -1,0 +1,14 @@
+{
+	"short_name": "Prayers",
+	"name": "Occasional Prayers",
+	"icons": [
+		{
+			"src": "/images/touch-icon-1024.png",
+			"type": "image/png",
+			"sizes": "1024x1024"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"scope": "/"
+}
