@@ -10,4 +10,11 @@ serve:
 	python3 -m urubu serve
 
 publish:
-	git subtree push --prefix _build origin gh-pages    
+	git add -A
+	git commit
+	git push occasional_prayers master
+
+git:
+	git add -A
+	git commit
+	git push origin master
