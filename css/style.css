@@ -8,9 +8,14 @@ body {
 	font-size: 14pt;
 	margin: 0;
 	padding: 0;
-	font-family: 'New York', Georgia, serif;
+	font-family: -apple-system-ui-serif, ui-serif, Georgia, serif;
 }
 
+h2 {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 20px 0;
+}
 a {
 	color: #76323f;
 }
@@ -24,7 +29,7 @@ small {
 
 div.navbar {
 	background-color: #d7cec7;
-	margin: 0 0 20px 0;
+	margin: 0;
 	padding: 20px;
 }
 div.navbar div.inner {
@@ -79,6 +84,9 @@ div#content {
 	margin: 0 auto;
 	padding: 20px;
 }
+div#content p, div#content li {
+	line-height: 1.4;
+}
 
 button {
 	padding: 10px 15px;
@@ -92,6 +100,7 @@ button {
 	-webkit-appearance: none;
 }
 .button-group button:first-child {
+	margin-left: 0;
 	margin-right: 0;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
