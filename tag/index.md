@@ -1,6 +1,6 @@
 ---
 title: By category or attribution
 layout: index
-order: name
+order: source_order
 ---
 
