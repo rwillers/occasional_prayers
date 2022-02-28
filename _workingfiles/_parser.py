@@ -1,6 +1,6 @@
 from titlecase import titlecase
 
-with open('_temp.txt') as f:
+with open('_temp-taylor.txt') as f:
 	prayer = 0
 	new_category = True
 	new_prayer = True
@@ -30,11 +30,11 @@ with open('_temp.txt') as f:
 print(len(parsed))
 
 for prayer in parsed:
-	with open('../acna2019collects/{}.md'.format(prayer[0]), 'w') as f:
+	with open('../davidtaylor/{}.md'.format(prayer[0]), 'w') as f:
 		f.write('---\n')
 		f.write('title: {}\n'.format(prayer[2]))
 		f.write('layout: page\n')
-		f.write('tags: [\'{}\']\n'.format(prayer[1]))
+		f.write('tags: [\'{}\', \'{}\']\n'.format(prayer[1], 'W. David O. Taylor'))
 		f.write('source_order: {}\n'.format(prayer[0]))
 		f.write('---\n')
 		f.write('\n')
