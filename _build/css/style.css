@@ -84,7 +84,10 @@ div#content {
 	margin: 0 auto;
 	padding: 20px;
 }
-div#content p, div#content li {
+div#content p {
+	line-height: 1.5;
+}
+div#content li {
 	line-height: 1.2;
 	padding-bottom: 0.3em;
 }
