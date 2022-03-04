@@ -92,6 +92,18 @@ div#content li {
 	padding-bottom: 0.3em;
 }
 
+div.footer {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	font-size:  0.8em;
+	opacity: 0.5;
+}
+div.footer a, div.footer a:visited {
+	color: #565656;
+}
+
 button {
 	padding: 10px 15px;
 	background-color: #fff;
