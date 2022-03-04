@@ -1,6 +1,6 @@
 from titlecase import titlecase
 
-with open('_temp-taylor.txt') as f:
+with open('_temp-1979.txt') as f:
 	prayer = 0
 	new_category = True
 	new_prayer = True
@@ -17,8 +17,8 @@ with open('_temp-taylor.txt') as f:
 			if new_prayer:
 				# Title line
 				prayer += 1
-				# title = titlecase(line[(line.find('. ') + 2):].strip().lower())
-				title = titlecase(line.strip().lower())
+				title = titlecase(line[(line.find('. ') + 2):].strip().lower())
+				# title = titlecase(line.strip().lower())
 				new_prayer = False
 			else:
 				# Content line
@@ -30,11 +30,11 @@ with open('_temp-taylor.txt') as f:
 print(len(parsed))
 
 for prayer in parsed:
-	with open('../davidtaylor/{}.md'.format(prayer[0]), 'w') as f:
+	with open('../tec1979/{}.md'.format(prayer[0]), 'w') as f:
 		f.write('---\n')
 		f.write('title: {}\n'.format(prayer[2]))
 		f.write('layout: page\n')
-		f.write('tags: [\'{}\', \'{}\']\n'.format(prayer[1], 'W. David O. Taylor'))
+		f.write('tags: [\'{}\']\n'.format(prayer[1]))
 		f.write('source_order: {}\n'.format(prayer[0]))
 		f.write('---\n')
 		f.write('\n')

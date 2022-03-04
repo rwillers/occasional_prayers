@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>For the Future of the Human Race</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-title" content="Prayers">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="manifest" href="/manifest.json">
+		<link rel="icon" type="image/png" href="/images/favicon-32.png">
+		<link rel="apple-touch-icon" href="/images/touch-icon-1024.png">
+		<!--
+			<link rel="apple-touch-icon" sizes="120x120" href="/images/touch-icon-120.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-152.png">
+			<link rel="apple-touch-icon" sizes="167x167" href="/images/touch-icon-167.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="/images/touch-icon-180.png">
+		-->
+		<link href="/css/style.css" rel="stylesheet" media="screen">
+
+ 
+	</head>
+
+	<body>
+
+	<div class="navbar">
+		<div class="inner">
+
+			<h1><a href="/">Occasional Prayers</a></h1>
+
+			<form action="/search.html" role="search">
+				<input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Search"> 
+			</form>
+
+		</div>
+	</div>
+	
+	<div id="content">
+
+
+		<ol class="breadcrumb">
+			<li><a href="/">Home</a></li>
+				<li><a href="/tec1979/">Occasional prayers (TEC 1979)</a></li>
+			<!--<li class="active">For the Future of the Human Race</li>-->
+		</ol>
+
+	<div class="page-header">
+		<h2>For the Future of the Human Race</h2>
+	</div>
+
+		<main>
+		<p>O God our heavenly Father, you have blessed us and given us dominion over all the earth: Increase our reverence before the mystery of life; and give us new insight into your purposes for the human race, and new wisdom and determination in making provision for its future in accordance with your will; through Jesus Christ our Lord. <strong>Amen.</strong></p>
+		</main>
+
+		<div id="pronouns" class="button-group">
+			<button onclick="togglePronouns('f')" id="toggleF">Female</button><button onclick="togglePronouns('m')" id="toggleM" class="current">Male</button>
+		</div>
+
+		<div class="tags">
+			Categories & attributions: 
+			<ul>
+				<li><a href="/tag/Natural Order">Natural Order</a></li>
+			</ul>
+		</div>
+
+	<script>
+		p = document.getElementsByTagName('main')[0];
+		if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1 || p.innerHTML.search(/<em>himself<\/em>/i) != -1) {
+
+			// Code ems at page load so that we don't need to know current selection later
+			temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">him</em>');
+			temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">his</em>');
+			temp = temp.replace(/<em>he<\/em>/gi, '<em data-t="sub">he</em>');
+			temp = temp.replace(/<em>himself<\/em>/gi, '<em data-t="ref">himself</em>');
+			p.innerHTML = temp;
+
+			// Make visible
+				document.getElementById('pronouns').style.display = 'block';
+			}
+
+			function togglePronouns(g) {
+			if (g == 'f') {
+				document.getElementById('toggleM').className = '';
+				document.getElementById('toggleF').className = 'current';
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">her</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">her</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">she</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">herself</em>');
+			} else if (g == 'm') {
+				document.getElementById('toggleF').className = '';
+				document.getElementById('toggleM').className = 'current';
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">him</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">his</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">he</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">himself</em>');
+			} else if (g == 'p') {
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">them</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">their</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">they</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">themselves</em>');
+			}
+			p.innerHTML = temp;
+		}
+	</script>
+
+
+ 
+
+	</div>
+
+<div class="footer">
+	<!--<a href="/about.html">About</a>-->
+</div>
+	</body>
+</html>
