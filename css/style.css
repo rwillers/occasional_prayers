@@ -66,16 +66,16 @@ div.navbar form input {
 	background-color: #f4f2f0;
 	border: 1px solid #c0b1a5;
 	border-radius: 5px;
-	padding: 2px 5px;
+	padding: 3px 5px;
 	color: #333;
 	font-size: 12pt;
-	width: 75px;
+	width: 80px;
 	-webkit-transition: width 0.5s ease-in-out;
 	transition: width 0.5s ease-in-out;
 	flex-grow: 1;
 }
 div.navbar form input:focus {
-	width: 150px;
+	width: 160px;
 	flex-grow: 9;
 }
 
@@ -176,11 +176,11 @@ div.tags ul li:last-child:after {
 	font-size: 0.9em;
 }
 .tipue_search_content_title {
-	margin: 1em 0 0.5em 0;
-	font-weight:  bold;
+	margin: 1em 0 0.3em 0;
+	font-weight: bold;
 }
 .tipue_search_content_url {
-	display:  none;
+	display: none;
 }
 .tipue_search_content_text {
 	font-size: 0.9em;
@@ -188,7 +188,7 @@ div.tags ul li:last-child:after {
 	hyphens: auto;
 }
 #tipue_search_foot {
-	 margin: 40px 0 20px 0;
+	margin: 40px 0 20px 0;
 }
 #tipue_search_foot_boxes {
 	padding: 0;
