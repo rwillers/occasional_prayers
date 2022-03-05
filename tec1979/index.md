@@ -1,7 +1,7 @@
 ---
-title: Occasional prayers (TEC 1979)
+title: Occasional Prayers (TEC 1979)
 layout: index
 tagline:
-    Occasional prayers from the <a href="https://www.episcopalchurch.org" target="_blank">The Episcopal Church</a> (US) <em>Book of Common Prayer</em> (1979)
+    Occasional Prayers from <a href="https://www.episcopalchurch.org" target="_blank">The Episcopal Church</a> (US) <em>Book of Common Prayer</em> (1979)
 order: source_order
 ---
