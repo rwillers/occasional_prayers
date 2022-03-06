@@ -32,6 +32,11 @@ div.navbar {
 	margin: 0;
 	padding: 20px;
 }
+@supports(padding: max(0px)) {
+	div.navbar {
+		padding-top: max(20px, env(safe-area-inset-top));
+	}
+}
 div.navbar div.inner {
 	max-width: 760px;
 	margin: 0 auto;
