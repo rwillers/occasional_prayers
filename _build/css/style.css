@@ -3,12 +3,18 @@ html {
 	padding: 0;
 }
 body {
-	background-color: #f4f2f0;
+	background-color: #d7cec7;
 	color: #565656;
 	font-size: 14pt;
 	margin: 0;
 	padding: 0;
 	font-family: -apple-system-ui-serif, ui-serif, Georgia, serif;
+}
+div#inner-body {
+	background-color: #f4f2f0;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
 }
 
 h2 {
@@ -31,11 +37,6 @@ div.navbar {
 	background-color: #d7cec7;
 	margin: 0;
 	padding: 20px;
-}
-@supports(padding: max(0px)) {
-	div.navbar {
-		padding-top: max(20px, env(safe-area-inset-top));
-	}
 }
 div.navbar div.inner {
 	max-width: 760px;
@@ -234,8 +235,11 @@ div.tags ul li:last-child:after {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #222;
+		background-color: #111;
 		color: #ccc;
+	}
+	div#inner-body {
+		background-color: #222;
 	}
 	a {
 		color: #ccc;
