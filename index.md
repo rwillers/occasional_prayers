@@ -6,9 +6,9 @@ tagline:
 content:
     - tag
     - acna2019
-    - tec1979
     - coe-cw
     - coi2004
+    - tec1979
     - davidtaylor
     - acna2019collects
 ---
