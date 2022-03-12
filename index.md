@@ -8,6 +8,7 @@ content:
     - acna2019
     - coe-cw
     - coi2004
+    - tec1928
     - tec1979
     - davidtaylor
     - acna2019collects

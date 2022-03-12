@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>A Bidding Prayer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-title" content="Prayers">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#d7cec7">
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="icon" type="image/png" href="/images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images/touch-icon-120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-152.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="/images/touch-icon-167.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/touch-icon-180.png">
+		<link rel="apple-touch-icon" href="/images/touch-icon-1024.png">
+		<link href="/css/style.css" rel="stylesheet" media="screen">
+ 
+	</head>
+
+	<body>
+
+		<div id="inner-body">
+
+			<div class="navbar">
+				<div class="inner">
+
+					<h1><a href="/">Occasional Prayers</a></h1>
+
+					<form action="/search.html" role="search">
+						<input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Search"> 
+					</form>
+
+				</div>
+			</div>
+			
+			<div id="content">
+
+
+		<ol class="breadcrumb">
+			<li><a href="/">Home</a></li>
+				<li><a href="/tec1928/">The Episcopal Church (US, 1928) — Occasional Prayers</a></li>
+			<!--<li class="active">A Bidding Prayer</li>-->
+		</ol>
+
+	<div class="page-header">
+		<h2>A Bidding Prayer</h2>
+	</div>
+
+		<main>
+		<p>GOOD Christian People, I bid your prayers for Christ’s holy Catholic Church, the blessed company of all faithful people; that it may please God to confirm and strengthen it in purity of faith, in holiness of life, and in perfectness of love, and to restore to it the witness of visible unity; and more especially for that branch of the same planted by God in this land, whereof we are members; that in all things it may work according to God’s will, serve him faithfully, and worship him acceptably.</p>
+<p>Ye shall pray for the President of these United States, and for the Governor of this State, and for all that are in authority; that all, and every one of them, may serve truly in their several callings to the glory of God, and the edifying and well-governing of the people, remembering the account they shall be called upon to give at the last great day.</p>
+<p>Ye shall also pray for the ministers of God’s Holy Word and Sacraments; for Bishops (and herein more especially for the Bishop of this Diocese), that they may minister faithfully and wisely the discipline of Christ; likewise for all Priests and Deacons (and herein more especially for the Clergy here residing), that they may shine as lights in the world, and in all things may adorn the doctrine of God our Saviour.</p>
+<p>And ye shall pray for a due supply of persons fitted to serve God in the Ministry and in the State; and to that end, as well as for the good education of all the youth of this land, ye shall pray for all schools, colleges, and seminaries of sound and godly learning, and for all whose hands are open for their maintenance; that whatsoever tends to the advancement of true religion and useful learning may for ever flourish and abound.</p>
+<p>Ye shall pray for all the people of these United States, that they may live in the true faith and fear of God, and in brotherly charity one towards another.</p>
+<p>Ye shall pray also for all who travel by land or sea; for all prisoners and captives; for all who are in sickness or in sorrow; for all who have fallen into grievous sin; for all who, through temptation, ignorance, helplessness, grief, trouble, dread, or the near approach of death, especially need our prayers.</p>
+<p>Ye shall also praise God for rain and sunshine; for the fruits of the earth; for the products of all honest industry; and for all his good gifts, temporal and spiritual, to us and to all men.</p>
+<p>Finally, ye shall yield unto God most high praise and hearty thanks for the wonderful grace and virtue declared in all his saints, who have been the choice vessels of his grace and the lights of the world in their several generations; and pray unto God, that we may have grace to direct our lives after their good examples; that, this life ended, we may be made partakers with them of the glorious resurrection, and the life everlasting.</p>
+<p>And now, brethren, summing up all our petitions, and all our thanksgivings, in the words which Christ hath taught us, we make bold to say,</p>
+<p>OUR Father, who art in heaven, Hallowed be thy Name. Thy kingdom come. Thy will be done on earth, As it is in heaven. Give us this day our daily bread. And forgive us our trespasses, As we forgive those who trespass against us. And lead us not into temptation; But deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever and ever. <strong>Amen.</strong></p>
+		</main>
+
+		<div id="pronouns" class="button-group">
+			<button onclick="togglePronouns('f')" id="toggleF">Female</button><button onclick="togglePronouns('m')" id="toggleM" class="current">Male</button>
+		</div>
+
+		<div class="tags">
+			Categories & attributions: 
+			<ul>
+				<li><a href="/tag/General and Concluding Prayers">General and Concluding Prayers</a></li>
+			</ul>
+		</div>
+
+	<script>
+		p = document.getElementsByTagName('main')[0];
+		if (p.innerHTML.search(/<em>him<\/em>/i) != -1 || p.innerHTML.search(/<em>his<\/em>/i) != -1 || p.innerHTML.search(/<em>he<\/em>/i) != -1 || p.innerHTML.search(/<em>himself<\/em>/i) != -1) {
+
+			// Code ems at page load so that we don't need to know current selection later
+			temp = p.innerHTML.replace(/<em>him<\/em>/gi, '<em data-t="obj">him</em>');
+			temp = temp.replace(/<em>his<\/em>/gi, '<em data-t="pos">his</em>');
+			temp = temp.replace(/<em>he<\/em>/gi, '<em data-t="sub">he</em>');
+			temp = temp.replace(/<em>himself<\/em>/gi, '<em data-t="ref">himself</em>');
+			p.innerHTML = temp;
+
+			// Make visible
+				document.getElementById('pronouns').style.display = 'block';
+			}
+
+			function togglePronouns(g) {
+			if (g == 'f') {
+				document.getElementById('toggleM').className = '';
+				document.getElementById('toggleF').className = 'current';
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">her</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">her</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">she</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">herself</em>');
+			} else if (g == 'm') {
+				document.getElementById('toggleF').className = '';
+				document.getElementById('toggleM').className = 'current';
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">him</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">his</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">he</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">himself</em>');
+			} else if (g == 'p') {
+				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">them</em>');
+				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">their</em>');
+				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">they</em>');
+				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">themselves</em>');
+			}
+			p.innerHTML = temp;
+		}
+	</script>
+
+
+ 
+
+			</div>
+
+<div class="footer">
+	<!--<a href="/about.html">About</a>-->
+</div>
+		</div>
+
+	</body>
+</html>
