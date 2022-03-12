@@ -64,6 +64,8 @@ div.navbar h1 {
 	display: inline;
 	text-transform: uppercase;
 	max-height: 22px;
+	overflow: hidden;
+	white-space: nowrap;
 	text-overflow: ellipsis;
 	flex-grow: 3;
 }
