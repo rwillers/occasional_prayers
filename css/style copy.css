@@ -36,13 +36,9 @@ small {
 div.navbar {
 	width:  100%;
 	margin: 0;
-	/*padding: 20px 0;*/
+	padding: 20px 0;
+	/*position: fixed;*/
 	background-color: #d7cec7;
-
-	/* Fixed navbar code */
-	position: fixed;
-	top: -100px;
-	padding: 120px 0 20px 0;
 }
 div.navbar div.inner {
 	max-width: 760px;
@@ -96,10 +92,8 @@ div.navbar form input:focus {
 div#content {
 	max-width: 760px;
 	margin: 0 auto;
-	/*padding: 20px;*/
-
-	/* Fixed navbar code */
-	padding: 83px 20px 20px 20px;
+	/*padding: 83px 20px 20px 20px;*/
+	padding: 20px;
 }
 div#content p {
 	line-height: 1.5;
