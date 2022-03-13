@@ -1,6 +1,6 @@
 from titlecase import titlecase
 
-with open('_temp-tec1928.txt') as f:
+with open('_temp-coe1662.txt') as f:
 	prayer = 0
 	new_category = True
 	new_prayer = True
@@ -30,7 +30,7 @@ with open('_temp-tec1928.txt') as f:
 print(len(parsed))
 
 for prayer in parsed:
-	with open('../tec1928/{}.md'.format(prayer[0]), 'w') as f:
+	with open('../coe1662/{}.md'.format(prayer[0]), 'w') as f:
 		f.write('---\n')
 		f.write('title: {}\n'.format(prayer[2]))
 		f.write('layout: page\n')

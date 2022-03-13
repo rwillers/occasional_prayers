@@ -130,7 +130,7 @@ button {
 	background-color: #fff;
 	border: 1px solid #d7cec7;
 	border-radius: 5px;
-	color: #565656;
+	color: #555;
 	text-align: center;	
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
@@ -153,7 +153,7 @@ button:hover {
 }
 button.current {
 	background-color: #f6f6f6;
-	color: #555;
+	color: #565656;
 }
 div#pronouns {
 	display: none;

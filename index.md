@@ -6,6 +6,7 @@ tagline:
 content:
     - tag
     - acna2019
+    - coe1662
     - coe-cw
     - coi2004
     - tec1928
