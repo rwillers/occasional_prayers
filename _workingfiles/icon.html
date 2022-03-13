@@ -10,33 +10,17 @@
 <canvas id="icon" width="1024" height="1024"></canvas>
 
 <br><br>
-<!--
-Favicon 16:<br>
-<img class="output" width="16" height="16">
-<br><br>
--->
-Favicon 32:<br>
-<img class="output" width="32" height="32">
-<br><br>
-<!--
-Favicon 96:<br>
-<img class="output" width="96" height="96">
-<br><br>
--->
-iPhone 2x 120<br>
-<img class="output" width="120" height="120">
-<br><br>
-iPhone 3x 180<br>
-<img class="output" width="180" height="180">
-<br><br>
-iPad Pro 167<br>
-<img class="output" width="167" height="167">
-<br><br>
-iPad 152<br>
-<img class="output" width="152" height="152">
-<br><br>
-App Store 1024<br>
+
 <img class="output" width="1024" height="1024">
+
+<br><br>
+
+<canvas id="icon2" width="1024" height="1024"></canvas>
+
+<br><br>
+
+<img class="output2" width="1024" height="1024">
+
 
 <script>
 
@@ -73,6 +57,36 @@ var img = c.toDataURL('image/png');
 var imgs = document.getElementsByClassName('output');
 for (var i = 0; i < imgs.length; i++) {
 	imgs[i].src = img;
+}
+
+
+var c2 = document.getElementById('icon2');
+var ctx2 = c2.getContext('2d');
+ctx2.globalAlpha = 0.1;
+
+// Cross
+ctx2.beginPath();
+ctx2.moveTo(344, 198);
+ctx2.lineTo(680, 198);
+ctx2.bezierCurveTo(812, 198, 560, 198, 560, 464);
+ctx2.bezierCurveTo(826, 464, 826, 212, 826, 344);
+ctx2.lineTo(826, 680);
+ctx2.bezierCurveTo(826, 812, 826, 560, 560, 560);
+ctx2.bezierCurveTo(560, 826, 812, 826, 680, 826);
+ctx2.lineTo(344, 826);
+ctx2.bezierCurveTo(212, 826, 464, 826, 464, 560);
+ctx2.bezierCurveTo(198, 560, 198, 812, 198, 680);
+ctx2.lineTo(198, 344);
+ctx2.bezierCurveTo(198, 212, 198, 464, 464, 464);
+ctx2.bezierCurveTo(464, 198, 212, 198, 344, 198);
+ctx2.closePath();
+ctx2.fillStyle = '#000';
+ctx2.fill();
+
+var img2 = c2.toDataURL('image/png');
+var imgs2 = document.getElementsByClassName('output2');
+for (var i = 0; i < imgs2.length; i++) {
+	imgs2[i].src = img2;
 }
 
 </script>
