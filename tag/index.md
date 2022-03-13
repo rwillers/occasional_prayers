@@ -1,6 +1,6 @@
 ---
 title: By category or attribution
-layout: index
+layout: tag
 order: source_order
 ---
 
