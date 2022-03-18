@@ -172,7 +172,9 @@ ol.breadcrumb li {
 	display: inline;
 }
 ol.breadcrumb li+li:before {
-	content: '\003e\00a0';
+	/*content: '\003e\00a0';*/
+	content: '\00BB\00a0';
+	font-size: 0.9em;
 }
 
 div.tags {
