@@ -266,7 +266,8 @@ http://www.tipue.com/search
                                              "score": score,
                                              "title": tipuesearch_in.pages[i].title,
                                              "desc": s_t,
-                                             "url": tipuesearch_in.pages[i].url 
+                                             "url": tipuesearch_in.pages[i].url,
+                                             "folder": tipuesearch_in.pages[i].folder
                                         });
                                         c++;                                                                   
                                    }
@@ -332,7 +333,8 @@ http://www.tipue.com/search
                                              "score": score,
                                              "title": tipuesearch_in.pages[i].title,
                                              "desc": s_t,
-                                             "url": tipuesearch_in.pages[i].url
+                                             "url": tipuesearch_in.pages[i].url,
+                                             "folder": tipuesearch_in.pages[i].folder
                                         });
                                         c++;                                                                  
                                    }                              
@@ -365,11 +367,13 @@ http://www.tipue.com/search
                               found.sort(function(a, b) { return b.score - a.score } );
                               
                               var l_o = 0;
+                              out += '<ul>';
                               for (var i = 0; i < found.length; i++)
                               {
                                    if (l_o >= start && l_o < set.show + start)
                                    {                                   
-                                        out += '<div class="tipue_search_content_title"><a href="' + found[i].url + '"' + tipue_search_w + '>' +  found[i].title + '</a></div>';
+                                        out += '<li>';
+                                        out += '<div class="tipue_search_content_title"><a href="' + found[i].url + '"' + tipue_search_w + '>' +  found[i].title + '</a> <small>' + found[i].folder + '</small></div>';
  
                                         if (set.debug)
                                         {                                             
@@ -409,9 +413,11 @@ http://www.tipue.com/search
                                              }
                                              out += '<div class="tipue_search_content_text">' + t_d + '</div>';
                                         }
+                                        out += '</li>';
                                    }
                                    l_o++;     
                               }
+                              out += '</ul>';
                               
                               if (c > set.show)
                               {

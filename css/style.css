@@ -201,15 +201,12 @@ div.tags ul li:last-child:after {
 #tipue_search_results_count {
 	font-size: 0.9em;
 }
-.tipue_search_content_title {
-	margin: 1em 0 0.3em 0;
-	font-weight: bold;
-}
 .tipue_search_content_url {
 	display: none;
 }
 .tipue_search_content_text {
 	font-size: 0.9em;
+	font-style: italic;
 	word-wrap: break-word;
 	hyphens: auto;
 }
@@ -230,25 +227,25 @@ div.tags ul li:last-child:after {
 }
 #tipue_search_foot_boxes li a {
 	padding: 10px 15px;
-	background-color: #fff;
+	background-color: #f6f6f6;
 	border: 1px solid #d7cec7;
 	border-radius: 5px;
-	color: #565656;
+	color: #555;
 	margin-right: 7px;
 	text-decoration: none;
 	text-align: center;
 }
 #tipue_search_foot_boxes li.current {
 	padding: 10px 15px;
-	background-color: #f6f6f6;
+	background-color: #fff;
 	border: 1px solid #d7cec7;
 	border-radius: 5px;
-	color: #555;
+	color: #565656;
 	margin-right: 7px;
 	text-align: center;
 }
 #tipue_search_foot_boxes li a:hover {
-	background-color: #f6f6f6;
+	background-color: #fff;
 }
 
 /* Dark mode */
