@@ -1,7 +1,7 @@
 from titlecase import titlecase
 
-with open('_temp-coe1662.txt') as f:
-	prayer = 0
+with open('_temp-acna2019addl.txt') as f:
+	prayer = 125
 	new_category = True
 	new_prayer = True
 	parsed = []
@@ -30,7 +30,7 @@ with open('_temp-coe1662.txt') as f:
 print(len(parsed))
 
 for prayer in parsed:
-	with open('../coe1662/{}.md'.format(prayer[0]), 'w') as f:
+	with open('../_acna2019addl/{}.md'.format(prayer[0]), 'w') as f:
 		f.write('---\n')
 		f.write('title: {}\n'.format(prayer[2]))
 		f.write('layout: page\n')
