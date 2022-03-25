@@ -101,13 +101,13 @@
 				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">his</em>');
 				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">he</em>');
 				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">himself</em>');
-				temp = temp.replace(/<em data-t="rel">[a-z]*<\/em>/gi, '<em data-t="ref">brother</em>');
+				temp = temp.replace(/<em data-t="rel">[a-z]*<\/em>/gi, '<em data-t="rel">brother</em>');
 			} else if (g == 'p') {
 				temp = p.innerHTML.replace(/<em data-t="obj">[a-z]*<\/em>/gi, '<em data-t="obj">them</em>');
 				temp = temp.replace(/<em data-t="pos">[a-z]*<\/em>/gi, '<em data-t="pos">their</em>');
 				temp = temp.replace(/<em data-t="sub">[a-z]*<\/em>/gi, '<em data-t="sub">they</em>');
 				temp = temp.replace(/<em data-t="ref">[a-z]*<\/em>/gi, '<em data-t="ref">themselves</em>');
-				temp = temp.replace(/<em data-t="rel">[a-z]*<\/em>/gi, '<em data-t="ref">siblings</em>');
+				temp = temp.replace(/<em data-t="rel">[a-z]*<\/em>/gi, '<em data-t="rel">siblings</em>');
 			}
 			p.innerHTML = temp;
 		}
