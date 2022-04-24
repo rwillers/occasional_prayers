@@ -277,7 +277,7 @@ div.tags ul li:last-child:after {
 		color: #fff;
 	}
 	div.navbar form input {
-		background-color: #000;
+		background-color: #333;
 		border-color: #000;
 		color: #eee;
 	}
