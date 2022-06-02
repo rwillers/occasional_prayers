@@ -10,6 +10,7 @@ content:
     - coi2004
     - tec1928
     - tec1979
+    - potec
     - davidtaylor
     - acna2019collects
 ---
