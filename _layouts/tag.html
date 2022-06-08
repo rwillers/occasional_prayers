@@ -18,7 +18,8 @@
 		{% endif %}
 		{% set short_title = site.reflinks['/' + item.components[0]].short_title %}
 		{% if short_title %}
-		<small>{{short_title}}</small>
+		{% set full_title = site.reflinks['/' + item.components[0]].title %}
+		<small><abbr title="{{full_title}}">{{short_title}}</abbr></small>
 		{% endif %}
 	</li>
 	{% endfor %}
