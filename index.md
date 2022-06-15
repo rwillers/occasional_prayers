@@ -12,6 +12,7 @@ content:
     - tec1979
     - potec
     - davidtaylor
+    - other
     - acna2019collects
 ---
 
