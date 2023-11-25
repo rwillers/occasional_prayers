@@ -9,6 +9,6 @@ My appreciation for these occasional prayers, and frequent use of them, has been
 
 I hope that you find these prayers helpful in worship and formative in belief, just as many generations of Anglicans have before us.
 
-*The Rev Ryan Willers*
+*The Rev. Ryan Willers*
 
 <!--<small>Follow <a href="https://twitter.com/sundrypurposes" target="_blank">Occasional Prayers on Twitter</a></small>-->
