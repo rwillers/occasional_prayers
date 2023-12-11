@@ -1,0 +1,9 @@
+---
+title: Devotions, Prayer XVI — Et properare meum clamant, e turre propinqua, obstreperae campanae ali (“And the noisy bells from the nearby tower urge me to hurry”)
+attribution: John Donne
+layout: page
+tags: ['Devotions upon Emergent Occasions', 'John Donne']
+source_order: 26
+---
+
+O eternal and most gracious God, who having consecrated our living bodies to thine own Spirit, and made us temples of the Holy Ghost, dost also require a respect to be given to these temples, even when the priest is gone out of them, to these bodies when the soul is departed from them, I bless and glorify thy name, that as thou takest care in our life of every hair of our head, so dost thou also of every grain of ashes after our death. Neither dost thou only do good to us all in life and death, but also wouldst have us do good to one another, as in a holy life, so in those things which accompany our death. In that contemplation I make account that I hear this dead brother of ours, who is now carried out to his burial, to speak to me, and to preach my funeral sermon in the voice of these bells. In him, O God, thou hast accomplished to me even the request of Dives to Abraham; thou hast sent one from the dead to speak unto me. He speaks to me aloud from that steeple; he whispers to me at these curtains, and he speaks thy words: *Blessed are the dead which die in the Lord from henceforth*. Let this prayer therefore, O my God, be as my last gasp, my expiring, my dying in thee; that if this be the hour of my transmigration, I may die the death of a sinner, drowned in my sins, in the blood of thy Son; and if I live longer, yet I may now die the death of the righteous, die to sin; which death is a resurrection to a new life. *Thou killest and thou givest life*: whichsoever comes, it comes from thee; which way soever it comes, let me come to thee.

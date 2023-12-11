@@ -11,7 +11,6 @@ content:
     - tec1928
     - tec1979
     - potec
-    - donne
     - davidtaylor
     - other
     - acna2019collects
