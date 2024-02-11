@@ -11,8 +11,15 @@ content:
     - tec1928
     - tec1979
     - potec
+    - parish-year
+    - parish-occasions
+    - parish-sacraments
+    - parish-intercessory
+    - parish-devotional
+    - parish-supplementary
     - davidtaylor
     - other
     - acna2019collects
+
 ---
 

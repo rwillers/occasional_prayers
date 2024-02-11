@@ -198,7 +198,7 @@ class Project(object):
         # layout is mandatory
         if 'layout' not in info:
             raise UrubuError(_error.undef_info, msg='layout', fn=fn)
-        if 'layout' is None:
+        if 'layout' == None:
             return
         layout = info['layout']
         # modification date, always available
@@ -398,13 +398,17 @@ class Project(object):
         """ Process tag map and tag content."""
         def get_date(item):
             """ Return item's date, or mdate as fallback."""
-            if 'date' in item:
+            if 'source_order' in item:
+                return item['source_order']
+            elif 'date' in item:
                 return item['date']
             else:
                 return item['mdate']
         for tag in self.tagmap.keys():
             # sort tag content by date
-            content = sorted(self.tagmap[tag], key=get_date, reverse=True)
+            # rdw: Modified here and above to sort by source_order, instead
+            # content = sorted(self.tagmap[tag], key=get_date, reverse=True)
+            content = sorted(self.tagmap[tag], key=get_date, reverse=False)
             taginfo = self.make_taginfo(tag, content)
             self.taglist.append(taginfo)
             self.add_reflink(taginfo['id'], taginfo)
