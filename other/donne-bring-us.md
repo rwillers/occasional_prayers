@@ -3,7 +3,7 @@ title: Bring us, O Lord
 attribution: John Donne
 layout: page
 tags: ['General and Concluding Prayers', 'John Donne']
-source_order: 10
+source_order: 11
 ---
 
 Bring us, O Lord God, at our last awakening<br>
