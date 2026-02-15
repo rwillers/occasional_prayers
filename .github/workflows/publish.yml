@@ -127,6 +127,9 @@ jobs:
       - name: Post-deploy smoke checks
         run: |
           set -euo pipefail
-          curl -fsSL "${SITE_URL}/search.html" | grep -q "/pagefind/pagefind.js"
+          TMP_HTML="$(mktemp)"
+          trap 'rm -f "$TMP_HTML"' EXIT
+          curl -fsSL "${SITE_URL}/search.html" -o "$TMP_HTML"
+          grep -q "/pagefind/pagefind.js" "$TMP_HTML"
           curl -fsSIL "${SITE_URL}/pagefind/pagefind.js" >/dev/null
           test "$(curl -s -o /dev/null -w "%{http_code}" "${SITE_URL}/this-page-should-not-exist")" = "404"

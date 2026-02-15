@@ -4,7 +4,7 @@ Occasional Prayers is a static website that collects prayers from the *Book of C
 
 The site is built with [Pelican](https://getpelican.com/) and [PageFind](https://pagefind.app/) from Markdown content and templates in this repository.
 
-Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15). Urubu build commands remain available temporarily as a fallback path.
+Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
 
 ## Project Structure
 
@@ -12,16 +12,15 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15). Urubu bu
 - `_layouts/`: site layout templates.
 - `css/`, `js/`, `images/`: static assets.
 - Prayer/content directories (for example `acna2019/`, `tec1979/`, `parish-year/`): Markdown source files.
-- `_build/`: generated output from Urubu.
+- `_build_pelican/`: generated output from Pelican.
 - `_workingfiles/`: working notes, import/parsing helpers, and scratch content.
 
 ## Local Development
 
 ### Prerequisites
 
-- Python 3
-- Urubu available in your environment
-- Python 3.12 for Pelican migration tooling
+- Python 3.12
+- Node.js (for PageFind indexing)
 
 ### Common Commands
 
@@ -30,12 +29,6 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15). Urubu bu
 - Serve locally (Pelican):
   - `make serve-pelican`
   - or `.venv-pelican/bin/python -m pelican --listen --autoreload -s pelicanconf.py -o _build_pelican`
-- Build the site (legacy Urubu fallback):
-  - `make build`
-  - or `python3 -m urubu build && touch _build/.nojekyll`
-- Serve locally (legacy Urubu fallback):
-  - `make serve`
-  - or `python3 -m urubu serve`
 - Capture migration baseline artifacts:
   - `make baseline`
   - or `python3 scripts/capture_baseline.py`
@@ -100,9 +93,7 @@ Use a dedicated virtualenv for Pelican migration work:
   - `/opt/homebrew/bin/python3.12 -m venv .venv-pelican`
   - `.venv-pelican/bin/python -m pip install -r requirements.txt`
 
-`requirements-urubu.txt` is kept separately for legacy Urubu-only environments because Urubu and modern Pelican have conflicting Markdown dependency ranges.
-
-Note: `index-pelican.md` is a migration adapter used to generate Pelican's root `index.html` without changing the existing Urubu-focused `index.md` metadata shape.
+Note: `index-pelican.md` is a migration adapter used to generate Pelican's root `index.html` without changing the existing `index.md` metadata shape.
 Note: `make build-pagefind` uses `npx` by default and needs network access unless `pagefind` is already installed locally.
 
 ## Python Style

@@ -1,4 +1,3 @@
-GH-PAGES = ${HOME}/dev/urubu-gh-pages/
 PELICAN_PYTHON ?= .venv-pelican/bin/python
 PAGEFIND_CMD ?= npx --yes pagefind
 PAGEFIND_EXCLUDE_SELECTORS ?= .navbar,.footer,\#pronouns,.tags,script,style
@@ -6,11 +5,10 @@ PAGEFIND_EXCLUDE_SELECTORS ?= .navbar,.footer,\#pronouns,.tags,script,style
 all: build
 
 build:
-	python3 -m urubu build
-	touch _build/.nojekyll
+	$(MAKE) build-pelican-search
 
 serve:
-	python3 -m urubu serve
+	$(MAKE) serve-pelican
 
 baseline:
 	python3 scripts/capture_baseline.py
@@ -62,9 +60,7 @@ serve-pelican:
 	$(PELICAN_PYTHON) -m pelican --listen --autoreload -s pelicanconf.py -o _build_pelican
 
 publish:
-	git add -A
-	git commit
-	git push occasional_prayers master
+	git push origin master
 
 git:
 	git push origin master
