@@ -42,6 +42,10 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
   - or `npx --yes pagefind --site _build_pelican --output-subdir pagefind --exclude-selectors ".navbar,.footer,#pronouns,.tags,script,style"`
 - Build Pelican + PageFind in sequence:
   - `make build-pelican-search`
+- Run automated test suite (pytest):
+  - `make test`
+- Run full verification suite (tests + build + redirects + readiness):
+  - `make test-all`
 - Run migration metadata audit:
   - `make audit-metadata`
   - or `.venv-pelican/bin/python scripts/audit_metadata.py`

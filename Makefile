@@ -40,6 +40,15 @@ build-pelican-search:
 	$(MAKE) build-pelican
 	$(MAKE) build-pagefind
 
+test:
+	$(PELICAN_PYTHON) -m pytest -q tests
+
+test-all:
+	$(MAKE) test
+	$(MAKE) build-pelican-search
+	$(MAKE) build-redirects
+	$(MAKE) cutover-readiness
+
 audit-metadata:
 	$(PELICAN_PYTHON) scripts/audit_metadata.py
 

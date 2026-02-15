@@ -9,7 +9,7 @@
         - [x] Switch default local build/serve targets to Pelican in `Makefile`.
         - [x] Remove legacy Urubu config/dependency files from repo (`_site.yml`, `requirements-urubu.txt`).
         - [x] Remove remaining Urubu-only source/template artifacts after archival decision.
-    - [ ] Add a full suite of test scripts for the modernized application.
+    - [x] Add a full suite of test scripts for the modernized application.
     - [ ] Update all documentation to reflect changes and clean up.
 - [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).
 - [ ] Standardize visual design and supporting CSS with Ordinarium.com project.
