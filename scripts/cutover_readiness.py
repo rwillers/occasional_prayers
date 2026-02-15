@@ -25,6 +25,7 @@ PAGEFIND_QUERY_RESULTS_PATH = (
     ROOT / "migration" / "parity" / "pagefind_query_results.tsv"
 )
 EXPECTED_EXTRA_URLS = {"/404.html"}
+PYTHON_EXECUTABLE = sys.executable
 
 
 @dataclass
@@ -92,7 +93,7 @@ def _check_url_parity() -> Check:
 
 def _check_redirect_validation() -> Check:
     command = [
-        str(ROOT / ".venv-pelican" / "bin" / "python"),
+        PYTHON_EXECUTABLE,
         "scripts/generate_redirects.py",
         "--csv",
         "migration/redirects.csv",
@@ -111,7 +112,7 @@ def _check_redirect_validation() -> Check:
 
 def _check_metadata_audit() -> Check:
     command = [
-        str(ROOT / ".venv-pelican" / "bin" / "python"),
+        PYTHON_EXECUTABLE,
         "scripts/audit_metadata.py",
     ]
     ok, output = _run_command(command)
@@ -146,7 +147,7 @@ def _check_metadata_audit() -> Check:
 
 def _check_render_parity() -> Check:
     command = [
-        str(ROOT / ".venv-pelican" / "bin" / "python"),
+        PYTHON_EXECUTABLE,
         "scripts/check_render_parity.py",
     ]
     ok, output = _run_command(command)

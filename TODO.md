@@ -2,9 +2,12 @@
 
 - [x] Migrate site from Urubu to Pelican + PageFind. (Initial migration complete: 2026-02-15)
 - [ ] Review and, if recommended, modernize the publishing process (e.g., consider Github Actions or similar).
+    - [x] Add GitHub Actions publish workflow (`.github/workflows/publish.yml`) with build/check/deploy stages.
+    - [ ] Configure required GitHub repository secrets and run first workflow-based production deploy.
     - [ ] After confirming successful publish of Pelican site, perform a full clean up of old Urubu code, venv, etc., safely cleaning the environment to only current code and dependencies.
     - [ ] Add a full suite of test scripts for the modernized application.
-    - [ ] Update all documentation to reflect changes and clean up.- [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).
+    - [ ] Update all documentation to reflect changes and clean up.
+- [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).
 - [ ] Standardize visual design and supporting CSS with Ordinarium.com project.
 - [ ] Add (beta) prayer language modernization feature ("thou" -> "you", etc.)
 - [ ] Add 1559 occasional prayers (http://justus.anglican.org/resources/bcp/1559/Godly_Prayers.htm) [1552 and 1549 don't have separate sections]

@@ -1,0 +1,136 @@
+name: Publish Site
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Deploy this revision to production"
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  verify:
+    name: Verify build and migration checks
+    runs-on: ubuntu-latest
+    env:
+      PELICAN_PYTHON: python3
+      PAGEFIND_CMD: npx --yes pagefind@1.4.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python dependencies
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Build Pelican + PageFind
+        run: make build-pelican-search
+
+      - name: Validate redirects
+        run: make build-redirects
+
+      - name: Generate cutover readiness report
+        run: make cutover-readiness
+
+      - name: Upload readiness report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cutover-readiness
+          path: migration/cutover_readiness.md
+
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    needs: verify
+    if: >
+      (
+        (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
+        (github.event_name == 'workflow_dispatch' && inputs.deploy == true)
+      )
+      && secrets.PROD_DEPLOY_HOST != ''
+      && secrets.PROD_DEPLOY_USER != ''
+      && secrets.PROD_DEPLOY_SSH_KEY != ''
+      && secrets.PROD_DEPLOY_KNOWN_HOSTS != ''
+    concurrency:
+      group: occasional-prayers-production
+      cancel-in-progress: false
+    env:
+      PELICAN_PYTHON: python3
+      PAGEFIND_CMD: npx --yes pagefind@1.4.0
+      DEPLOY_PATH: /var/www/occasionalprayers.com/public_html
+      SITE_URL: https://occasionalprayers.com
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Python dependencies
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Build deployable site
+        run: |
+          make build-pelican-search
+          make build-redirects
+          make cutover-readiness
+
+      - name: Configure SSH
+        env:
+          PROD_DEPLOY_SSH_KEY: ${{ secrets.PROD_DEPLOY_SSH_KEY }}
+          PROD_DEPLOY_KNOWN_HOSTS: ${{ secrets.PROD_DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${PROD_DEPLOY_SSH_KEY:-}" || -z "${PROD_DEPLOY_KNOWN_HOSTS:-}" ]]; then
+            echo "Missing required secrets: PROD_DEPLOY_SSH_KEY and/or PROD_DEPLOY_KNOWN_HOSTS"
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$PROD_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$PROD_DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Sync site to production
+        env:
+          PROD_DEPLOY_HOST: ${{ secrets.PROD_DEPLOY_HOST }}
+          PROD_DEPLOY_USER: ${{ secrets.PROD_DEPLOY_USER }}
+          PROD_DEPLOY_PORT: ${{ secrets.PROD_DEPLOY_PORT }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${PROD_DEPLOY_HOST:-}" || -z "${PROD_DEPLOY_USER:-}" ]]; then
+            echo "Missing required secrets: PROD_DEPLOY_HOST and/or PROD_DEPLOY_USER"
+            exit 1
+          fi
+          DEPLOY_PORT="${PROD_DEPLOY_PORT:-22}"
+          rsync -az --delete -e "ssh -p ${DEPLOY_PORT}" \
+            _build_pelican/ "${PROD_DEPLOY_USER}@${PROD_DEPLOY_HOST}:${DEPLOY_PATH}/"
+          ssh -p "${DEPLOY_PORT}" "${PROD_DEPLOY_USER}@${PROD_DEPLOY_HOST}" \
+            "find '${DEPLOY_PATH}' -type f -exec chmod 0644 {} + && find '${DEPLOY_PATH}' -type d -exec chmod 0755 {} +"
+
+      - name: Post-deploy smoke checks
+        run: |
+          set -euo pipefail
+          curl -fsSL "${SITE_URL}/search.html" | grep -q "/pagefind/pagefind.js"
+          curl -fsSIL "${SITE_URL}/pagefind/pagefind.js" >/dev/null
+          test "$(curl -s -o /dev/null -w "%{http_code}" "${SITE_URL}/this-page-should-not-exist")" = "404"

@@ -65,6 +65,28 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15). Urubu bu
   - `make cutover-readiness`
   - or `.venv-pelican/bin/python scripts/cutover_readiness.py`
 
+## Publishing Automation
+
+GitHub Actions workflow: `.github/workflows/publish.yml`
+
+Behavior:
+
+- Runs build + migration checks on pull requests and pushes.
+- Deploys on pushes to `master`.
+- Supports manual deploy via workflow dispatch (`deploy: true`).
+
+Required GitHub repository secrets:
+
+- `PROD_DEPLOY_HOST`: SSH host (for example `3.233.14.27`).
+- `PROD_DEPLOY_USER`: SSH user with write access to production web root.
+- `PROD_DEPLOY_PORT`: optional SSH port (defaults to `22` if unset).
+- `PROD_DEPLOY_SSH_KEY`: private key used by Actions for SSH/rsync.
+- `PROD_DEPLOY_KNOWN_HOSTS`: one or more `known_hosts` lines for the production host.
+
+Example command to generate `PROD_DEPLOY_KNOWN_HOSTS` value:
+
+- `ssh-keyscan -H 3.233.14.27`
+
 ## Dependencies
 
 Python dependencies are now pinned in `requirements.txt`.
