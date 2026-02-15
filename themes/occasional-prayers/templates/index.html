@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
+    {% set items = page.section_children if page.section_children is defined else [] %}
+
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.metadata.get("tagline", "") }}</p>
+
+    <ul>
+        {% for item in items %}
+            <li>
+                <a href="{{ url_prefix }}/{{ item.url | replace('index.html', '') }}">{{ item.title }}</a>
+                {% if item.metadata.get("attribution") %}
+                    <small><em>{{ item.metadata.get("attribution") }}</em></small>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

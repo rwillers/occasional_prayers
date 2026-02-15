@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
+    {% set tag_links = page.all_tag_links if page.all_tag_links is defined else [] %}
+
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.metadata.get("tagline", "") }}</p>
+
+    <ul>
+        {% for tag in tag_links %}
+            <li>
+                <a href="{{ url_prefix }}/tag/{{ tag.segment }}/">{{ tag.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

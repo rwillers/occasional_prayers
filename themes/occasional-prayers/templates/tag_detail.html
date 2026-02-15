@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
+    {% set section_source_map = {
+        "acna2019": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Occasional Prayers"},
+        "acna2019collects": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Collects"},
+        "coe1662": {"short": "COE 1662", "title": "Church of England (1662) — Prayers and Thanksgivings upon Several Occasions"},
+        "coi2004": {"short": "COI 2004", "title": "Church of Ireland (2004) — Some Prayers and Thanksgivings"},
+        "davidtaylor": {"short": "Taylor", "title": "W. David O. Taylor — Collects and occasional prayers"},
+        "parish-devotional": {"short": "Parish V", "title": "Parish Prayers — V. Devotional Prayers"},
+        "parish-intercessory": {"short": "Parish IV", "title": "Parish Prayers — IV. Intercessory Prayers"},
+        "parish-occasions": {"short": "Parish II", "title": "Parish Prayers — II. Various Occasions"},
+        "parish-sacraments": {"short": "Parish III", "title": "Parish Prayers — III. Sacraments and Ordinances"},
+        "parish-supplementary": {"short": "Parish VI", "title": "Parish Prayers — VI. Supplementary Prayers"},
+        "parish-year": {"short": "Parish I", "title": "Parish Prayers — I. The Church Year"},
+        "potec": {"short": "POTEC", "title": "Prayers of the Early Church"},
+        "tec1928": {"short": "TEC 1928", "title": "The Episcopal Church (US, 1928) — Occasional Prayers"},
+        "tec1979": {"short": "TEC 1979", "title": "The Episcopal Church (US, 1979) — Occasional Prayers"}
+    } %}
+
+    <h2>{{ tag_name }}</h2>
+
+    <ul>
+        {% for item in tagged_pages %}
+            {% set section_key = item.url.split('/')[0] if item.url else '' %}
+            {% set source_info = section_source_map.get(section_key) %}
+            <li>
+                <a href="{{ url_prefix }}/{{ item.url | replace('index.html', '') }}">{{ item.title }}</a>
+                {% if item.metadata.get("attribution") %}
+                    <small><em>{{ item.metadata.get("attribution") }}</em></small>
+                {% endif %}
+                {% if source_info and source_info.short %}
+                    <small><abbr title="{{ source_info.title }}">{{ source_info.short }}</abbr></small>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,433 @@
+{% extends "base.html" %}
+
+{% block content_attributes %} data-pagefind-ignore="all"{% endblock %}
+
+{% block body %}
+    {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
+
+    <div class="page-header">
+        <h2>{{ page.title }}</h2>
+        {% if page.metadata.get("attribution") %}
+            <small><em>{{ page.metadata.get("attribution") }}</em></small>
+        {% endif %}
+    </div>
+
+    <main>
+        {{ page.content }}
+
+        <div id="search-shell" class="search-shell">
+            <form id="search-form" class="search-form" role="search">
+                <input type="search" id="search-query" placeholder="Search prayers" minlength="3" required>
+                <button type="submit">Search</button>
+            </form>
+            <p id="search-status" class="search-status">Enter at least three characters to search.</p>
+            <p id="search-count" class="search-count"></p>
+            <div id="search-results" class="search-results"></div>
+            <button id="search-load-more" class="search-load-more" type="button" hidden>Load more results</button>
+        </div>
+    </main>
+{% endblock %}
+
+{% block body_addon %}
+    {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
+    {% set section_sources = {
+        "acna2019": {"short_title": "ACNA 2019", "title": "Anglican Church in North America (2019) — Occasional Prayers"},
+        "acna2019collects": {"short_title": "ACNA 2019", "title": "Anglican Church in North America (2019) — Collects"},
+        "coe1662": {"short_title": "COE 1662", "title": "Church of England (1662) — Prayers and Thanksgivings upon Several Occasions"},
+        "coi2004": {"short_title": "COI 2004", "title": "Church of Ireland (2004) — Some Prayers and Thanksgivings"},
+        "davidtaylor": {"short_title": "Taylor", "title": "W. David O. Taylor — Collects and occasional prayers"},
+        "other": {"short_title": "Other prayers", "title": "Other prayers"},
+        "parish-devotional": {"short_title": "Parish V", "title": "Parish Prayers — V. Devotional Prayers"},
+        "parish-intercessory": {"short_title": "Parish IV", "title": "Parish Prayers — IV. Intercessory Prayers"},
+        "parish-occasions": {"short_title": "Parish II", "title": "Parish Prayers — II. Various Occasions"},
+        "parish-sacraments": {"short_title": "Parish III", "title": "Parish Prayers — III. Sacraments and Ordinances"},
+        "parish-supplementary": {"short_title": "Parish VI", "title": "Parish Prayers — VI. Supplementary Prayers"},
+        "parish-year": {"short_title": "Parish I", "title": "Parish Prayers — I. The Church Year"},
+        "potec": {"short_title": "POTEC", "title": "Prayers of the Early Church"},
+        "tec1928": {"short_title": "TEC 1928", "title": "The Episcopal Church (US, 1928) — Occasional Prayers"},
+        "tec1979": {"short_title": "TEC 1979", "title": "The Episcopal Church (US, 1979) — Occasional Prayers"}
+    } %}
+    <script type="module">
+        import * as pagefind from "{{ url_prefix }}/pagefind/pagefind.js";
+
+        (function() {
+            const SECTION_SOURCES = {{ section_sources | tojson }};
+            const SITE_NAME = {{ SITENAME | tojson }};
+            const SOURCE_CHROME_PREFIXES = Object.values(SECTION_SOURCES)
+                .flatMap((source) => [source?.short_title, source?.title])
+                .filter(Boolean)
+                .sort((left, right) => right.length - left.length);
+            const SEARCH_MIN_LENGTH = 3;
+            const PAGE_SIZE = 10;
+
+            const appInput = document.getElementById("search-query");
+            const appForm = document.getElementById("search-form");
+            const statusNode = document.getElementById("search-status");
+            const countNode = document.getElementById("search-count");
+            const resultsNode = document.getElementById("search-results");
+            const loadMoreNode = document.getElementById("search-load-more");
+            const navInput = document.getElementById("tipue_search_input");
+            const navForm = navInput ? navInput.closest("form") : null;
+
+            if (!appInput || !statusNode || !countNode || !resultsNode || !loadMoreNode) {
+                return;
+            }
+
+            let currentQuery = "";
+            let currentSearchToken = 0;
+            let allResults = [];
+            let renderedCount = 0;
+            let debounceHandle = null;
+
+            function escapeHtml(value) {
+                const text = String(value || "");
+                return text
+                    .replaceAll("&", "&amp;")
+                    .replaceAll("<", "&lt;")
+                    .replaceAll(">", "&gt;")
+                    .replaceAll('"', "&quot;")
+                    .replaceAll("'", "&#39;");
+            }
+
+            function normalizeQuery(value) {
+                return String(value || "").trim();
+            }
+
+            function setStatus(text) {
+                statusNode.textContent = text;
+            }
+
+            function setCount(text) {
+                countNode.textContent = text;
+            }
+
+            function setInputValues(value) {
+                if (appInput.value !== value) {
+                    appInput.value = value;
+                }
+                if (navInput) {
+                    if (navInput.value !== value) {
+                        navInput.value = value;
+                    }
+                }
+            }
+
+            function updateUrl(value) {
+                const url = new URL(window.location.href);
+                if (value) {
+                    url.searchParams.set("q", value);
+                } else {
+                    url.searchParams.delete("q");
+                }
+                window.history.replaceState({}, "", url);
+            }
+
+            function sourceLabel(resultUrl) {
+                try {
+                    const path = new URL(resultUrl, window.location.origin).pathname;
+                    const parts = path.split("/").filter(Boolean);
+                    if (!parts.length) {
+                        return "Occasional Prayers";
+                    }
+                    const section = parts[0];
+                    const source = SECTION_SOURCES[section];
+                    if (source) {
+                        return source.short_title || source.title || section;
+                    }
+                    return section.replaceAll("-", " ");
+                } catch {
+                    return "Occasional Prayers";
+                }
+            }
+
+            function urlPath(resultUrl) {
+                try {
+                    return new URL(resultUrl, window.location.origin).pathname;
+                } catch {
+                    return "";
+                }
+            }
+
+            function stripLeadingChrome(text) {
+                let result = String(text || "").trim();
+                if (!result) {
+                    return "";
+                }
+
+                result = result.replace(/^home(?:\s|[:>\-/])+/i, "").trim();
+
+                let changed = true;
+                while (changed) {
+                    changed = false;
+                    for (const prefix of SOURCE_CHROME_PREFIXES) {
+                        const escaped = prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                        const prefixPattern = new RegExp(`^${escaped}(?:\\s|[:>\\-/])+`, "i");
+                        if (prefixPattern.test(result)) {
+                            result = result.replace(prefixPattern, "").trim();
+                            changed = true;
+                        }
+                    }
+                }
+
+                return result;
+            }
+
+            function stripLeadingPhrase(text, phrase, maxAttempts = 2) {
+                const candidate = String(phrase || "").trim();
+                if (!candidate) {
+                    return String(text || "").trim();
+                }
+
+                const escaped = candidate.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                const pattern = new RegExp(`^${escaped}(?:\\s|[\\.:;\\-—–/|>])+`, "i");
+                let result = String(text || "").trim();
+                for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+                    const stripped = result.replace(pattern, "").trim();
+                    if (stripped === result) {
+                        break;
+                    }
+                    result = stripped;
+                }
+                return result;
+            }
+
+            function stripLeadingIndexContext(text, data) {
+                let result = String(text || "").trim();
+                if (!result) {
+                    return "";
+                }
+
+                const candidates = [
+                    data?.meta?.source || "",
+                    sourceLabel(data?.url || ""),
+                    data?.meta?.attribution || ""
+                ];
+                for (const candidate of candidates) {
+                    result = stripLeadingPhrase(result, candidate);
+                }
+
+                return result;
+            }
+
+            function dedupeImmediateRepeat(text) {
+                const words = String(text || "").split(" ").filter(Boolean);
+                for (let size = Math.floor(words.length / 2); size >= 2; size -= 1) {
+                    const first = words.slice(0, size).join(" ").toLowerCase();
+                    const second = words.slice(size, size * 2).join(" ").toLowerCase();
+                    if (first && first === second) {
+                        return words.slice(size).join(" ");
+                    }
+                }
+                return String(text || "").trim();
+            }
+
+            function normalizeContentText(content) {
+                let text = String(content || "").replace(/\s+/g, " ").trim();
+                if (!text) {
+                    return "";
+                }
+                return stripLeadingChrome(text);
+            }
+
+            function titleFromUrl(resultUrl) {
+                const path = urlPath(resultUrl);
+                if (!path) {
+                    return "";
+                }
+                const leaf = path.split("/").filter(Boolean).pop() || "";
+                const withoutExt = leaf.replace(/\.html?$/i, "");
+                if (!withoutExt) {
+                    return "";
+                }
+                if (/^\d+$/.test(withoutExt)) {
+                    return "";
+                }
+                return withoutExt
+                    .replaceAll("-", " ")
+                    .replace(/\b\w/g, (match) => match.toUpperCase());
+            }
+
+            function prayerTitle(data) {
+                const metaTitle = String(data?.meta?.title || "").trim();
+                if (metaTitle && metaTitle.toLowerCase() !== SITE_NAME.toLowerCase()) {
+                    return metaTitle;
+                }
+
+                const text = stripLeadingIndexContext(normalizeContentText(data?.content || ""), data);
+                if (text) {
+                    const firstSentence = dedupeImmediateRepeat(text.split(".")[0].trim());
+                    if (firstSentence && firstSentence.length <= 120 && !/^home$/i.test(firstSentence)) {
+                        return firstSentence;
+                    }
+                }
+
+                return titleFromUrl(data?.url || "") || "Result";
+            }
+
+            function snippetFromPrayerText(data, resolvedTitle) {
+                const title = String(resolvedTitle || "").trim();
+                let text = stripLeadingIndexContext(normalizeContentText(data?.content || ""), data);
+                if (!text) {
+                    return "";
+                }
+
+                if (title) {
+                    const escapedTitle = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                    const titlePrefix = new RegExp(`^${escapedTitle}[\\s\\.:;\\-—–]*`, "i");
+                    for (let attempts = 0; attempts < 2; attempts += 1) {
+                        const stripped = text.replace(titlePrefix, "").trim();
+                        if (stripped === text) {
+                            break;
+                        }
+                        text = stripped;
+                    }
+                }
+
+                text = stripLeadingIndexContext(text, data);
+
+                const words = text.split(" ").filter(Boolean);
+                const preview = words.slice(0, 38).join(" ");
+                const suffix = words.length > 38 ? "..." : "";
+                return `${escapeHtml(preview)}${suffix}`;
+            }
+
+            function clearResults() {
+                resultsNode.innerHTML = "";
+                allResults = [];
+                renderedCount = 0;
+                loadMoreNode.hidden = true;
+            }
+
+            async function renderMore() {
+                const nextResults = allResults.slice(renderedCount, renderedCount + PAGE_SIZE);
+                if (!nextResults.length) {
+                    loadMoreNode.hidden = true;
+                    return;
+                }
+
+                const fragments = [];
+                for (const result of nextResults) {
+                    const data = await result.data();
+                    const resolvedTitle = prayerTitle(data);
+                    const title = escapeHtml(resolvedTitle);
+                    const rawUrl = String(data.url || "");
+                    const href = rawUrl
+                        ? (rawUrl.startsWith("http") || rawUrl.startsWith("/") ? rawUrl : `/${rawUrl}`)
+                        : "#";
+                    const source = escapeHtml(sourceLabel(href));
+                    const snippet = snippetFromPrayerText(data, resolvedTitle);
+                    fragments.push(
+                        `<article class="search-result">` +
+                            `<h3 class="search-result-title"><a href="${href}">${title}</a></h3>` +
+                            `<p class="search-result-source">${source}</p>` +
+                            `<p class="search-result-snippet">${snippet}</p>` +
+                        `</article>`
+                    );
+                }
+
+                resultsNode.insertAdjacentHTML("beforeend", fragments.join(""));
+                renderedCount += nextResults.length;
+                loadMoreNode.hidden = renderedCount >= allResults.length;
+            }
+
+            async function performSearch(rawQuery, options = {}) {
+                const displayQuery = String(rawQuery ?? "");
+                const query = normalizeQuery(displayQuery);
+                const token = ++currentSearchToken;
+                currentQuery = query;
+
+                if (options.syncInputs !== false) {
+                    setInputValues(displayQuery);
+                }
+                if (options.updateUrl !== false) {
+                    updateUrl(query);
+                }
+
+                if (query.length < SEARCH_MIN_LENGTH) {
+                    clearResults();
+                    setCount("");
+                    if (query.length) {
+                        setStatus("Enter at least three characters to search.");
+                    } else {
+                        setStatus("Enter at least three characters to search.");
+                    }
+                    return;
+                }
+
+                clearResults();
+                setStatus("Searching...");
+
+                try {
+                    await pagefind.options({
+                        basePath: "{{ url_prefix }}/pagefind/",
+                        baseUrl: "{{ url_prefix }}/"
+                    });
+                    const response = await pagefind.search(query);
+                    if (token !== currentSearchToken) {
+                        return;
+                    }
+
+                    allResults = response.results || [];
+                    if (!allResults.length) {
+                        setCount("No results found.");
+                        setStatus("");
+                        return;
+                    }
+
+                    setCount(`${allResults.length} result${allResults.length === 1 ? "" : "s"}`);
+                    setStatus("");
+                    await renderMore();
+                } catch (error) {
+                    clearResults();
+                    setCount("");
+                    setStatus("Search index is unavailable. Run make build-pagefind and reload.");
+                }
+            }
+
+            function queueSearch(rawQuery) {
+                if (debounceHandle) {
+                    window.clearTimeout(debounceHandle);
+                }
+                debounceHandle = window.setTimeout(() => {
+                    performSearch(rawQuery);
+                }, 160);
+            }
+
+            appInput.addEventListener("input", (event) => {
+                queueSearch(event.target.value);
+            });
+
+            appForm.addEventListener("submit", (event) => {
+                event.preventDefault();
+                performSearch(appInput.value);
+            });
+
+            if (navInput) {
+                navInput.addEventListener("input", (event) => {
+                    if (window.location.pathname.endsWith("/search.html")) {
+                        queueSearch(event.target.value);
+                    }
+                });
+            }
+
+            if (navForm && window.location.pathname.endsWith("/search.html")) {
+                navForm.addEventListener("submit", (event) => {
+                    event.preventDefault();
+                    performSearch(navInput ? navInput.value : "");
+                });
+            }
+
+            loadMoreNode.addEventListener("click", () => {
+                renderMore();
+            });
+
+            const initialQuery = normalizeQuery(new URLSearchParams(window.location.search).get("q") || "");
+            if (initialQuery) {
+                performSearch(initialQuery, { updateUrl: false });
+            } else {
+                setInputValues("");
+                setStatus("Enter at least three characters to search.");
+            }
+        })();
+    </script>
+{% endblock %}

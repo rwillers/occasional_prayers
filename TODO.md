@@ -1,7 +1,10 @@
 # TODO
 
-- [ ] Migrate site from Urubu to Pelican + PageFind.
-- [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).
+- [x] Migrate site from Urubu to Pelican + PageFind. (Initial migration complete: 2026-02-15)
+- [ ] Review and, if recommended, modernize the publishing process (e.g., consider Github Actions or similar).
+    - [ ] After confirming successful publish of Pelican site, perform a full clean up of old Urubu code, venv, etc., safely cleaning the environment to only current code and dependencies.
+    - [ ] Add a full suite of test scripts for the modernized application.
+    - [ ] Update all documentation to reflect changes and clean up.- [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).
 - [ ] Standardize visual design and supporting CSS with Ordinarium.com project.
 - [ ] Add (beta) prayer language modernization feature ("thou" -> "you", etc.)
 - [ ] Add 1559 occasional prayers (http://justus.anglican.org/resources/bcp/1559/Godly_Prayers.htm) [1552 and 1549 don't have separate sections]
@@ -165,6 +168,72 @@ Operational rules:
 5. PageFind integration.
 6. Workflow updates.
 7. Regression verification and cutover.
+
+### Progress Update (2026-02-15)
+
+Completed:
+- [x] Discovery and baseline capture.
+  - Added migration workspace/docs (`migration/README.md`, `migration/urubu_behavior_inventory.md`, `migration/execution_log.md`).
+  - Added baseline capture script (`scripts/capture_baseline.py`).
+  - Generated baseline artifacts in `migration/baseline/` (URL inventory, representative URLs, metadata/layout usage, template inventory, Tipue asset inventory).
+- [x] Pelican foundation setup (initial scaffold).
+  - Added `pelicanconf.py` and `publishconf.py`.
+  - Added Pelican make targets (`build-pelican`, `serve-pelican`) and baseline target (`baseline`).
+  - Added `requirements.txt` as migration dependency source.
+  - Added redirect mapping scaffold (`migration/redirects.csv`).
+- [x] Environment prep (initial).
+  - Installed Python 3.12 via Homebrew (`/opt/homebrew/bin/python3.12`).
+  - Added dedicated Pelican environment flow (`.venv-pelican`, `make prep-pelican-env`).
+  - Added `_build_pelican/` and `.venv-pelican/` to `.gitignore`.
+  - Separated legacy Urubu dependency file (`requirements-urubu.txt`) to avoid dependency conflicts in migration tooling.
+  - Added fast smoke target (`make build-pelican-smoke`) using `pelicanconf_smoke.py`.
+
+Detailed status:
+- [x] Template and asset migration (checkpoint).
+  - Added Pelican theme templates under `themes/occasional-prayers/templates/` (base, page, index, home, search, tag, footer) based on current Urubu layouts.
+  - Added compatibility plugin `_python/pelican_compat.py` to map front matter `layout` values to Pelican templates and attach context for section indexes/home/tag views.
+  - Updated Pelican URL/save-as behavior to emit section paths like `/acna2019/1.html` (no `.md.html` suffix).
+  - Added root-page coverage in Pelican output (`index.html`, `about.html`, `search.html`, `notfound.html`) via a migration adapter page (`index-pelican.md`) to avoid Urubu-specific metadata conflicts on `index.md`.
+  - Added Urubu-style breadcrumbs on prayer/page layouts and per-tag detail pages (`/tag/<name>/`) for tag URL parity.
+  - Added representative render parity artifacts (`render_parity_summary.md`, `render_parity_details.csv`); current checkpoint reports `0` strict failures with `/search.html` as the expected search UX deviation.
+  - Remaining in this item: optional broader manual visual QA before final cutover.
+- [x] Content/metadata compatibility adapters (checkpoint).
+  - Added front-matter normalization for `tagline` and tags, section/home context wiring, and template mapping for existing `layout` values.
+  - Added metadata audit artifacts (`metadata_audit_summary.md`, `metadata_audit_issues.csv`) and confirmed only one edge case (`index.md` `content:` key), already handled by `index-pelican.md`.
+  - Remaining in this item: rerun metadata audit at final cutover.
+- [x] PageFind integration (checkpoint).
+  - Migrated Pelican search template to PageFind UI (`/pagefind/pagefind-ui.js`, `/pagefind/pagefind-ui.css`) with `?q=` prefill support and a clear fallback message when index assets are missing.
+  - Added PageFind make targets (`build-pagefind`, `build-pagefind-smoke`, `build-pelican-search`) and selector exclusions for non-content chrome.
+  - Confirmed `build-pagefind` output exists under `_build_pelican/pagefind/` and produced index metadata (`pagefind-entry.json`).
+  - Added validation artifacts in `migration/parity/`:
+    - `pagefind_query_results.tsv` (representative queries with non-zero result counts)
+    - `pagefind_validation_summary.md` (index/page counts + validation summary)
+  - Remaining in this item: optional relevance tuning and UX refinements after broader manual QA.
+- [x] URL parity verification and redirect generation tooling (checkpoint).
+  - Added `scripts/generate_redirects.py` with CSV validation and report output.
+  - Validation now fails on duplicate `old_path`, missing `new_path`, unsupported status, redirect loops, and unresolved `new_path` targets in build output.
+  - Added make targets (`build-redirects`, `build-redirects-smoke`) and reports (`migration/redirect_report*.txt`).
+  - Added URL parity artifact set in `migration/parity/` (`url_parity_summary.md`, missing/extra manifests); current checkpoint shows exact URL parity (`0` missing, `0` extra).
+  - Remaining in this item: rerun parity checks at final cutover and only populate `migration/redirects.csv` if later diffs appear.
+- [x] Regression verification and rollout (initial migration gate).
+  - Added cutover automation/reporting via `scripts/cutover_readiness.py` and `make cutover-readiness`.
+  - Latest cutover readiness report (`migration/cutover_readiness.md`) shows `0` FAIL and `1` WARN:
+    - known metadata adapter edge case (`index.md` `content:` key; handled by `index-pelican.md`)
+  - Addressed parity findings from manual review prep:
+    - removed short-source labels from home page source list
+    - added short-source labels on tag detail listings
+    - added dedicated `404.html` generation while preserving `/notfound.html`
+    - replaced search page rendering with custom PageFind API integration (linked title, source label, snippet, dynamic load-more, and navbar `?q=` auto-search wiring)
+    - hardened search result rendering to:
+      - derive prayer titles when metadata falls back to site-level titles
+      - strip breadcrumb/source chrome from snippet text so excerpts begin with prayer content
+    - improved search input UX to preserve typed whitespace while searching phrases (no trimming feedback while typing)
+    - constrained PageFind indexed body to `<main>` content on prayer pages so snippets exclude header attribution text
+    - reintroduced source/attribution terms into indexed page content while stripping them from rendered snippets
+  - Added manual QA artifacts:
+    - `migration/parity/manual_parity_checklist.md`
+    - `migration/parity/search_investigation.md`
+  - Initial migration is considered complete; remaining items are follow-up refinements, not cutover blockers.
 
 ### Clarifications Needed Before Execution
 

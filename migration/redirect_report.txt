@@ -1,0 +1,4 @@
+Redirect generation succeeded.
+Rules evaluated: 0
+Redirects generated: 0
+Invalid entries: 0

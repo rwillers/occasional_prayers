@@ -1,0 +1,5 @@
+black==24.10.0
+jinja2==3.1.5
+markdown==3.5.2
+pelican==4.9.1
+pyyaml==6.0.2

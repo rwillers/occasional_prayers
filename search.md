@@ -2,5 +2,4 @@
 title: Search
 layout: search
 ---
-
-<div id="tipue_search_content"></div>
+Use the search box below to find prayers by title, source, or text.
