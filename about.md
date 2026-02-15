@@ -11,4 +11,4 @@ I hope that you find these prayers helpful in worship and formative in belief, j
 
 *The Rev. Ryan Willers*
 
-P.S. You can message us on <a href="https://bsky.app/profile/occasionalprayers.com" target="_blank">Bluesky</a>.</p>
+P.S. You can message us on <a href="https://bsky.app/profile/occasionalprayers.com" target="_blank">Bluesky</a>.
