@@ -49,6 +49,24 @@ The Urubu -> Pelican + PageFind migration was completed on 2026-02-15.
 - Run metadata audit:
   - `make audit-metadata`
   - or `.venv-pelican/bin/python scripts/audit_metadata.py`
+- Build taxonomy inventory and mapping templates:
+  - `make taxonomy-inventory`
+  - or `.venv-pelican/bin/python scripts/build_taxonomy_inventory.py`
+- Build proposed taxonomy mapping decisions (Phase 2.5 draft):
+  - `make taxonomy-proposals`
+  - or `.venv-pelican/bin/python scripts/propose_taxonomy_mappings.py`
+- Finalize approved taxonomy mappings (apply merge decisions):
+  - `make taxonomy-finalize`
+  - or `.venv-pelican/bin/python scripts/finalize_taxonomy_mappings.py`
+- Build "extreme" topical taxonomy proposal (ACNA topical + seasons + Other Feasts):
+  - `make taxonomy-extreme-proposal`
+  - or `.venv-pelican/bin/python scripts/propose_extreme_topical_taxonomy.py`
+- Finalize "extreme option 2" (core + 4 structural fallback tags):
+  - `make taxonomy-extreme-option2`
+  - or `.venv-pelican/bin/python scripts/finalize_extreme_option2.py`
+- Apply "extreme option 2" tags to markdown source:
+  - `make taxonomy-apply-option2`
+  - or `.venv-pelican/bin/python scripts/apply_option2_taxonomy.py`
 - Generate deployment readiness report:
   - `make cutover-readiness`
   - or `.venv-pelican/bin/python scripts/cutover_readiness.py`

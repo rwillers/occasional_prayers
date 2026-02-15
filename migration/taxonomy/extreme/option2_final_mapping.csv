@@ -1,0 +1,645 @@
+raw_tag,assignment_count,current_action,current_facet,extreme_action,extreme_tag,reason,confidence
+The Church’s Year,650,keep,life_or_church_context,keep,The Church’s Year,option2_structural_fallback,high
+Intercessory Prayers,423,keep,prayer_type,keep,Intercessory Prayers,option2_structural_fallback,high
+Various Occasions,265,keep,topic,keep,Various Occasions,option2_structural_fallback,high
+Devotional Prayers,248,keep,prayer_type,keep,Devotional Prayers,option2_structural_fallback,high
+The Trinity Season,135,keep,topic,map,Trinity Season,seasonal_rule,high
+Sacraments and Ordinances,123,keep,topic,keep,Sacraments and Ordinances,option2_structural_fallback,high
+Frank Colquhoun,109,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Holy Week,99,keep,liturgical_season,keep,Holy Week,canonical_exact,high
+Supplementary Prayers,99,keep,prayer_type,keep,Supplementary Prayers,option2_structural_fallback,high
+Family and Personal Life,94,keep,life_or_church_context,keep,Family and Personal Life,canonical_exact,high
+Various,65,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Church,63,keep,life_or_church_context,keep,The Church,canonical_exact,high
+Fourth Century Prayers,62,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Epiphany,61,keep,liturgical_season,keep,Epiphany,canonical_exact,high
+Christmas,56,keep,liturgical_season,keep,Christmas,canonical_exact,high
+Saints’ Days and Holy Days,55,keep,liturgical_season,map,Other Feasts,seasonal_rule,high
+Our Nation and Government,51,keep,life_or_church_context,map,The Nation,explicit_alias_rule,medium
+Eastertide,50,keep,liturgical_season,map,Easter,seasonal_rule,high
+Thanksgivings,48,keep,prayer_type,keep,Thanksgivings,canonical_exact,high
+Lent,45,keep,liturgical_season,keep,Lent,canonical_exact,high
+Advent,44,keep,liturgical_season,keep,Advent,canonical_exact,high
+The Suffering,44,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fifth Century Prayers,40,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Personal Devotion,40,keep,prayer_type,keep,Personal Devotion,canonical_exact,high
+The Church Overseas,39,keep,life_or_church_context,map,The Church,explicit_alias_rule,medium
+The Church of God,38,keep,life_or_church_context,map,The Church,explicit_alias_rule,medium
+American Prayer Book,36,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Daily Prayer,36,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Gelasian Sacramentary,36,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Seven Words From the Cross,34,keep,topic,drop,,not_in_extreme_canonical_set,medium
+General Prayers,32,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Social Order,32,keep,topic,keep,Social Order,canonical_exact,high
+In the Ember Weeks,31,keep,topic,map,Other Feasts,seasonal_rule,high
+The Season After Pentecost,31,keep,topic,map,Pentecost,seasonal_rule,high
+Holy Days,30,keep,liturgical_season,map,Other Feasts,seasonal_rule,high
+The Nation,30,keep,life_or_church_context,keep,The Nation,canonical_exact,high
+Augustine,29,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Church of South India,27,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Those in Need,27,keep,topic,keep,Those in Need,canonical_exact,high
+Holy Communion,26,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Book of Common Order,25,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+General and Concluding Prayers,25,keep,prayer_type,keep,General and Concluding Prayers,canonical_exact,high
+New Every Morning,25,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Society and Industry,25,keep,topic,drop,,not_in_extreme_canonical_set,medium
+At Times of Prayer and Worship,24,keep,prayer_type,keep,At Times of Prayer and Worship,canonical_exact,high
+Canadian Prayer Book,24,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Church Meetings,24,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Home and Friends,24,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Concluding Prayers,23,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Fifth Sunday After Easter: Rogation Sunday,23,keep,topic,map,Easter,seasonal_rule,high
+Scottish Prayer Book,23,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+The Nations of the World,23,keep,life_or_church_context,map,The Nation,explicit_alias_rule,medium
+Whitsunday,23,keep,topic,map,Pentecost,seasonal_rule,high
+Whitsuntide,23,keep,topic,map,Pentecost,seasonal_rule,high
+Ascensiontide,22,keep,topic,map,Ascension,seasonal_rule,high
+Education and Youth,22,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Family and Personal Life (Throughout the Day),22,keep,life_or_church_context,keep,Family and Personal Life (Throughout the Day),canonical_exact,high
+Gift Day or Stewardship Sunday,22,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Leonine Sacramentary,22,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Church at Home,22,keep,life_or_church_context,map,The Church,explicit_alias_rule,medium
+The Sick,22,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+William Temple,22,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+First Century Prayers,21,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Prayers for the Christian Year,21,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Septuagesima to Quinquagesima,21,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Departed,21,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Vestry Prayers,21,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+A Memorial Service,20,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Children’s Church,20,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Harvest Thanksgiving,20,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+William Bright,20,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Education Sunday,19,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Evangelism,19,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Creation,18,keep,topic,keep,Creation,canonical_exact,high
+Easter,18,keep,liturgical_season,keep,Easter,canonical_exact,high
+Henry Alford,18,keep,topic,drop,,not_in_extreme_canonical_set,medium
+In Time of War,18,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Lesser Feasts,18,keep,topic,map,Other Feasts,seasonal_rule,high
+Remembrance Sunday,18,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Parish,18,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Benedictions and Doxologies,17,keep,topic,drop,,not_in_extreme_canonical_set,medium
+J. R. W. Stott,17,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Opening Prayers,17,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+"The Kingdom, the Power, and the Glory",17,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Easter Day,16,keep,topic,map,Easter,seasonal_rule,high
+Good Friday,16,keep,topic,map,Holy Week,seasonal_rule,high
+Praise and Thanksgiving,16,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Rogationtide,16,keep,topic,map,Other Feasts,seasonal_rule,high
+Sunday School Festival,16,keep,topic,drop,,not_in_extreme_canonical_set,medium
+George Appleton,15,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Palm Sunday,15,keep,topic,map,Holy Week,seasonal_rule,high
+Pastoral,15,keep,topic,keep,Pastoral,option2_structural_fallback,high
+The Ascension Day,15,keep,topic,map,Ascension,seasonal_rule,high
+The World,15,keep,life_or_church_context,keep,The World,option2_structural_fallback,high
+Third Century Prayers,15,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Apostolic Constitutions,14,keep,topic,drop,,not_in_extreme_canonical_set,medium
+At Evening,14,keep,topic,map,At Times of Prayer and Worship,explicit_alias_rule,medium
+B. F. Westcott,14,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Dedication Festival,14,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Frederick B. Macnutt,14,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Irish Prayer Book,14,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Mothering Sunday Service,14,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Watch-Night Service,14,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Dedication,13,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Health Services and Hospitals,13,keep,topic,drop,,not_in_extreme_canonical_set,medium
+In the Morning,13,keep,topic,map,At Times of Prayer and Worship,explicit_alias_rule,medium
+Missionary Festival,13,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+New Testament Prayers,13,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Our Daily Work,13,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Coming of God’s Kingdom,13,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Epiphany,13,merge,liturgical_season,drop,,non_topical_provenance_or_alias,high
+A Civic Service,12,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Adapted from Book of Common Prayer,12,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Choir Festival,12,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Travel,12,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Week of Prayer for Christian Unity,12,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Confirmation,11,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Euchologium Anglicanum,11,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Marriage,11,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Rites of Healing,11,keep,topic,keep,Rites of Healing,canonical_exact,high
+Second Century Prayers,11,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Those in Spiritual Need,11,keep,topic,map,Those in Need,token_overlap_map,medium
+Trinity Sunday,11,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Youth Festival,11,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Commons of Commemoration,10,keep,topic,keep,Commons of Commemoration,option2_structural_fallback,high
+Courage and Perseverance,10,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Family Prayer,10,keep,prayer_type,keep,Family Prayer,canonical_exact,high
+Maundy Thursday,10,keep,topic,map,Holy Week,seasonal_rule,high
+Old People’s Service,10,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Penitence and Pardon,10,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Second Sunday in Advent (Bible Sunday),10,keep,topic,map,Advent,seasonal_rule,high
+The Circumcision,10,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. David O. Taylor,10,keep,topic,drop,,not_in_extreme_canonical_set,medium
+A Diocesan Service Book,9,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Ash Wednesday,9,keep,topic,map,Lent,seasonal_rule,high
+C. J. Vaughan,9,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Christmas Day,9,keep,topic,map,Christmas,seasonal_rule,high
+Confessions,9,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Faith,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Holy Baptism,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Knowledge and Truth,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Liturgy of St. Mark,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Love,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Peter Green,9,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Pulpit Prayers,9,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+The Christian Warfare,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. E. Orchard,9,keep,topic,drop,,not_in_extreme_canonical_set,medium
+A Procession of Passion Prayers,8,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Before Bible Study,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Burial of the Dead,8,keep,topic,keep,Burial of the Dead,canonical_exact,high
+Childbirth,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fifth Sunday in Lent: Passion Sunday,8,keep,topic,map,Lent,seasonal_rule,high
+Guild of Health,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Inward Peace,8,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+James M. Todd,8,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Hunter,8,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+L. E. H. Stephens-Hodge,8,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Offertory Prayers,8,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Rulers and Statesmen,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+St. Augustine,8,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Sunday Called Septuagesima,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+William Knight,8,keep,topic,drop,,not_in_extreme_canonical_set,medium
+A Prayer Meeting,7,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+After the Third Collect,7,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Basil Naylor,7,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Canterbury Convocation, 1862",7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Christmas Eve,7,keep,topic,map,Christmas,seasonal_rule,high
+"Death, the Departed, and the Communion of Saints",7,keep,topic,keep,"Death, the Departed, and the Communion of Saints",canonical_exact,high
+Dedication of Memorial Gifts,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+E. B. Pusey,7,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+First Sunday After Easter,7,keep,topic,map,Easter,seasonal_rule,high
+First Sunday After Trinity,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+First Sunday in Advent,7,keep,topic,map,Advent,seasonal_rule,high
+First Sunday in Lent,7,keep,topic,map,Lent,seasonal_rule,high
+Guidance,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Lancelot Andrewes,7,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Liturgy of the Catholic Apostolic Church,7,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Mozarabic Sacramentary,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Prayers Suitable for Use at a Marriage Reunion Service,7,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Second Sunday After Epiphany,7,keep,topic,map,Epiphany,seasonal_rule,high
+South African Prayer Book,7,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Sunday After Ascension Day,7,keep,topic,map,Ascension,seasonal_rule,high
+Sunday Called Quinquagesima,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Commonwealth,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. E. Scudamore,7,keep,topic,drop,,not_in_extreme_canonical_set,medium
+With all our Strength,7,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A Christmas Carol Service,6,keep,topic,map,Christmas,seasonal_rule,high
+Ambrose,6,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Christina Rossetti,6,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Collects,6,keep,prayer_type,keep,Collects,option2_structural_fallback,high
+Eleventh Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fifteenth Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+First Sunday After Epiphany,6,keep,topic,map,Epiphany,seasonal_rule,high
+Fourteenth Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fourth Sunday After Epiphany,6,keep,topic,map,Epiphany,seasonal_rule,high
+Fourth Sunday in Advent,6,keep,topic,map,Advent,seasonal_rule,high
+Gregorian Sacramentary,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Growth in Grace,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+James Ferguson,6,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Liturgy of St. James,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Nineteenth Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Prayer for Mission,6,keep,prayer_type,keep,Prayer for Mission,canonical_exact,high
+Salisbury Book of Occasional Offices,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Second Sunday After Easter,6,keep,topic,map,Easter,seasonal_rule,high
+Sunday Called Sexagesima,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Sunday Next Before Advent (Trinity Xxv),6,keep,topic,map,Advent,seasonal_rule,high
+Tenth Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Third Sunday After Trinity,6,keep,topic,drop,,not_in_extreme_canonical_set,medium
+A Book of Prayers for Students,5,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Charles Chapman Grafton,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Easter Even,5,keep,topic,map,Easter,seasonal_rule,high
+Eighteenth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Eighth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fifth Sunday After Epiphany,5,keep,topic,map,Epiphany,seasonal_rule,high
+Fourth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fourth Sunday in Lent: Mothering Sunday,5,keep,topic,map,Lent,seasonal_rule,high
+General Intercessions,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Harold Anson,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Harold Riley,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Jeremy Taylor,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Cosin,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Lutheran Church,5,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Monday Before Easter,5,keep,topic,map,Easter,seasonal_rule,high
+Ninth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Prayers of the World-Wide Church,5,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Prayers Which May Be Used at the Burial of One Who Has Taken His Own Life,5,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+R. M. Benson,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Richard D. Acland,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Rites of Healing (Prayers for Use by a Sick Person),5,keep,prayer_type,keep,Rites of Healing (Prayers for Use by a Sick Person),canonical_exact,high
+Ruby E. Cleeve,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Second Sunday in Lent,5,keep,topic,map,Lent,seasonal_rule,high
+Seventeenth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Sixteenth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Sixth Sunday After Epiphany,5,keep,topic,map,Epiphany,seasonal_rule,high
+Sunday After Christmas,5,keep,topic,map,Christmas,seasonal_rule,high
+The Spirit of Service,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Third Sunday After Epiphany,5,keep,topic,map,Epiphany,seasonal_rule,high
+Third Sunday in Advent,5,keep,topic,map,Advent,seasonal_rule,high
+Third Sunday in Lent,5,keep,topic,map,Lent,seasonal_rule,high
+Thomas Ken,5,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Twentieth Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Twenty-Second Sunday After Trinity,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Vesting Prayers,5,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+W. Walsham How,5,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"A Form of Prayer, May 1940",4,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A. McCheane,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Clement of Rome,4,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Country Services,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+E. W. Benson,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Ember Days,4,keep,topic,map,Other Feasts,seasonal_rule,high
+Fifth Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fourth Sunday After Easter,4,keep,topic,map,Easter,seasonal_rule,high
+Guild of St. Raphael,4,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+J. Armitage Robinson,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+John Donne,4,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Wesley’s Prayers,4,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Mothers’ Union,4,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+National Days,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Percy Dearmer,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Rogation Days,4,keep,topic,map,Other Feasts,seasonal_rule,high
+Second Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Sixth Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Christmas Crib,4,keep,topic,map,Christmas,seasonal_rule,high
+The Eastern Church,4,keep,life_or_church_context,map,Easter,seasonal_rule,high
+Third Sunday After Easter,4,keep,topic,map,Easter,seasonal_rule,high
+Thirteenth Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Twelfth Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Twenty-First Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Twenty-Fourth Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Twenty-Third Sunday After Trinity,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+William Laud,4,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"A Form of Prayer, August 1914",3,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"A Form of Prayer, August 1918",3,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+After Jeremy Taylor,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Anglican Altar Services, 1941",3,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Arthur W. Robinson,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Basil,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Charles H. Brent,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+E. M. Goulburn,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+E. Milner-White,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Erasmus,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+For the Blessing of a Civil Marriage,3,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+Gallican Sacramentary,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Gavin Hamilton,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+George H. Russell,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+George Timms,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"German Reformed Church, U.S.A.",3,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Handley C. G. Moule,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+J. Mountain,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+James Martineau,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+John Chrysostom,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Monday in Easter Week,3,keep,topic,map,Easter,seasonal_rule,high
+Nerses of Clajes,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Old Gallican Sacramentary,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Ryan Willers,3,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Seventh Sunday After Trinity,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Student Prayer,3,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+The Clementine Liturgy,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Daily Service,3,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+The Nation (Specific to Canada),3,keep,life_or_church_context,keep,The Nation (Specific to Canada),canonical_exact,high
+The Nation (Specific to the United States or Mexico),3,keep,life_or_church_context,keep,The Nation (Specific to the United States or Mexico),canonical_exact,high
+Thomas Wilson,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Tuesday Before Easter,3,keep,topic,map,Easter,seasonal_rule,high
+Tuesday in Easter Week,3,keep,topic,map,Easter,seasonal_rule,high
+W. H. Frere,3,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Wednesday Before Easter,3,keep,topic,map,Easter,seasonal_rule,high
+A Book of Public Worship,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A Book of Services and Prayers,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A Devotional Diary,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A New Prayer Book,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Gelasian Sacramentary,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Irish Prayer Book,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Jeremy Taylor,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from various sources,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After Gelasian Sacramentary,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After J. H. Newman,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After Lancelot Andrewes,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Augustine,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Alcuin,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Ashton Oxenden,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Barnabas,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Based on Book of Common Prayer,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Book of Prayers for Students,2,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Charles Kingsley,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Christian von Bunsen,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Convocation of York,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Coptic Liturgy of St. Cyril,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Diocese of Southwark,2,merge,source_text,drop,,non_topical_provenance_or_alias,high
+Eugene Bersier,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+F. T. Woods,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Frank Houghton,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Frederick Temple,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+From a prayer of the Eastern Church,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From the Accession Service,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+G. C. Binyon,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Gordon Hewitt,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Gothic Missal,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+H. F. Leatherland,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Henry P. Liddon,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+J. Taylor Smith,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+James Mountain,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+John Dowden,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Wordsworth,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"King’s College, Cambridge",2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Leslie D. Weatherhead,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Leslie S. Hunter,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Let Us Pray,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Liturgy of the Blessed Apostles,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Margaret Cropper,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"National Mission, 1916",2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Office of None,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Office of Sext,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Polycarp,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Prayers for Education Sunday, 1956",2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Religious Drama Society,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Salisbury Cathedral,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Samuel Johnson,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Seasonal,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Southwark Diocese,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+St. Anselm,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+St. Francis of Assisi,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+St. Ignatius Loyola,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Sursum Corda,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Thanksgivings for Family and Personal Life,2,keep,prayer_type,map,Family and Personal Life,token_overlap_map,medium
+Thanksgivings for National Life,2,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Thanksgivings for the Church,2,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Thanksgivings for the Natural Order,2,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+The Baptism of Jesus,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"The Missionary Conference, 1894",2,keep,life_or_church_context,drop,,not_in_extreme_canonical_set,medium
+The Splendour of God,2,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Thomas à Kempis,2,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+William Bellars,2,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+1 Peter 5:10–11,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"A Form of Prayer, March 1941",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"A Form of Prayer, October 1939",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A Harvest of Myrrh and Spices (trs. W. H. Draper),1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+A Prayer of the Eastern Church,1,merge,source_text,drop,,non_topical_provenance_or_alias,high
+A. S. T. Fisher,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+A.C.C.M.,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Acts of Devotion,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Adapted from a 16th c. German prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from A Book of Guide Prayers,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from A Diocesan Service Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from a prayer at the London Hospital,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from a prayer for the General Synod in the Irish Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from a prayer of A. E. Daldy,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from a prayer of S.P.C.K.,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from a prayer of St. Thomas Aquinas,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from an ancient collect,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Book of Common Order,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Didache,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from George Appleton,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from John Donne,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Lancelot Andrewes (Daily Prayer),1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Liturgy of St. James,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Micah 6:8,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Adapted from Mozarabic Sacramentary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Prayers for the Christian Year,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Roman Breviary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Sarum Missal,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Sarum Primer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Scottish Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from St. Nerses of Clajes,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Student Prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Adapted from Thomas Arnold,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After A. J. Mason,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After Christina Rossetti,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After George Wither (Daily Prayer),1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After Mozarabic Sacramentary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After Prayers of 1585,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After Sir Francis Drake,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Anselm,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Francis of Assisi,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Fulgentius,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Jerome,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After St. Thomas Aquinas,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+After the 55th Canon of 1603,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+After William Laud,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+An adaptation of the Gelasian prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+An adaptation of the House of Commons Prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Anselm of Canterbury,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Armenian Liturgy,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"Armistice Day Prayers, 1931",1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Artists’ Prayer Guild,1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+"Austrian Church Order, 1571",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Based on 1 Peter 1:3–5,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on 1 Peter 4:10–11,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on 2 Corinthians 4:6,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+"Based on 2 John 3:23, 24",1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on 2 Timothy 3:5–17,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on a 16th century prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Based on a prayer of the Pan-Anglican Congress, 1908",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Based on a sixteenth century prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Based on Colossians 1:10–12,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Colossians 3:1–4,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Confirmation Service,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Based on Ephesians 1:17–21,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Ephesians 4:11–13,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Ephesians 4:30–32,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Ephesians 4:4–6,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Ephesians 6:11–17,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+"Based on Galatians 5:22, 23",1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Hebrews 10:19–24,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+"Based on Hebrews 13:20, 21",1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on John 4:23; Isaiah 29:13; Psalm 103.,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Luke 8:15,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Numbers 6:24–26,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Philippians 1:9–11,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Philippians 2:8–11,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Philippians 2:9–11,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Philippians 4:4–7,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+"Based on Psalm 119. 105, 18, 162",1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Psalm 23:1–3,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Romans 12:19–21,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Romans 12:6–10. #### The first sign,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+"Based on Romans 13. 11, 12, 1 Thessalonians 5:8",1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Romans 15:13,1,move_to_citation,citation_scripture,drop,,non_topical_provenance_or_alias,high
+Based on Thomas Ken,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Benedict of Nursia,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Benjamin Jenks,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Bible Reading Fellowship,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Book of Hours, 1864",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Book of Offices, Methodist Church",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Book of Public Worship,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+British Hospital for Mothers and Babies,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Brompton Parish Church,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+C. C. B. Bardsley,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+C. M. Blagden,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+C. S. Woodward,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+C.I.P.B.C. Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Central Board of Finance,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Charles F. d’Arcy,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Charles Gore,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Church Army,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Church’s Ministry among the Jews,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Clement of Alexandria,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Collect of Easter Even,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Community of the Resurrection,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Daybreak Office of the Eastern Church,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Diocese of Rochester,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Diocese of Uganda,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Douglas Crick,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+E. C. Ratcliff,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+E. M. Venables,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Edward Hawkins,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Emil E. Fischer,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Ephesians 3:14–19,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"Ephesians 3:20, 21",1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Eric Fenn,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+F. D. Maurice,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+F. J. A. Hort,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Faith and Order Conference Manual,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Fellowship Litanies,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Fielding Ould,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Fifth century,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Form of National Prayer, 1942",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Form of National Prayer, May 1940",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Francis J. Moore,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Francis Xavier,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Franciscan Breviary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Frank Edward Brightman,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+From an ancient prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From Book of Common Prayer,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From Primer of 1555,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From the Gothic,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From the Litany,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From the Liturgy of Malabar,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+From the Order of Compline,1,merge,source_text,drop,,non_topical_provenance_or_alias,high
+G. E. L. Cotton,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Geneva Bible,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Geoffrey F. Fisher,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+George Adam Smith,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+George Dawson,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+George Hickes,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+George Timms (after C. J. Vaughan),1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Gladys E. Bretherton,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Godly Prayers, 1559",1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Gregory Nazianzen,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Guildford Diocese,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+H. Bisseker,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+H. C. Cooksey,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+H. J. Wotherspoon,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+H. Stobat,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Hebrews 13:20, 21",1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Henry Hayman,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Henry Scott Holland,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Hugh Martin,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Ignatius,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+In the Tradition of Francis of Assisi,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+In Watchings Often,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Inter-Varsity Fellowship,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Irenaeus,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+J. H. Oldham,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+J. W. Suter,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+James Wareham,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Calvin,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Henry Newman,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+John Wesley,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Joost de Blank,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Joseph Hall,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Joseph Mercier,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Jude 24, 25",1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Julian of Norwich,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+King Alfred,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"King’s College Chapel, Cambridge",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Knox’s Book of Common Order, 1564",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+L. Tuttiet,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Lambeth Conference, 1930",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Lambeth Conference, 1958",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Laurence Binyon,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Leaflet of the Collegium, 1914",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Lionel James,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Liturgy of St. Basil,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Liturgy of St. Dionysius,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Liturgy of the Nestorians,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Liturgy of the Reformed Church of France,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Luke 2:15; Isaiah 9:6,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+M. A. P. Wood (after St. Augustine),1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Macrina the Younger,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Mandell Creighton,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Miles Coverdale,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Mozarabic Liturgy,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Nicholas Ridley,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Non-Jurors’ Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Nonjurors’ Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Office of Compline,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Old Galilean,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Olive Warner,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Order of Compline,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Oxford Diocesan Service Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Pakenham Walsh,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Peace Prayers, 1946",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Prayer of the Order,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Prayer of the Order of the Garter,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Prayers for Education Sunday, 1957",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Praying for the Church Overseas,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Praying for Unity,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Priest’s Book of Private Devotion,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Priest’s Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Psalms 104:24; 145:15, 16, 21",1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+R. Ambrose Reeves,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+R. W. Stewart,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Randall T. Davidson,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+"Revelation 1:5, 6",1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Revelation 4:11; 5:13,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Richard Baxter,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Richard of Chichester,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Robert N. Rodenmeyer,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Robert Nelson,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Roman Breviary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Roman Missal,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Russian Contakion of the Departed,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Rydal School Hymnal,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+S. Gladstone,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+S. P. T. Prideaux,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Sarum Breviary,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Sarum Missal,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+School Prayers,1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+Service Book for the Young,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"St. Aldate’s Church, Oxford",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+St. Benedict,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+St. Hilary of Poitiers,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+St. Patrick’s Breastplate,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+St. Paul’s Cathedral,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+St. Richard of Chichester,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+St. Thomas Aquinas,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Student Christian Movement,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Suzanne de Dietrich,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Syrian Clementine Liturgy,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Te Deum,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Thanksgivings for the Social Order,1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+The Boys’ Prayer Book,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+The C.M.S. Prayer adapted,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+The Earl of Meath,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+The Narrow Way,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+The Prayer Manual,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+The Royal Maundy,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+The Unfolding Year,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Thomas Aquinas,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Thomas Becon,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+Toc H Prayers,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"Trinity College, Dublin",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"United Lutheran Church, U.S.A.",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+United Society for Christian Literature,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Uppingham School Prayers,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+W. Bellars,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. Boyd Carpenter,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. Charter Piggott,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+W. Hay Aitken,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+W. J. Butler,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. K. Hamilton,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. L. Anderson,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+W. M. Clow,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+W. Rigby Murray,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+W. Walshanz How,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+W. Waltham How,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+"War Prayers, 1940",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Westminster Prayers,1,keep,prayer_type,drop,,not_in_extreme_canonical_set,medium
+When Two or Three,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+Wilfred B. Hornby,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+William Martin,1,keep,topic,drop,,not_in_extreme_canonical_set,medium
+Winchester Cathedral,1,move_to_attribution,attribution_author,drop,,non_topical_provenance_or_alias,high
+York Diocese,1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high
+"York Minster, 1547",1,move_to_source,source_text,drop,,non_topical_provenance_or_alias,high

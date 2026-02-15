@@ -2,7 +2,7 @@
 title: A Confession
 attribution: John Donne
 layout: page
-tags: ['Confessions', 'General and Concluding Prayers', 'John Donne']
+tags: [General and Concluding Prayers]
 source_order: 10
 ---
 

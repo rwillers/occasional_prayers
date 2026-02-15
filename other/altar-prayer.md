@@ -2,7 +2,7 @@
 title: An Altar Prayer
 attribution: Ryan Willers
 layout: page
-tags: ['Sacraments and Ordinances', 'Holy Communion', 'Ryan Willers']
+tags: [Sacraments and Ordinances]
 source_order: 4
 ---
 

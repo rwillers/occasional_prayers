@@ -86,6 +86,14 @@ def _clean_tag_token(value: str) -> str:
     return cleaned.strip()
 
 
+def _normalized_tag_name(raw_value: Any) -> str:
+    return _clean_tag_token(str(raw_value))
+
+
+def _is_valid_tag_name(tag_name: str) -> bool:
+    return bool(tag_name) and tag_name != "[]"
+
+
 def _extract_tag_names(raw_value: Any) -> list[str]:
     if raw_value is None:
         return []
@@ -215,11 +223,11 @@ def attach_compat_context(generators: list[Any]) -> None:
     all_tag_names: set[str] = set()
 
     for page in pages:
-        for tag_name in getattr(page, "compat_tags", []):
-            all_tag_names.add(tag_name)
-        if not getattr(page, "compat_tags", []):
-            for tag in getattr(page, "tags", []) or []:
-                all_tag_names.add(tag.name)
+        compat_tags = getattr(page, "compat_tags", None)
+        for tag_name in compat_tags or []:
+            cleaned = _normalized_tag_name(tag_name)
+            if _is_valid_tag_name(cleaned):
+                all_tag_names.add(cleaned)
 
         relative_path = page.relative_source_path or page.source_path
         path = PurePosixPath(relative_path)
@@ -338,7 +346,9 @@ class CompatTagPagesGenerator(Generator):
         tag_to_pages: dict[str, list[Page]] = defaultdict(list)
         for page in pages:
             for tag_name in getattr(page, "compat_tags", []):
-                tag_to_pages[tag_name].append(page)
+                cleaned = _normalized_tag_name(tag_name)
+                if _is_valid_tag_name(cleaned):
+                    tag_to_pages[cleaned].append(page)
 
         tag_pages: list[dict[str, Any]] = []
         for tag_name in sorted(tag_to_pages, key=str.casefold):

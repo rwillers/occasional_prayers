@@ -2,7 +2,7 @@
 title: Bring us, O Lord
 attribution: John Donne
 layout: page
-tags: ['General and Concluding Prayers', 'John Donne']
+tags: [General and Concluding Prayers]
 source_order: 11
 ---
 

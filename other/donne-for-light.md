@@ -2,7 +2,7 @@
 title: Collect for Light
 attribution: John Donne
 layout: page
-tags: ['General and Concluding Prayers', 'John Donne']
+tags: [General and Concluding Prayers]
 source_order: 12
 ---
 

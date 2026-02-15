@@ -52,6 +52,24 @@ test-all:
 audit-metadata:
 	$(PELICAN_PYTHON) scripts/audit_metadata.py
 
+taxonomy-inventory:
+	$(PELICAN_PYTHON) scripts/build_taxonomy_inventory.py
+
+taxonomy-proposals:
+	$(PELICAN_PYTHON) scripts/propose_taxonomy_mappings.py
+
+taxonomy-finalize:
+	$(PELICAN_PYTHON) scripts/finalize_taxonomy_mappings.py
+
+taxonomy-extreme-proposal:
+	$(PELICAN_PYTHON) scripts/propose_extreme_topical_taxonomy.py
+
+taxonomy-extreme-option2:
+	$(PELICAN_PYTHON) scripts/finalize_extreme_option2.py
+
+taxonomy-apply-option2:
+	$(PELICAN_PYTHON) scripts/apply_option2_taxonomy.py
+
 cutover-readiness:
 	$(PELICAN_PYTHON) scripts/cutover_readiness.py
 

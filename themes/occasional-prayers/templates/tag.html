@@ -8,7 +8,7 @@
     <p>{{ page.metadata.get("tagline", "") }}</p>
 
     <ul>
-        {% for tag in tag_links %}
+        {% for tag in tag_links if tag.name and (tag.name | trim) != "[]" %}
             <li>
                 <a href="{{ url_prefix }}/tag/{{ tag.segment }}/">{{ tag.name }}</a>
             </li>

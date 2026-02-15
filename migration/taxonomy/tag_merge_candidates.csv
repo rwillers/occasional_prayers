@@ -1,0 +1,5 @@
+tag_a,tag_b,assignment_count_a,assignment_count_b,proposed_canonical,reason,review_decision,review_notes
+Epiphany,The Epiphany,61,13,Epiphany,punctuation_or_article_variant,merge,
+Diocese of Southwark,Southwark Diocese,2,2,Southwark Diocese,token_set_equivalent_variant,merge,
+From a prayer of the Eastern Church,A Prayer of the Eastern Church,2,1,From a prayer of the Eastern Church,token_set_equivalent_variant,merge,
+From the Order of Compline,Order of Compline,1,1,Order of Compline,token_set_equivalent_variant,merge,
