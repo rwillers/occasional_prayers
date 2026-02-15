@@ -265,9 +265,13 @@ def main() -> int:
                 )
 
         if "tags" in parsed:
-            normalized_tags = _normalize_tags(parsed["tags"])
-            raw_tags = str(parsed["tags"]).strip()
-            if raw_tags and not normalized_tags:
+            raw_tags_value = parsed["tags"]
+            normalized_tags = _normalize_tags(raw_tags_value)
+            raw_tags = str(raw_tags_value).strip()
+            explicit_empty_tags = (
+                isinstance(raw_tags_value, (list, tuple)) and len(raw_tags_value) == 0
+            ) or (isinstance(raw_tags_value, str) and raw_tags in {"[]", "[ ]"})
+            if raw_tags and not normalized_tags and not explicit_empty_tags:
                 issues.append(
                     Issue(
                         kind="unparseable_tags",

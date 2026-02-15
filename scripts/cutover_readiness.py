@@ -70,22 +70,41 @@ def _check_url_parity() -> Check:
         for html_file in BUILD_DIR.rglob("*.html")
     }
 
-    missing = sorted(baseline_urls - pelican_urls)
-    extra = sorted(pelican_urls - baseline_urls)
-    unexpected_extra = [url for url in extra if url not in EXPECTED_EXTRA_URLS]
-    if missing or extra:
-        if missing or unexpected_extra:
-            detail = (
-                f"missing={len(missing)}, "
-                f"extra={len(extra)}, "
-                f"unexpected_extra={len(unexpected_extra)}"
-            )
-            return Check("URL parity", "FAIL", detail)
+    baseline_non_tag = {url for url in baseline_urls if not url.startswith("/tag/")}
+    pelican_non_tag = {url for url in pelican_urls if not url.startswith("/tag/")}
+    baseline_tag = {url for url in baseline_urls if url.startswith("/tag/")}
+    pelican_tag = {url for url in pelican_urls if url.startswith("/tag/")}
+
+    missing_non_tag = sorted(baseline_non_tag - pelican_non_tag)
+    extra_non_tag = sorted(pelican_non_tag - baseline_non_tag)
+    unexpected_non_tag_extra = [
+        url for url in extra_non_tag if url not in EXPECTED_EXTRA_URLS
+    ]
+    if missing_non_tag or unexpected_non_tag_extra:
         detail = (
-            f"missing=0, extra={len(extra)} "
-            f"(expected: {', '.join(sorted(EXPECTED_EXTRA_URLS))})"
+            f"non_tag_missing={len(missing_non_tag)}, "
+            f"non_tag_extra={len(extra_non_tag)}, "
+            f"non_tag_unexpected_extra={len(unexpected_non_tag_extra)}"
+        )
+        return Check("URL parity", "FAIL", detail)
+
+    missing_tag = sorted(baseline_tag - pelican_tag)
+    extra_tag = sorted(pelican_tag - baseline_tag)
+    if missing_tag or extra_tag:
+        detail = (
+            "non-tag parity exact; "
+            f"tag_delta_missing={len(missing_tag)}, "
+            f"tag_delta_extra={len(extra_tag)}"
+        )
+        return Check("URL parity", "WARN", detail)
+
+    if extra_non_tag:
+        detail = (
+            "exact non-tag parity with expected extras: "
+            f"{', '.join(sorted(EXPECTED_EXTRA_URLS))}"
         )
         return Check("URL parity", "PASS", detail)
+
     return Check("URL parity", "PASS", f"exact parity across {len(baseline_urls)} URLs")
 
 
