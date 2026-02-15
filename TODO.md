@@ -1,7 +1,7 @@
 # TODO
 
 Active items:
-- [ ] Update all documentation to reflect the Pelican + PageFind workflow and remove any stale references.
+- [x] Update all documentation to reflect the Pelican + PageFind workflow and remove any stale references.
 - [ ] Revisit categorization approach (consolidate similar and related terms, consider nesting, group tags logically, and reevaluate attribution/citation handling).
 - [ ] Standardize visual design and supporting CSS with Ordinarium.com project.
 - [ ] Add (beta) prayer language modernization feature ("thou" -> "you", etc.).

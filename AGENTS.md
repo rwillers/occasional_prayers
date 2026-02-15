@@ -16,10 +16,11 @@ This repository contains the source for the **Occasional Prayers** website. It i
 - Python helper code lives primarily in `_python/` (and some scripts in `_workingfiles/`).
 - Use **Black** as the Python formatting/linting standard.
 - Run Black on Python changes before finishing:
-  - `python3 -m black _python _workingfiles`
-  - `python3 -m black --check _python _workingfiles`
+  - `.venv-pelican/bin/python -m black _python _workingfiles`
+  - `.venv-pelican/bin/python -m black --check _python _workingfiles`
 
 ## Useful Commands
 
 - Build: `make build` or `make build-pelican-search`
 - Serve locally: `make serve` or `make serve-pelican`
+- Test: `make test`

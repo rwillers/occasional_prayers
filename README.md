@@ -4,7 +4,7 @@ Occasional Prayers is a static website that collects prayers from the *Book of C
 
 The site is built with [Pelican](https://getpelican.com/) and [PageFind](https://pagefind.app/) from Markdown content and templates in this repository.
 
-Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
+The Urubu -> Pelican + PageFind migration was completed on 2026-02-15.
 
 ## Project Structure
 
@@ -31,13 +31,13 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
 - Build with Pelican (without PageFind):
   - `make build-pelican`
   - or `.venv-pelican/bin/python -m pelican -s pelicanconf.py -o _build_pelican && touch _build_pelican/.nojekyll`
-- Fast Pelican smoke build (migration path):
+- Fast Pelican smoke build:
   - `make build-pelican-smoke`
   - or `.venv-pelican/bin/python -m pelican -s pelicanconf_smoke.py -o _build_pelican_smoke && touch _build_pelican_smoke/.nojekyll`
 - Generate redirects from `migration/redirects.csv`:
   - `make build-redirects`
   - or `.venv-pelican/bin/python scripts/generate_redirects.py --csv migration/redirects.csv --site _build_pelican --report migration/redirect_report.txt`
-- Build PageFind index (migration path):
+- Build PageFind index:
   - `make build-pagefind`
   - or `npx --yes pagefind --site _build_pelican --output-subdir pagefind --exclude-selectors ".navbar,.footer,#pronouns,.tags,script,style"`
 - Build Pelican + PageFind in sequence:
@@ -46,10 +46,10 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
   - `make test`
 - Run full verification suite (tests + build + redirects + readiness):
   - `make test-all`
-- Run migration metadata audit:
+- Run metadata audit:
   - `make audit-metadata`
   - or `.venv-pelican/bin/python scripts/audit_metadata.py`
-- Generate cutover readiness report:
+- Generate deployment readiness report:
   - `make cutover-readiness`
   - or `.venv-pelican/bin/python scripts/cutover_readiness.py`
 
@@ -79,9 +79,9 @@ Example command to generate `PROD_DEPLOY_KNOWN_HOSTS` value:
 
 Python dependencies are now pinned in `requirements.txt`.
 
-### Pelican Migration Environment
+### Python Environment
 
-Use a dedicated virtualenv for Pelican migration work:
+Use a dedicated virtualenv for local builds/tests:
 
 - `make prep-pelican-env`
 - or:
@@ -90,6 +90,7 @@ Use a dedicated virtualenv for Pelican migration work:
 
 Note: `index-pelican.md` is a migration adapter used to generate Pelican's root `index.html` without changing the existing `index.md` metadata shape.
 Note: `make build-pagefind` uses `npx` by default and needs network access unless `pagefind` is already installed locally.
+Note: historical migration artifacts are retained in `migration/`.
 
 ## Python Style
 

@@ -1,6 +1,6 @@
 # Migration Workspace
 
-This folder tracks artifacts and implementation files for the Urubu to Pelican + PageFind migration.
+This folder preserves historical artifacts and implementation notes from the completed Urubu -> Pelican + PageFind migration.
 
 ## Baseline Artifacts
 
