@@ -1,0 +1,37 @@
+sample_group,url_path,reason
+root,/index.html,root home
+root,/search.html,search page
+root,/about.html,about page
+root,/tag/index.html,tag index
+root,/notfound.html,not found page
+acna2019,/acna2019/index.html,section index
+acna2019,/acna2019/1.html,first content page
+acna2019collects,/acna2019collects/index.html,section index
+acna2019collects,/acna2019collects/1.html,first content page
+coe1662,/coe1662/index.html,section index
+coe1662,/coe1662/1.html,first content page
+coi2004,/coi2004/index.html,section index
+coi2004,/coi2004/1.html,first content page
+davidtaylor,/davidtaylor/index.html,section index
+davidtaylor,/davidtaylor/11.html,first content page
+other,/other/index.html,section index
+other,/other/1.html,first content page
+parish-devotional,/parish-devotional/index.html,section index
+parish-devotional,/parish-devotional/1452.html,first content page
+parish-intercessory,/parish-intercessory/index.html,section index
+parish-intercessory,/parish-intercessory/1029.html,first content page
+parish-occasions,/parish-occasions/index.html,section index
+parish-occasions,/parish-occasions/642.html,first content page
+parish-sacraments,/parish-sacraments/index.html,section index
+parish-sacraments,/parish-sacraments/1000.html,first content page
+parish-supplementary,/parish-supplementary/index.html,section index
+parish-supplementary,/parish-supplementary/1700.html,first content page
+parish-year,/parish-year/index.html,section index
+parish-year,/parish-year/1.html,first content page
+potec,/potec/index.html,section index
+potec,/potec/1.html,first content page
+tag,/tag/index.html,section index
+tec1928,/tec1928/index.html,section index
+tec1928,/tec1928/1.html,first content page
+tec1979,/tec1979/index.html,section index
+tec1979,/tec1979/1.html,first content page
