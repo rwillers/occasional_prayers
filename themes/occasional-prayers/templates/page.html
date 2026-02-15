@@ -32,7 +32,7 @@
     } %}
 
     <div class="page-header">
-        <h2 data-pagefind-meta="title">{{ page.title }}</h2>
+        <h2>{{ page.title }}</h2>
         {% if page.metadata.get("attribution") %}
             <small><em>{{ page.metadata.get("attribution") }}</em></small>
         {% endif %}
@@ -51,8 +51,11 @@
     {% set attribution = page.metadata.get("attribution") %}
 
     <main data-pagefind-body>
-        {% if source_primary or section_title or section_short_title or attribution %}
+        {% if page.title or source_primary or section_title or section_short_title or attribution %}
             <div class="search-index-context" aria-hidden="true">
+                {% if page.title %}
+                    <span data-pagefind-meta="title">{{ page.title }}</span>
+                {% endif %}
                 {% if source_primary %}
                     <span data-pagefind-meta="source">{{ source_primary }}</span>
                 {% endif %}
