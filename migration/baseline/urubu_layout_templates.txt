@@ -1,7 +1,0 @@
-_layouts/_base.html
-_layouts/footer.html
-_layouts/home.html
-_layouts/index.html
-_layouts/page.html
-_layouts/search.html
-_layouts/tag.html

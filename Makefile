@@ -10,9 +10,6 @@ build:
 serve:
 	$(MAKE) serve-pelican
 
-baseline:
-	python3 scripts/capture_baseline.py
-
 prep-pelican-env:
 	/opt/homebrew/bin/python3.12 -m venv .venv-pelican
 	$(PELICAN_PYTHON) -m pip install -r requirements.txt
@@ -45,13 +42,6 @@ build-pelican-search:
 
 audit-metadata:
 	$(PELICAN_PYTHON) scripts/audit_metadata.py
-
-check-render-parity:
-	$(PELICAN_PYTHON) scripts/check_render_parity.py
-
-migration-checks:
-	$(MAKE) audit-metadata
-	$(MAKE) check-render-parity
 
 cutover-readiness:
 	$(PELICAN_PYTHON) scripts/cutover_readiness.py

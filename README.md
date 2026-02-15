@@ -9,7 +9,6 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
 ## Project Structure
 
 - `_python/`: small Python helpers and custom template filters used by the build.
-- `_layouts/`: site layout templates.
 - `css/`, `js/`, `images/`: static assets.
 - Prayer/content directories (for example `acna2019/`, `tec1979/`, `parish-year/`): Markdown source files.
 - `_build_pelican/`: generated output from Pelican.
@@ -29,9 +28,6 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
 - Serve locally (Pelican):
   - `make serve-pelican`
   - or `.venv-pelican/bin/python -m pelican --listen --autoreload -s pelicanconf.py -o _build_pelican`
-- Capture migration baseline artifacts:
-  - `make baseline`
-  - or `python3 scripts/capture_baseline.py`
 - Build with Pelican (without PageFind):
   - `make build-pelican`
   - or `.venv-pelican/bin/python -m pelican -s pelicanconf.py -o _build_pelican && touch _build_pelican/.nojekyll`
@@ -49,11 +45,6 @@ Initial Urubu -> Pelican + PageFind migration is complete (2026-02-15).
 - Run migration metadata audit:
   - `make audit-metadata`
   - or `.venv-pelican/bin/python scripts/audit_metadata.py`
-- Run representative render parity checks:
-  - `make check-render-parity`
-  - or `.venv-pelican/bin/python scripts/check_render_parity.py`
-- Run both migration audits:
-  - `make migration-checks`
 - Generate cutover readiness report:
   - `make cutover-readiness`
   - or `.venv-pelican/bin/python scripts/cutover_readiness.py`

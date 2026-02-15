@@ -17,9 +17,7 @@ BUILD_DIR = ROOT / "_build_pelican"
 BASELINE_URLS_PATH = ROOT / "migration" / "baseline" / "url_inventory.txt"
 READINESS_REPORT = ROOT / "migration" / "cutover_readiness.md"
 
-METADATA_SUMMARY_PATH = ROOT / "migration" / "parity" / "metadata_audit_summary.md"
 METADATA_ISSUES_PATH = ROOT / "migration" / "parity" / "metadata_audit_issues.csv"
-RENDER_DETAILS_PATH = ROOT / "migration" / "parity" / "render_parity_details.csv"
 PAGEFIND_ENTRY_PATH = ROOT / "_build_pelican" / "pagefind" / "pagefind-entry.json"
 PAGEFIND_QUERY_RESULTS_PATH = (
     ROOT / "migration" / "parity" / "pagefind_query_results.tsv"
@@ -145,45 +143,6 @@ def _check_metadata_audit() -> Check:
     return Check("Metadata audit", "PASS", "no metadata issues found")
 
 
-def _check_render_parity() -> Check:
-    command = [
-        PYTHON_EXECUTABLE,
-        "scripts/check_render_parity.py",
-    ]
-    ok, output = _run_command(command)
-    if not ok:
-        return Check("Render parity", "FAIL", output or "render parity check failed")
-    if not RENDER_DETAILS_PATH.exists():
-        return Check("Render parity", "FAIL", "render_parity_details.csv not found")
-
-    strict_failures = 0
-    expected_deviations = 0
-    with RENDER_DETAILS_PATH.open("r", encoding="utf-8", newline="") as handle:
-        reader = csv.DictReader(handle)
-        for row in reader:
-            expected = (row.get("expected_deviation") or "").strip().lower() == "true"
-            title_match = (row.get("title_match") or "").strip().lower() == "true"
-            h2_match = (row.get("h2_match") or "").strip().lower() == "true"
-            breadcrumb_match = (
-                row.get("breadcrumb_match") or ""
-            ).strip().lower() == "true"
-            tags_match = (row.get("tags_block_match") or "").strip().lower() == "true"
-            similarity = float((row.get("token_similarity") or "0").strip())
-            if expected:
-                expected_deviations += 1
-                continue
-            if not (title_match and h2_match and breadcrumb_match and tags_match):
-                strict_failures += 1
-                continue
-            if similarity < 0.90:
-                strict_failures += 1
-
-    if strict_failures:
-        return Check("Render parity", "FAIL", f"strict failures={strict_failures}")
-    detail = f"strict failures=0, expected deviations={expected_deviations}"
-    return Check("Render parity", "PASS", detail)
-
-
 def _check_pagefind_assets() -> Check:
     pagefind_dir = BUILD_DIR / "pagefind"
     required_files = [
@@ -259,7 +218,6 @@ def _manual_tasks_section() -> list[str]:
         "- Freeze content changes during final switch window.",
         "- Run final `make build-pelican-search` in a network-enabled environment.",
         "- Run post-deploy smoke checks: home, section pages, tag pages, search, and 404.",
-        "- Keep Urubu build path available until post-deploy verification is complete.",
         "",
         "## Manual Search QA Focus",
         "- Compare search result ordering for representative terms against current production behavior.",
@@ -274,7 +232,6 @@ def main() -> int:
         _check_url_parity(),
         _check_redirect_validation(),
         _check_metadata_audit(),
-        _check_render_parity(),
         _check_pagefind_assets(),
         _check_pagefind_queries(),
     ]

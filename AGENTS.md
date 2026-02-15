@@ -2,12 +2,12 @@
 
 ## Project Context
 
-This repository contains the source for the **Occasional Prayers** website. It is a static site generated with Urubu from Markdown content, templates, and small Python helpers.
+This repository contains the source for the **Occasional Prayers** website. It is a static site generated with Pelican + PageFind from Markdown content, templates, and small Python helpers.
 
 ## Working Agreements
 
 - Treat Markdown content directories (for example `acna2019/`, `tec1979/`, `parish-*`) as canonical source content.
-- Treat `_build/` as generated output; do not manually edit generated HTML unless explicitly requested.
+- Treat `_build_pelican/` as generated output; do not manually edit generated HTML unless explicitly requested.
 - Keep edits focused and minimal for the task at hand.
 - Preserve front matter structure in Markdown files.
 
@@ -21,5 +21,5 @@ This repository contains the source for the **Occasional Prayers** website. It i
 
 ## Useful Commands
 
-- Build: `make build` or `python3 -m urubu build`
-- Serve locally: `make serve` or `python3 -m urubu serve`
+- Build: `make build` or `make build-pelican-search`
+- Serve locally: `make serve` or `make serve-pelican`

@@ -4,19 +4,7 @@ This folder tracks artifacts and implementation files for the Urubu to Pelican +
 
 ## Baseline Artifacts
 
-Run this command to refresh baseline captures from the current Urubu build output:
-
-```bash
-python3 scripts/capture_baseline.py
-```
-
-Generated files are written to `migration/baseline/` and include:
-
-- URL inventory from `_build`.
-- Representative URL sample list by section.
-- Metadata/front matter usage counts from Markdown source.
-- Urubu layout template inventory.
-- Tipue Search source/build asset inventory.
+Migration baseline artifacts are retained in `migration/baseline/` for historical reference.
 
 ## Redirect Mapping
 

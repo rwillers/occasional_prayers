@@ -5,10 +5,10 @@
     - [x] Add GitHub Actions publish workflow (`.github/workflows/publish.yml`) with build/check/deploy stages.
     - [x] Configure required GitHub repository secrets and run first workflow-based production deploy.
     - [x] Fix post-deploy smoke check false failure in GitHub Actions (`curl` pipefail with `grep -q`).
-    - [ ] After confirming successful publish of Pelican site, perform a full clean up of old Urubu code, venv, etc., safely cleaning the environment to only current code and dependencies.
+    - [x] After confirming successful publish of Pelican site, perform a full clean up of old Urubu code, venv, etc., safely cleaning the environment to only current code and dependencies.
         - [x] Switch default local build/serve targets to Pelican in `Makefile`.
         - [x] Remove legacy Urubu config/dependency files from repo (`_site.yml`, `requirements-urubu.txt`).
-        - [ ] Remove remaining Urubu-only source/template artifacts after archival decision.
+        - [x] Remove remaining Urubu-only source/template artifacts after archival decision.
     - [ ] Add a full suite of test scripts for the modernized application.
     - [ ] Update all documentation to reflect changes and clean up.
 - [ ] Revisit categorization approach (consolidate similar and related terms, consider ability to nest categories, put tags into logical groupings, rethink attribution/citation inclusion given large number, etc.).

@@ -1,4 +1,5 @@
 .DS_Store
+_build/
 _build_pelican/
 _build_pelican_smoke/
 .venv-pelican/
