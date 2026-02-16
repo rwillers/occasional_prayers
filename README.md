@@ -39,7 +39,7 @@ The Urubu -> Pelican + PageFind migration was completed on 2026-02-15.
   - or `.venv-pelican/bin/python scripts/generate_redirects.py --csv migration/redirects.csv --site _build_pelican --report migration/redirect_report.txt`
 - Build PageFind index:
   - `make build-pagefind`
-  - or `npx --yes pagefind --site _build_pelican --output-subdir pagefind --exclude-selectors ".navbar,.footer,#pronouns,.tags,script,style"`
+  - or `npx --yes pagefind --site _build_pelican --output-subdir pagefind --exclude-selectors "header,footer,#pronouns,.tags,script,style"`
 - Build Pelican + PageFind in sequence:
   - `make build-pelican-search`
 - Run automated test suite (pytest):

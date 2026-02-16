@@ -50,7 +50,7 @@
     {% set source_primary = section_short_title or section_title or section_fallback %}
     {% set attribution = page.metadata.get("attribution") %}
 
-    <main data-pagefind-body>
+    <div data-pagefind-body>
         {% if page.title or source_primary or section_title or section_short_title or attribution %}
             <div class="search-index-context" aria-hidden="true">
                 {% if page.title %}
@@ -72,7 +72,7 @@
         {% endif %}
 
         {{ page.content }}
-    </main>
+    </div>
 
     <div id="pronouns" class="button-group">
         <button onclick="togglePronouns('f')" id="toggleF">Female</button><button onclick="togglePronouns('m')" id="toggleM" class="current">Male</button>

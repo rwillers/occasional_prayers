@@ -1,7 +1,7 @@
 PELICAN_PYTHON ?= .venv-pelican/bin/python
 PYTHON_BOOTSTRAP ?= python3
 PAGEFIND_CMD ?= npx --yes pagefind
-PAGEFIND_EXCLUDE_SELECTORS ?= .navbar,.footer,\#pronouns,.tags,script,style
+PAGEFIND_EXCLUDE_SELECTORS ?= header,footer,\#pronouns,.tags,script,style
 
 all: build
 

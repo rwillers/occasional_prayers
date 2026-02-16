@@ -24,7 +24,7 @@
 
     <body>
         <div id="inner-body">
-            <div class="navbar">
+            <header>
                 <div class="inner">
                     <h1><a href="{{ url_prefix }}/">{{ SITENAME }}</a></h1>
 
@@ -32,12 +32,12 @@
                         <input type="search" name="q" id="tipue_search_input" class="form-control" placeholder="Search" required minlength="3" validation="Use at least three characters">
                     </form>
                 </div>
-            </div>
+            </header>
 
-            <div id="content"{% block content_attributes %}{% endblock %}>
+            <main id="content"{% block content_attributes %}{% endblock %}>
                 {% block body %}{% endblock %}
                 {% block body_addon %}{% endblock %}
-            </div>
+            </main>
 
             {% include "footer.html" %}
         </div>
