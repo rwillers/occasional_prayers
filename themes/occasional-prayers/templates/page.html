@@ -81,7 +81,7 @@
     {% set tag_links = page.compat_tag_links if page.compat_tag_links is defined else [] %}
     {% if tag_links %}
         <div class="tags">
-            Categories & attributions:
+            Categories:
             <ul>
                 {% for tag in tag_links %}
                     <li><a href="{{ url_prefix }}/tag/{{ tag.segment }}/">{{ tag.name }}</a></li>
