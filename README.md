@@ -12,7 +12,7 @@ The Urubu -> Pelican + PageFind migration was completed on 2026-02-15.
 - `css/`, `js/`, `images/`: static assets.
 - Prayer/content directories (for example `acna2019/`, `tec1979/`, `parish-year/`): Markdown source files.
 - `_build_pelican/`: generated output from Pelican.
-- `_workingfiles/`: working notes, import/parsing helpers, and scratch content.
+- `migration/`: migration artifacts, reports, and taxonomy decision records.
 
 ## Local Development
 
@@ -83,7 +83,7 @@ Behavior:
 
 Required GitHub repository secrets:
 
-- `PROD_DEPLOY_HOST`: SSH host (for example `3.233.14.27`).
+- `PROD_DEPLOY_HOST`: SSH host (for example `your.server.example`).
 - `PROD_DEPLOY_USER`: SSH user with write access to production web root.
 - `PROD_DEPLOY_PORT`: optional SSH port (defaults to `22` if unset).
 - `PROD_DEPLOY_SSH_KEY`: private key used by Actions for SSH/rsync.
@@ -91,7 +91,7 @@ Required GitHub repository secrets:
 
 Example command to generate `PROD_DEPLOY_KNOWN_HOSTS` value:
 
-- `ssh-keyscan -H 3.233.14.27`
+- `ssh-keyscan -H your.server.example`
 
 ## Dependencies
 
@@ -103,7 +103,7 @@ Use a dedicated virtualenv for local builds/tests:
 
 - `make prep-pelican-env`
 - or:
-  - `/opt/homebrew/bin/python3.12 -m venv .venv-pelican`
+  - `python3 -m venv .venv-pelican`
   - `.venv-pelican/bin/python -m pip install -r requirements.txt`
 
 Note: `index-pelican.md` is a migration adapter used to generate Pelican's root `index.html` without changing the existing `index.md` metadata shape.
@@ -115,8 +115,8 @@ Note: historical migration artifacts are retained in `migration/`.
 Use **Black** for Python code formatting/linting in this project.
 
 - Format all Python code:
-  - `.venv-pelican/bin/python -m black _python _workingfiles`
+  - `.venv-pelican/bin/python -m black _python scripts tests`
 - Check formatting without writing changes:
-  - `.venv-pelican/bin/python -m black --check _python _workingfiles`
+  - `.venv-pelican/bin/python -m black --check _python scripts tests`
 
 If you change Python files, run Black before committing.

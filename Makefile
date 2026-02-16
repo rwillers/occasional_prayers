@@ -1,4 +1,5 @@
 PELICAN_PYTHON ?= .venv-pelican/bin/python
+PYTHON_BOOTSTRAP ?= python3
 PAGEFIND_CMD ?= npx --yes pagefind
 PAGEFIND_EXCLUDE_SELECTORS ?= .navbar,.footer,\#pronouns,.tags,script,style
 
@@ -11,7 +12,7 @@ serve:
 	$(MAKE) serve-pelican
 
 prep-pelican-env:
-	/opt/homebrew/bin/python3.12 -m venv .venv-pelican
+	$(PYTHON_BOOTSTRAP) -m venv .venv-pelican
 	$(PELICAN_PYTHON) -m pip install -r requirements.txt
 
 build-pelican:

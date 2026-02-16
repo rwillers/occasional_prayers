@@ -13,11 +13,11 @@ This repository contains the source for the **Occasional Prayers** website. It i
 
 ## Python Code Standards
 
-- Python helper code lives primarily in `_python/` (and some scripts in `_workingfiles/`).
+- Python helper code lives primarily in `_python/` and `scripts/`.
 - Use **Black** as the Python formatting/linting standard.
 - Run Black on Python changes before finishing:
-  - `.venv-pelican/bin/python -m black _python _workingfiles`
-  - `.venv-pelican/bin/python -m black --check _python _workingfiles`
+  - `.venv-pelican/bin/python -m black _python scripts tests`
+  - `.venv-pelican/bin/python -m black --check _python scripts tests`
 
 ## Useful Commands
 
