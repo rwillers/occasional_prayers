@@ -2,7 +2,7 @@
 title: Occasional Prayers
 layout: home
 tagline:
-    Collects and other prayers from the <em>Book of Common Prayer</em>, the Anglican tradition, and the broader Church
+    Occasional Prayers is a resource for collects and other prayers from the <em>Book of Common Prayer</em>, the Anglican tradition, and the broader Church.
 content:
     - tag
     - acna2019
@@ -22,4 +22,3 @@ content:
     - acna2019collects
 
 ---
-
