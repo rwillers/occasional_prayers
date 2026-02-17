@@ -202,12 +202,7 @@
             }
 
             function prayerTitle(data) {
-                const metaTitle = String(data?.meta?.title || "").trim();
-                if (metaTitle && metaTitle.toLowerCase() !== SITE_NAME.toLowerCase()) {
-                    return metaTitle;
-                }
-
-                return titleFromUrl(data?.url || "") || "Result";
+                return String(data?.meta?.title || "").trim() || "Untitled prayer";
             }
 
             function snippetFromPrayerText(data) {
