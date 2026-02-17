@@ -350,18 +350,6 @@ div.tags ul li:last-child:after {
 }
 
 /* Search page */
-.search-index-context {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border: 0;
-}
-
 .search-shell {
 	margin-top: 20px;
 }

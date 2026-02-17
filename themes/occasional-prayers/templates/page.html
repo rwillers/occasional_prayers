@@ -1,5 +1,47 @@
 {% extends "base.html" %}
 
+{% set section_source_map = {
+    "acna2019": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Occasional Prayers"},
+    "acna2019collects": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Collects"},
+    "coe1662": {"short": "COE 1662", "title": "Church of England (1662) — Prayers and Thanksgivings upon Several Occasions"},
+    "coi2004": {"short": "COI 2004", "title": "Church of Ireland (2004) — Some Prayers and Thanksgivings"},
+    "davidtaylor": {"short": "Taylor", "title": "W. David O. Taylor — Collects and occasional prayers"},
+    "other": {"short": "Other prayers", "title": "Other prayers"},
+    "parish-devotional": {"short": "Parish V", "title": "Parish Prayers — V. Devotional Prayers"},
+    "parish-intercessory": {"short": "Parish IV", "title": "Parish Prayers — IV. Intercessory Prayers"},
+    "parish-occasions": {"short": "Parish II", "title": "Parish Prayers — II. Various Occasions"},
+    "parish-sacraments": {"short": "Parish III", "title": "Parish Prayers — III. Sacraments and Ordinances"},
+    "parish-supplementary": {"short": "Parish VI", "title": "Parish Prayers — VI. Supplementary Prayers"},
+    "parish-year": {"short": "Parish I", "title": "Parish Prayers — I. The Church Year"},
+    "potec": {"short": "POTEC", "title": "Prayers of the Early Church"},
+    "tec1928": {"short": "TEC 1928", "title": "The Episcopal Church (US, 1928) — Occasional Prayers"},
+    "tec1979": {"short": "TEC 1979", "title": "The Episcopal Church (US, 1979) — Occasional Prayers"}
+} %}
+
+{% set section_key = page.url.split('/')[0] if page.url and '/' in page.url else "" %}
+{% set source_info = section_source_map.get(section_key) %}
+{% set section_sources = page.compat_section_sources if page.compat_section_sources is defined else {} %}
+{% set compat_source_info = section_sources.get(section_key) if section_sources else {} %}
+{% set mapped_section_title = source_info.title if source_info else (compat_source_info.get("title", "") if compat_source_info else "") %}
+{% set mapped_section_short_title = source_info.short if source_info else (compat_source_info.get("short_title", "") if compat_source_info else "") %}
+{% set section_title = (page.compat_section_title if page.compat_section_title is defined else "") or mapped_section_title %}
+{% set section_short_title = (page.compat_section_short_title if page.compat_section_short_title is defined else "") or mapped_section_short_title %}
+{% set section_fallback = section_key.replace('-', ' ') | title %}
+{% set source_primary = section_short_title or section_title or section_fallback %}
+{% set attribution = page.metadata.get("attribution") %}
+
+{% block head_addon %}
+    {% if page.title %}
+        <meta name="pagefind:title" content="{{ page.title }}">
+    {% endif %}
+    {% if source_primary %}
+        <meta name="pagefind:source" content="{{ source_primary }}">
+    {% endif %}
+    {% if attribution %}
+        <meta name="pagefind:attribution" content="{{ attribution }}">
+    {% endif %}
+{% endblock %}
+
 {% block body %}
     {% set url_prefix = SITEURL.rstrip('/') if SITEURL else '' %}
     {% set breadcrumbs = page.compat_breadcrumbs if page.compat_breadcrumbs is defined else [] %}
@@ -13,24 +55,6 @@
         </ol>
     {% endif %}
 
-    {% set section_source_map = {
-        "acna2019": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Occasional Prayers"},
-        "acna2019collects": {"short": "ACNA 2019", "title": "Anglican Church in North America (2019) — Collects"},
-        "coe1662": {"short": "COE 1662", "title": "Church of England (1662) — Prayers and Thanksgivings upon Several Occasions"},
-        "coi2004": {"short": "COI 2004", "title": "Church of Ireland (2004) — Some Prayers and Thanksgivings"},
-        "davidtaylor": {"short": "Taylor", "title": "W. David O. Taylor — Collects and occasional prayers"},
-        "other": {"short": "Other prayers", "title": "Other prayers"},
-        "parish-devotional": {"short": "Parish V", "title": "Parish Prayers — V. Devotional Prayers"},
-        "parish-intercessory": {"short": "Parish IV", "title": "Parish Prayers — IV. Intercessory Prayers"},
-        "parish-occasions": {"short": "Parish II", "title": "Parish Prayers — II. Various Occasions"},
-        "parish-sacraments": {"short": "Parish III", "title": "Parish Prayers — III. Sacraments and Ordinances"},
-        "parish-supplementary": {"short": "Parish VI", "title": "Parish Prayers — VI. Supplementary Prayers"},
-        "parish-year": {"short": "Parish I", "title": "Parish Prayers — I. The Church Year"},
-        "potec": {"short": "POTEC", "title": "Prayers of the Early Church"},
-        "tec1928": {"short": "TEC 1928", "title": "The Episcopal Church (US, 1928) — Occasional Prayers"},
-        "tec1979": {"short": "TEC 1979", "title": "The Episcopal Church (US, 1979) — Occasional Prayers"}
-    } %}
-
     <div class="page-header">
         <h2>{{ page.title }}</h2>
         {% if page.metadata.get("attribution") %}
@@ -38,39 +62,7 @@
         {% endif %}
     </div>
 
-    {% set section_key = page.url.split('/')[0] if page.url and '/' in page.url else "" %}
-    {% set source_info = section_source_map.get(section_key) %}
-    {% set section_sources = page.compat_section_sources if page.compat_section_sources is defined else {} %}
-    {% set compat_source_info = section_sources.get(section_key) if section_sources else {} %}
-    {% set mapped_section_title = source_info.title if source_info else (compat_source_info.get("title", "") if compat_source_info else "") %}
-    {% set mapped_section_short_title = source_info.short if source_info else (compat_source_info.get("short_title", "") if compat_source_info else "") %}
-    {% set section_title = (page.compat_section_title if page.compat_section_title is defined else "") or mapped_section_title %}
-    {% set section_short_title = (page.compat_section_short_title if page.compat_section_short_title is defined else "") or mapped_section_short_title %}
-    {% set section_fallback = section_key.replace('-', ' ') | title %}
-    {% set source_primary = section_short_title or section_title or section_fallback %}
-    {% set attribution = page.metadata.get("attribution") %}
-
     <div data-pagefind-body>
-        {% if page.title or source_primary or section_title or section_short_title or attribution %}
-            <div class="search-index-context" aria-hidden="true">
-                {% if page.title %}
-                    <span data-pagefind-meta="title">{{ page.title }}</span>
-                {% endif %}
-                {% if source_primary %}
-                    <span data-pagefind-meta="source">{{ source_primary }}</span>
-                {% endif %}
-                {% if section_title and section_title != source_primary %}
-                    <span>{{ section_title }}</span>
-                {% endif %}
-                {% if section_short_title and section_short_title != source_primary %}
-                    <span>{{ section_short_title }}</span>
-                {% endif %}
-                {% if attribution %}
-                    <span data-pagefind-meta="attribution">{{ attribution }}</span>
-                {% endif %}
-            </div>
-        {% endif %}
-
         {{ page.content }}
     </div>
 
