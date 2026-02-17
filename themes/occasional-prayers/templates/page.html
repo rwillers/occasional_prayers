@@ -63,6 +63,13 @@
     </div>
 
     <div data-pagefind-body>
+        <span data-pagefind-meta="title" hidden>{{ page.title }}</span>
+        {% if source_primary %}
+            <span data-pagefind-meta="source" hidden>{{ source_primary }}</span>
+        {% endif %}
+        {% if attribution %}
+            <span data-pagefind-meta="attribution" hidden>{{ attribution }}</span>
+        {% endif %}
         {{ page.content }}
     </div>
 
