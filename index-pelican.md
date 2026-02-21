@@ -6,6 +6,7 @@ tagline:
 section_refs:
     - tag
     - acna2019
+    - coe1559
     - coe1662
     - coi2004
     - tec1928

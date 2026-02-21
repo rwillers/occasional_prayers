@@ -30,6 +30,7 @@ PAGE_PATHS = [
     "notfound.md",
     "acna2019",
     "acna2019collects",
+    "coe1559",
     "coe1662",
     "coi2004",
     "davidtaylor",
