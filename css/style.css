@@ -246,8 +246,29 @@ button.current {
 	border-bottom-left-radius: 0;
 }
 
-div#pronouns {
+.format-controls {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px 20px;
+	margin: 24px 0;
+}
+
+.format-controls[hidden],
+.format-control[hidden] {
 	display: none;
+}
+
+.format-control {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.format-control-label {
+	font-family: var(--header-font-family);
+	font-size: 0.85em;
 }
 
 ol.breadcrumb {

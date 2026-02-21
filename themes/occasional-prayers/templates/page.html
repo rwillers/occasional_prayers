@@ -21,6 +21,8 @@
 
 {% set section_key = page.url.split('/')[0] if page.url and '/' in page.url else "" %}
 {% set source_info = section_source_map.get(section_key) %}
+{% set modernizable_section_keys = ["potec"] %}
+{% set language_modernization_enabled = section_key in modernizable_section_keys %}
 {% set section_sources = page.compat_section_sources if page.compat_section_sources is defined else {} %}
 {% set compat_source_info = section_sources.get(section_key) if section_sources else {} %}
 {% set mapped_section_title = source_info.title if source_info else (compat_source_info.get("title", "") if compat_source_info else "") %}
@@ -41,6 +43,10 @@
     {% if attribution %}
         <meta name="pagefind:attribution" content="{{ attribution }}">
     {% endif %}
+{% endblock %}
+
+{% block content_attributes %}
+ data-section-key="{{ section_key }}" data-language-modernization="{{ "true" if language_modernization_enabled else "false" }}"
 {% endblock %}
 
 {% block body %}
@@ -74,8 +80,20 @@
         {% endif %}
     </div>
 
-    <div id="pronouns" class="button-group">
-        <button onclick="togglePronouns('f')" id="toggleF">Female</button><button onclick="togglePronouns('m')" id="toggleM" class="current">Male</button>
+    <div id="format-controls" class="format-controls" data-pagefind-ignore="all" hidden>
+        <div id="language-modernization" class="format-control" hidden>
+            <span class="format-control-label">Language (beta):</span>
+            <div class="button-group">
+                <button type="button" id="toggleLanguageOriginal" class="current">Original</button><button type="button" id="toggleLanguageModern">Modernized</button>
+            </div>
+        </div>
+
+        <div id="pronouns" class="format-control" hidden>
+            <span class="format-control-label">Pronouns:</span>
+            <div class="button-group">
+                <button type="button" id="toggleF">Female</button><button type="button" id="toggleM" class="current">Male</button>
+            </div>
+        </div>
     </div>
 
     {% set tag_links = page.compat_tag_links if page.compat_tag_links is defined else [] %}
