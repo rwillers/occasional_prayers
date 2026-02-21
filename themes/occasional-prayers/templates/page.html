@@ -21,8 +21,9 @@
 
 {% set section_key = page.url.split('/')[0] if page.url and '/' in page.url else "" %}
 {% set source_info = section_source_map.get(section_key) %}
-{% set modernizable_section_keys = ["potec", "tec1928"] %}
-{% set language_modernization_enabled = section_key in modernizable_section_keys %}
+{% set modernizable_section_keys = section_source_map.keys() %}
+{% set modernization_disabled_section_keys = [] %}
+{% set language_modernization_enabled = section_key in modernizable_section_keys and section_key not in modernization_disabled_section_keys %}
 {% set section_sources = page.compat_section_sources if page.compat_section_sources is defined else {} %}
 {% set compat_source_info = section_sources.get(section_key) if section_sources else {} %}
 {% set mapped_section_title = source_info.title if source_info else (compat_source_info.get("title", "") if compat_source_info else "") %}
