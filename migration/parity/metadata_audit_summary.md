@@ -1,14 +1,14 @@
 # Metadata Audit Summary
 
-- Markdown files audited: `2483`
+- Markdown files audited: `2512`
 - Distinct front matter keys: `12`
 - Distinct layout values: `5`
 - Total issues: `1`
 
 ## Layout Distribution
 - `home`: 2
-- `index`: 15
-- `page`: 2464
+- `index`: 16
+- `page`: 2492
 - `search`: 1
 - `tag`: 1
 

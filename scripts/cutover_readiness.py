@@ -23,6 +23,7 @@ PAGEFIND_QUERY_RESULTS_PATH = (
     ROOT / "migration" / "parity" / "pagefind_query_results.tsv"
 )
 EXPECTED_EXTRA_URLS = {"/404.html"}
+EXPECTED_EXTRA_URL_PREFIXES = ("/coe1559/",)
 PYTHON_EXECUTABLE = sys.executable
 
 
@@ -78,7 +79,7 @@ def _check_url_parity() -> Check:
     missing_non_tag = sorted(baseline_non_tag - pelican_non_tag)
     extra_non_tag = sorted(pelican_non_tag - baseline_non_tag)
     unexpected_non_tag_extra = [
-        url for url in extra_non_tag if url not in EXPECTED_EXTRA_URLS
+        url for url in extra_non_tag if not _is_expected_non_tag_extra(url)
     ]
     if missing_non_tag or unexpected_non_tag_extra:
         detail = (
@@ -99,13 +100,21 @@ def _check_url_parity() -> Check:
         return Check("URL parity", "WARN", detail)
 
     if extra_non_tag:
+        expected_components = sorted(EXPECTED_EXTRA_URLS)
+        expected_components.extend(sorted(EXPECTED_EXTRA_URL_PREFIXES))
         detail = (
             "exact non-tag parity with expected extras: "
-            f"{', '.join(sorted(EXPECTED_EXTRA_URLS))}"
+            f"{', '.join(expected_components)}"
         )
         return Check("URL parity", "PASS", detail)
 
     return Check("URL parity", "PASS", f"exact parity across {len(baseline_urls)} URLs")
+
+
+def _is_expected_non_tag_extra(url: str) -> bool:
+    if url in EXPECTED_EXTRA_URLS:
+        return True
+    return any(url.startswith(prefix) for prefix in EXPECTED_EXTRA_URL_PREFIXES)
 
 
 def _check_redirect_validation() -> Check:

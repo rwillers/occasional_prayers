@@ -1,17 +1,17 @@
 # Cutover Readiness Report
 
-- Generated: `2026-02-15T15:36:52`
+- Generated: `2026-02-20T22:05:38`
 - FAIL checks: `0`
-- WARN checks: `1`
+- WARN checks: `2`
 
 ## Automated Checks
 | Check | Status | Detail |
 |---|---|---|
-| Build output | PASS | _build_pelican has 3127 HTML files |
-| URL parity | PASS | missing=0, extra=1 (expected: /404.html) |
+| Build output | PASS | _build_pelican has 2551 HTML files |
+| URL parity | WARN | non-tag parity exact; tag_delta_missing=609, tag_delta_extra=4 |
 | Redirect validation | PASS | redirect generation/validation succeeded |
 | Metadata audit | WARN | only known issue remains (index.md content key; handled by index-pelican.md) |
-| PageFind assets | PASS | pagefind indexed pages=2465 |
+| PageFind assets | PASS | pagefind indexed pages=2493 |
 | PageFind queries | PASS | representative terms return non-zero results |
 
 ## Manual Cutover Tasks
