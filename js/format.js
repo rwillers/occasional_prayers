@@ -32,6 +32,16 @@
         "thou art": "you are",
         "which art": "which are",
         "who art": "who are",
+        "thine they were": "they were yours",
+        "thine alone": "yours alone",
+        "thine is": "yours is",
+        "is thine": "is yours",
+        "are thine": "are yours",
+        "thine ears": "your ears",
+        "thine hand": "your hand",
+        "thine apostles": "your apostles",
+        "thine infinite": "your infinite",
+        "thine almighty": "your almighty",
         "thine own": "your own",
     };
 
@@ -197,7 +207,6 @@
         takest: "take",
         taketh: "takes",
         thee: "you",
-        thine: "your",
         thirsteth: "thirsts",
         thou: "you",
         thy: "your",
@@ -227,9 +236,12 @@
     function buildModernizationPatterns() {
         const patterns = [];
 
-        for (const [source, replacement] of Object.entries(
-            MODERNIZATION_PHRASE_REPLACEMENTS,
-        )) {
+        const phraseEntries = Object.entries(MODERNIZATION_PHRASE_REPLACEMENTS).sort(
+            function (a, b) {
+                return b[0].length - a[0].length;
+            },
+        );
+        for (const [source, replacement] of phraseEntries) {
             patterns.push({
                 pattern: new RegExp(`\\b${escapeRegex(source)}\\b`, "gi"),
                 replacement,

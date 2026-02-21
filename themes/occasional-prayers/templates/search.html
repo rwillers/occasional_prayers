@@ -48,8 +48,6 @@
         "tec1979": {"short_title": "TEC 1979", "title": "The Episcopal Church (US, 1979) — Occasional Prayers"}
     } %}
     <script type="module">
-        import * as pagefind from "{{ url_prefix }}/pagefind/pagefind.js";
-
         (function() {
             const SECTION_SOURCES = {{ section_sources | tojson }};
             const SITE_NAME = {{ SITENAME | tojson }};
@@ -78,6 +76,18 @@
             let allResults = [];
             let renderedCount = 0;
             let debounceHandle = null;
+            let pagefindModulePromise = null;
+
+            async function loadPagefindModule() {
+                if (!pagefindModulePromise) {
+                    pagefindModulePromise = import("{{ url_prefix }}/pagefind/pagefind.js")
+                        .catch((error) => {
+                            pagefindModulePromise = null;
+                            throw error;
+                        });
+                }
+                return pagefindModulePromise;
+            }
 
             function escapeHtml(value) {
                 const text = String(value || "");
@@ -284,6 +294,7 @@
                 setStatus("Searching...");
 
                 try {
+                    const pagefind = await loadPagefindModule();
                     await pagefind.options({
                         basePath: "{{ url_prefix }}/pagefind/",
                         baseUrl: "{{ url_prefix }}/"
