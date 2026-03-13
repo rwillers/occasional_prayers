@@ -145,11 +145,18 @@ header form input[type="search"]:focus {
 
 #content p {
 	line-height: 1.5;
+	text-wrap: pretty;
 }
 
 #content li {
 	line-height: 1.2;
 	padding-bottom: 0.3em;
+	text-wrap: pretty;
+}
+
+#content blockquote,
+#content dd {
+	text-wrap: pretty;
 }
 
 span.placeholder {
