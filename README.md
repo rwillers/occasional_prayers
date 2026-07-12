@@ -81,17 +81,18 @@ Behavior:
 - Deploys on pushes to `master`.
 - Supports manual deploy via workflow dispatch (`deploy: true`).
 
-Required GitHub repository secrets:
+Create a GitHub Actions environment named `production`. Add these environment secrets:
 
-- `PROD_DEPLOY_HOST`: SSH host (for example `your.server.example`).
-- `PROD_DEPLOY_USER`: SSH user with write access to production web root.
-- `PROD_DEPLOY_PORT`: optional SSH port (defaults to `22` if unset).
-- `PROD_DEPLOY_SSH_KEY`: private key used by Actions for SSH/rsync.
-- `PROD_DEPLOY_KNOWN_HOSTS`: one or more `known_hosts` lines for the production host.
+- `CLOUDFLARE_ACCOUNT_ID`: account containing the Pages project.
+- `CLOUDFLARE_API_TOKEN`: custom API token with `Account > Cloudflare Pages > Edit` permission.
 
-Example command to generate `PROD_DEPLOY_KNOWN_HOSTS` value:
+Required GitHub repository variable:
 
-- `ssh-keyscan -H your.server.example`
+- `CLOUDFLARE_PAGES_PROJECT_NAME`: name of the existing Cloudflare Pages project.
+
+The deploy job is bound to the `production` environment, so its protection rules apply before Cloudflare credentials become available. Restrict deployment branches to `master` and add required reviewers if production deploys should require approval.
+
+The Pages project's production branch must also be `master`. The workflow uploads the generated `_build_pelican/` directory with Wrangler, records a GitHub deployment, and runs smoke checks against the deployment-specific `pages.dev` URL. Configure `occasionalprayers.com` and `www.occasionalprayers.com` as custom domains on the Pages project before DNS cutover.
 
 ## Dependencies
 
