@@ -50,9 +50,10 @@ PAGE_EXCLUDES: list[str] = []
 IGNORE_FILES = ["**/.DS_Store", "AGENTS.md", "README.md", "TODO.md"]
 PATH_METADATA = r"(?P<path>.*)\.md"
 
-STATIC_PATHS = ["css", "images", "js", "manifest.json"]
+STATIC_PATHS = ["css", "images", "js", "manifest.json", "favicon.ico"]
 EXTRA_PATH_METADATA = {
     "manifest.json": {"path": "manifest.json"},
+    "favicon.ico": {"path": "favicon.ico"},
 }
 
 DIRECT_TEMPLATES: list[str] = []
